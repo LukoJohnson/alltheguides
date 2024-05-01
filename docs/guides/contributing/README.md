@@ -12,6 +12,10 @@ nav:
 
 ---
 
+## Contributing Restructuring Coming Soon™
+
+ATG will migrate from `pip` to `pipenv` soon™
+
 ## Guidelines
 
 ???+ Information "MUST READ"
@@ -35,7 +39,7 @@ nav:
     10. Folders & files must be in `lowercase` letters, with no spaces. `Camelcase` for image files is allowed.
 ---
 
-**All The Guides** is using [Github Pages](https://pages.github.com/), [MkDocs](https://www.mkdocs.org/) & [Material](https://squidfunk.github.io/mkdocs-material/).
+**All The Guides** uses [Github Pages](https://pages.github.com/), [MkDocs](https://www.mkdocs.org/) & [Material](https://squidfunk.github.io/mkdocs-material/).
 
 ---
 
@@ -50,7 +54,7 @@ You will be required to [Serve](#serve), and [Build](#build) this guide, which c
 ### Requirements
 
 - [Python](https://www.python.org/downloads/) 3+
-- Git ([Git Cli](https://cli.github.com/), or [Github Desktop](https://desktop.github.com/))
+- Git ([Github Desktop](https://desktop.github.com/) or [Git Cli](https://cli.github.com/))
     - _Your editor may already have Git integrated_
     - For quick edits, you could open a codespace on your forked repo using [Github Web Editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor).
 
@@ -60,23 +64,29 @@ You will be required to [Serve](#serve), and [Build](#build) this guide, which c
 
 ## Setup
 
-Fork [All The Guides](https://github.com/AllTheMods/alltheguides).
+Fork [All The Guides](https://github.com/AllTheMods/alltheguides/fork).
 
 ### Clone / Checkout `mkdocs` branch
 
 The __`mkdocs`__ branch is the live - up to date branch that should be used _primarily_. This should be selected by default when you clone the repo.
 
-Depending on current setup, you may have an editor (_Visual Studio Code_), that has **Git** integration. You're free to use this, Github Desktop, or Git _which we'll be using_.
+Depending on current setup, you may have an editor (_Visual Studio Code_), that has **Git** integration. You're free to use this, Github Desktop or Git.
 
-??? Information "Clone Branch"
+#### GitHub Desktop
 
-    ``` title="Change `USERNAME` to your name"
-    git clone https://github.com/USERNAME/alltheguides
-    ```
+Go to `File` -> `Clone repository...` OR do `Ctrl+Shift+O` and select your All the Guides fork.
+
+!!! info "I recommend putting the repository under `C:/Users/yourPCName` for easy access"
+
+#### Git CLI
+
+``` title="Change `USERNAME` to your GitHub name"
+git clone https://github.com/USERNAME/alltheguides
+```
 
 ### Enable Workflows
 
-??? Warning "Please make sure Workflow is enabled, otherwise PR's will **NOT** be accepted."
+???+ danger "Make sure Workflows are enabled, otherwise PR's will **NOT** be accepted."
 
     ![](assets/workflow.png)
 
@@ -84,7 +94,7 @@ Depending on current setup, you may have an editor (_Visual Studio Code_), that 
 
 ### Python Dependencies
 
-The Guide requires some Python dependencies that's used to build, and provide features to the Guide itself. 
+All The Guides requires some Python dependencies that's used to build, and provide features to the Guide itself. 
 
 ``` title='To Install'
 pip install -r ./requirements.txt --upgrade
@@ -138,10 +148,16 @@ Once you're _committed_ to your changes, you can then **Commit** your changes, t
 
 ### Committing Changes
 
-Depending on current setup, you may have an editor (_Visual Studio Code_), that has **Git** integration. You're free to use this, Github Desktop, or Git _which we'll be using_.
+Depending on current setup, you may have an editor (_Visual Studio Code_), that has **Git** integration. You're free to use this, Github Desktop, or Git.
 
-??? Information "Making Github Commit"
+??? information "Making a GitHub commit with GitHub Desktop"
+	All changes made will be selected by default, if you do not want to commit some changes, deselect those.
+	
+	Fill out the `Summary` and `Description` on the bottom left, click `Commit to mkdocs` when you're ready to commit.
+	
+	If you made a mistake, you can undo the commit in the bottom left. Otherwise click `Push origin` to push the commit to GitHub.
 
+??? Information "Making a Github commit with Git"
     Add files to Commit.
     ```
     git commit .
