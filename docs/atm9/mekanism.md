@@ -132,7 +132,7 @@ Use the equation below to estimate how hot your reactor will get at a specific b
 
 !!! info "W and H are the Width and Height of Fission Reactor respectively"
 
-[Full Explanation of Kayla's Calculations](https://github.com/MikaylaFischler/cc-mek-scada/issues/455)
+[Full Explanation of Kayla's Calculations](https://github.com/MikaylaFischler/cc-mek-scada/wiki/Reactor-Temperature-Calculation)
 
 ---
 
