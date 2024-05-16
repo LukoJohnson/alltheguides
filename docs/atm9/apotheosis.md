@@ -1,6 +1,6 @@
 ---
 title: Apotheosis
-description: Apotheosis changes
+description: Apotheosis guides and changes
 authors:
     - AlfredGG
     - ArcTrooper
@@ -9,7 +9,7 @@ authors:
 
 # Apotheosis
 
-## Starting Setup (JEI REQUIRED)
+## Starting Enchanting Setup
 
 ### Requirements
 
@@ -79,6 +79,47 @@ You do not have to place the blocks exactly as I do, these are just an example.
 !!! info "7x Echoing Deepshelf, 3x Draconic Endshelf, 2x Soul-Touched Deepshelf"
 
 ![](img/library.png){.center}
+
+---
+## Infused Teleportation Core Setups
+
+Below are the setups to make each infused teleportation core that are needed for the **ATM Star**. Each setup has 2 variants, one that only uses shelves from the [max enchanting setup](#starting-enchanting-setup) and one that use other shelves to get the same result. Use whichever is easiest for you.
+
+### Nether
+
+=== "Max Enchanting Shelves"
+	
+	!!! info "10x Melonshelf, 5x Soul-Touched Sculkshelf, 5x Echoing Sculkshelf"
+	![](img/netherInfusionMax.png){.center}
+
+=== "Alternative Shelves"
+	
+	!!! info "8x Glowing Hellshelf, 8x Hellshelf, 3x Melonshelf, 2x Echoing Deepshelf, 1x Draconic Endshelf"
+	![](img/netherInfusion.png){.center}
+
+### Ender
+
+=== "Max Enchanting Shelves"
+	
+	!!! info "4x Draconic Endshelf, 3x Melonshelf, 2x Echoing sculkshelf, 1x Soul-Touched Sculkshelf"
+	![](img/enderInfusionMax.png){.center}
+
+=== "Alternative Shelves"
+	
+	!!! info "4x Draconic Endshelf, 2x Echoing Deepshelf, 2x Glowing Hellshelf, 2x Infused Seashelf, 1x Stoneshelf, 1x Melonshelf"
+	![](img/enderInfusion.png){.center}
+
+### Draconic
+
+=== "Max Enchanting Shelves"
+	
+	!!! info "7x Melonshelf, 5x Soul-Touched Sculkshelf, 5x Echoing Sculkshelf, 1x Draconic Endshelf"
+	![](img/draconicInfusionMax.png){.center}
+
+=== "Alternative Shelves"
+	
+	!!! info "8x Deepshelf, 4x Echoing Deepshelf, 2x Draconic Endshelf, 1x Melonshelf, 1x Oak Bookshelf"
+	![](img/draconicInfusion.png){.center}
 
 ---
 ## Spawner Changes

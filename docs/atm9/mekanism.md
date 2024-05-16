@@ -1,6 +1,6 @@
 ---
 title: Mekanism
-description: ATM9 Mekanism changes and tutorials
+description: ATM9 Mekanism guides and changes
 authors:
   - AlfredGG
   - ArcTrooper
@@ -29,7 +29,7 @@ authors:
 
 ## AE2 Mekanism Infuser Auto-Crafting
 
-Using **ME Pattern Providers**, we can fully automate the **Metallurgic Infuser** (Left) and **Enrichment Chamber** (Right). This setup will only use 2 channels of your main network.
+Using **ME Pattern Providers**, we can fully automate the **Metallurgic Infuser** and **Enrichment Chamber**. This setup will only use 2 channels of your main network.
 
 ??? abstract "Materials"
 	- [ ] 1x Metalluric Infuser (higher the level, the better)
@@ -53,7 +53,7 @@ Using **ME Pattern Providers**, we can fully automate the **Metallurgic Infuser*
 
 ---
 
-3. Adjacent to the Infuser, place an **Enrichment Chamber** and a **Pattern Provider** behind it and place a cable connecting **both** pattern providers.
+3. Adjacent to the **Infuser**, place an **Enrichment Chamber** and a **Pattern Provider** behind it and place a cable connecting **both** pattern providers.
 ![](img/infuserOverview.png){.center}
 !!! warning "If you're using the same colored cables, place a **Cable Anchor** between them or use a different color."
 
@@ -100,8 +100,40 @@ Now, we'll encode the **Processing Patterns**. These patterns are made so there 
 
 Then you'll put patterns in each pattern provider as shown below.
 
+![](img/infuserPatternProvider.png){.center}
+
 !!! warning "Make sure to give both machines power and to enabled `Auto-Split`."
 
-![](img/infuserPatternProvider.png){.center}
+---
+
+## Fission Reactor Temp Calculation
+
+**Big shoutout to Kayla for these equations! Go check out her [CC Mek SCADA on GitHub!](https://github.com/MikaylaFischler/cc-mek-scada/wiki)**
+
+Use the equation below to estimate how hot your reactor will get at a specific burn rate for either water or sodium coolant. *Remember the reactor starts taking damage at >1200K!*
+
+
+**Water**: `burn_rate(1)` \* 2 \* \[1,000,000 \* (`heat_capacity`<sup>-1</sup>)\] + 373.15
+{.annotate}
+
+1. in mB
+
+**Sodium**: `burn_rate(1)` \* \[1,000,000 \* (`heat_capacity`<sup>-1</sup>)\] + 373.15
+{.annotate}
+
+1. in mB
+
+???+ question "How do I calculate `heat_capacity`?"
+	`heat_capacity` is joules per kelvin based on the physical size of the reactor, by default thats 1000x the amount of 'casing' which includes reactor glass, casing, valves, etc.
+	
+	\- Kayla
+
+`heat_capacity` = (2 \* W<sup>2</sup>) + \[(H-2) \* (W<sup>2</sup> -(W-2)<sup>2</sup>)\] \* 1000
+
+!!! info "W and H are the Width and Height of Fission Reactor respectively"
+
+[Full Explanation of Kayla's Calculations](https://github.com/MikaylaFischler/cc-mek-scada/wiki/Reactor-Temperature-Calculation)
+
+---
 
 > Mekanism | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/mekanism)

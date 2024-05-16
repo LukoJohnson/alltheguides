@@ -37,3 +37,25 @@ authors:
 
 ??? Question "How do I find '`insert name`' biome?"
     **Nature's Compass** is a really nice tool to find any and all biomes in the modpack. Craft it, right click with it in your hand, and you can run the search for any biome you are looking for (such as the Deep Dark).
+
+??? Question "How do I change `/home`, `/tpa` etc cooldown?"
+    To change the behavior of `/home` or to re-enable `/back` and `/rtp`, edit `saves/worldName/serverconfig/ftb-essentials.snbt`. **The world/server has to be stopped for the changes to take effect.**
+
+??? Question "What's the difference between ATM9 and ATM9: No Frills?"
+    [Here is a comparison](https://www.modpackindex.com/modpacks/compare?modpacks=64056,74905)
+
+??? Question "I found a bug/dupe in the pack. How can I report it?"
+    To report bugs, dupes or similar, head over to the [ATM9 GitHub](https://github.com/AllTheMods/ATM-9/issues) and open a new issue describing the occurrence.
+
+??? Question "What are the recommended Java arguments for this pack?"
+    - **Client arguments**: send `?args` in the **#bot-spam** channel in our [Discord](https://discord.com/invite/allthemods).
+    - **Server arguments**: send `?svargs` in the **#bot=spam** channel in our [Discord](https://discord.com/invite/allthemods).
+
+??? Question "Why does my game crash while launching?"
+    Lack of RAM most likely. Send `?allocate` in the **#bot-spam** channel in our [Discord](https://discord.com/invite/allthemods) to learn how to allocate more RAM. If that's not the problem, head to **#atm9-techsupport** and send `?logs` to see how to upload your crash/latest log.
+
+??? Question "I crashed and got `Error code 1`, please help"
+    `Exit code 1` is a generic error from Minecraft. It is no different than "game didn't load, no longer attempting to load. Please refer to the output error log created by your launcher" if you are unsure... please feel free to ask for further instructions on how to locate, post, and get help for your specific error so that we may further assist you in our [Discord](https://discord.com/invite/allthemods). Try running `?logs` instead.
+
+??? Question "I'm having issues connecting to a LAN/Essentials world"
+    To fix LAN/Essential some people have removed Logprot, some Oculus, some Supplementaries. None are guaranteed, none are the actual fix. We are unable reproduce it in Dev to properly diagnose it. LAN is highly unstable in big modpacks like these.
