@@ -3,7 +3,6 @@ title: Productive Bees
 description: ATM9 Productive Bees Guide
 authors:
    - Jonh09 (Original Author)
-   - Kaimonick (Original Author)
    - ArcTrooper (Editor)
 ---
 
