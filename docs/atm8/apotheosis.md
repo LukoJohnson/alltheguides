@@ -18,7 +18,7 @@ Recipes for the shelves in this guide **WILL NOT BE PROVIDED**. Please use JEI. 
 
 To start, make 16 **Seashelf** and place down all but one in a formation like the one below.  
 
-![](../atm9/img/seashelf1.png){.center}  
+![](../atm9/img/apoth_seashelf1.png){.center}  
 
 Once you've got those down, take your 16th **Seashelf** and place it in the enchanting table. You should see an Infusion option for 3 EXP. Now replace one of the uninfused **Seashelf** with your **Infused Seashelf**. Repeat this until all 16 `Seashelf` are `Infused Seashelf`. You will have 1 extra `Infused Seashelf` at the end.
 
@@ -38,11 +38,11 @@ You will also need to make 1 **Draconic Endshelf**. To make the **Infused Dragon
 
 !!! info "You must be level 80+ to infuse Dragon's Breath"
 
-![](../atm9/img/dragonsbreath.png){.center}  
+![](../atm9/img/apoth_dragonsbreath.png){.center}  
 
 After making the `Draconic Endshelf`, remove all the `Melonshelf`. Place the 3 **Shelf of End-Fused Rectification** and the **Draconic Endshelf** in a similar formation as shown in the `Seashelf` image above. This will get you the maximum level of enchanting. Your setup does not have to be in the exact same order as the one below; it is only an example.  
 
-![](../atm9/img/finalsetup.png){.center}
+![](../atm9/img/apoth_finalsetup.png){.center}
 
 ---
 ## Infusion Setups
@@ -53,30 +53,30 @@ You do not have to place the blocks exactly as I do, these are just an example.
 
 !!! info "5x Draconic Endshelf, 2x Echoing Deepshelf, 1x Melonshelf, 1x Endshelf"
 	
-![](../atm9/img/charm.png){.center}
+![](../atm9/img/apoth_charm.png){.center}
 
 ### Superior Sigil of Socketing
 
 !!! info "5x Echoing Deepshelf, 2x Draconic Endshelf, 2x Soul-Touched Deepshelf"
 
-![](../atm9/img/socketing.png){.center}
+![](../atm9/img/apoth_socketing.png){.center}
 
 ### Tome of Superior Scrapping
 
 !!! info "3x Echoing Deepshelf, 1x Soul-Touched Deepshelf, 1x Endshelf, 1x Draconic Endshelf"
 
-![](../atm9/img/scrapping.png){.center}
+![](../atm9/img/apoth_scrapping.png){.center}
 
 ### Tome of Extraction
 
 !!! info "3x Echoing Deepshelf, 2x Draconic Endshelf, 1x Soul-Touched Deepshelf"
 
-![](../atm9/img/extraction.png){.center}
+![](../atm9/img/apoth_extraction.png){.center}
 
 ### Library of Alexandria
 
 !!! info "7x Echoing Deepshelf, 3x Draconic Endshelf, 2x Soul-Touched Deepshelf"
 
-![](../atm9/img/library.png){.center}
+![](../atm9/img/apoth_library.png){.center}
 
 > Apotheosis | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/apotheosis)

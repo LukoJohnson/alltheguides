@@ -64,6 +64,8 @@ ATM9 adds **Mystical Agriculture Tiered Crystals** which, as the name suggests, 
 
 !!! warning "This farm requires a general understanding of **AE2** and **Thermal Series**"
 
+[Click here to view Kai's AE2 guide!](../guides/kaimonickguides.md/#applied-energistics-2)
+
 #### The "Brain"
 
 First I'll show you how to build the "brain" of those whole system. You can place it above everything (like in the image above) or underneath the floor.

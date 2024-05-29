@@ -8,21 +8,25 @@ authors:
 
 # Productive Bees
 
-## Getting Started
+## Kaimonick's Bee Guides
+
+[Click here to view Kai's bee guide!](../guides/kaimonickguides.md/#productive-bees)
+
+## Jonh09's Bee Guide
 
 Hi, I'm Jonh09 and I made this guide to help people who are getting into **Productive Bees** or want to know more advanced stuff.
 
-If you're starting out and want to learn more, check out [Rockit14](https://www.youtube.com/watch?v=2CdILcAxPxE) for a complete guide and [Pilpoh](https://www.youtube.com/watch?v=7wg3UQ_AsAA) for an advanced guide! Also, read the **Productive Bees book**; it has all you need to know, including upgrades and how they work, different types of bees, different machines, etc. A glance at the book will help if you get stuck. Also, remember that **JEI** is your best friend.
+If you're starting out and want to learn more, check out [Kai's Guides](#kaimonicks-bee-guides) for complete set of guides. [Pilpoh](https://www.youtube.com/watch?v=7wg3UQ_AsAA) also has an advanced guide! Also, read the **Productive Bees book**; it has all you need to know, including upgrades and how they work, different types of bees, different machines, etc. A glance at the book will help if you get stuck. Also, remember that **JEI** is your best friend.
 
-This guide's main focus is genes. Genes are the stats that bees have that determine their productivity, what conditions they can work in, and other less important ones. I will show you the best genes and how to get them here.
+This guide's main focus is **genes**. Genes are the stats that bees have that determine their productivity, what conditions they can work in, and other less important ones. I will show you the best genes and how to get them here.
 
-If you find any errors or something that can be done differently, you can ping me. Same name in discord
+If you find any errors or something that can be done differently, you can ping me @jonh09.
 
 Original guide: [Productive Bees GUIDE - Beginning Tutorials + Best Genes and how to get them](https://imgur.com/a/bh2fHtf)
 
 ---
 
-## Gene Types
+### Gene Types
 
 ![A bee's genes](img/pb_genes.png){align=right width='249px' height='132px'}
 
@@ -38,7 +42,7 @@ Apart from the 5 main genes, there is a 6th gene, the **bee-specific gene**. The
 | **Endurance** | Affects the bee's max health | Weak, Normal, Medium, Strong | Strong
 | **Temper** | Affects bee's hostility | Passive, Normal, Aggressive, Hostile | Passive
 
-## How to Get Genes
+### How to Get Genes
 
 Now that you know what the genes are, you need to know how to get the genes. When you **squash** a bee to get genes, you will get all of its 6 different genes. The bad news? You only get a small percentage of the gene. The percentage dictates the chance that another bee has to get that gene. To give genes to a different bee, combine a **Honey Treat** with your chosen gene(s) in a crafting grid and then ++rbutton++ on a bee to give them that trait.
 
@@ -54,35 +58,35 @@ Easy right? But remember, it will only give up to around 20% of the gene per bee
 
 ---
 
-## Gene Automation
+### Gene Automation
 
 This is a simple semi-automated setup. I reckon you already know how to set up breeding and incubation to get more bees if you are here.
 
 ![Example gene automation setup](img/pb_geneautomation.png)
 
-### **1.** The Dispensing of Bees
+#### **1.** The Dispensing of Bees
 
 For this you can just use a vanilla **Dispenser** + an **RFTools Timer** to send a pulse to it every **20 ticks**, releasing a bee from a cage into the piston area. The lever behind the Timer is just to disable it when you arent using it.
 
 ???+ tip
 	Make sure you are squishing bees in disposable cages, as those dont cause any clutter and are more straightforward to use
 
-### **2.** The Squishing
+#### **2.** The Squishing
 
 This is where the bees will be turned into the **Squashed Bee Material**, the same thing as in the previous explanation. Dont forget to send bottles to the **Bottler** or it will stop squishing bees.
 
 ???+ tip
 	If you keep the piston extended, like in the image, the bees will get squashed automatically when you push/dispense them into it.
 
-### **3.** Processing Bee Material
+#### **3.** Processing Bee Material
 
 Using any Item Collector, pick up the **Squashed Bee Material** and send it to a **Centrifuge** that separates it into the 6 genes.
 
-### **4.** Sorting & Improving Genes.
+#### **4.** Sorting & Improving Genes.
 
 After getting the genes out of the centrifuge using whatever pipe you prefer, you can send them into a **Gene Indexer**. This machine will sort and combine the genes inside when given a redstone signal *(Lever or Redstone Block)*. It will combine all the genes into their 100% version. These are the ones we are looking for, the ones that allow you to change the genes of a bee 100% of the time.
 
-### Optional Step 
+#### Optional Step 
 
 Using an item pipe from **Pipez** that can pull 100% genes with NBT filtering.
 
@@ -92,7 +96,7 @@ NBT: `{productivebees_gene_purity:100}`
 
 ---
 
-## Getting the Best Genes
+### Getting the Best Genes
 
 OK, OK, you already know what genes are, how to get them, and how to automate them. This is what you are here for, the *BEST* genes. In this section, I'll discuss the most and least important ones.
 
@@ -104,13 +108,13 @@ OK, OK, you already know what genes are, how to get them, and how to automate th
 ???+ tip
 	You can put **multiple genes** into the same **Honey Treat**. I like to call this *Bee Steroids*, a honey treat with all the best genes.
 
-### Least Important
+#### Least Important
 
 The least important ones are **Temper** and **Endurance**. These two are worthless if you use a **Simulation Upgrade** or have them in a box.
 
-### Most Important
+#### Most Important
 
-#### Productivity: Very High
+##### Productivity: Very High
 
 ![](img/pb_kamikaze.png){align=right}
 
@@ -126,7 +130,7 @@ Get **4-5** of them then squeeze them. This should get you a **100% Very High** 
 
 Now, you need to put the gene in an easy-to-breed bee (via Honey Treat + Gene) and breed them, and once an offspring is born with the Very High gene use it to breed more bees of that type. With that, you basically have infinite, Very High Productivity genes.
 
-#### Behavior: Metaturnal
+##### Behavior: Metaturnal
 
 ![](img/pb_behavior.png){align=right width='350px' height='350px'}
 
@@ -136,7 +140,7 @@ I recommend using a **Lead + a Fence** to secure them so they don't fly away.
 
 !!! warning "You must feed them **Honey Treats** once in a while because they take damage while they're stuck outside"
 
-#### Weather Tolerance: Any
+##### Weather Tolerance: Any
 
 There are 2 ways to obtain this. The slow and the fast way. 
 
@@ -150,7 +154,7 @@ While using a normal **fishing rod**, there is a chance for a **Water Bee** to c
 
 ![](img/pb_waterbee.png){.center width='500px' height='500px'}
 
-## Genes When Breeding
+### Genes When Breeding
 
 When breeding, you must know how genes are assigned to a child bee.
 
