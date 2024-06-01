@@ -10,6 +10,16 @@ authors:
 
 ---
 
+??? Question "How do I get pebbles? Right clicking dirt doesn't do anything!"
+	You need to shift-right click dirt to get pebbles.
+
+??? Question "How do I get more dirt?"
+	- You can put any organic matter (leaves, seeds, saplings, etc.) in the same barrels you use to get witch water.
+	- or Hammer some logs and put the chips in the barrel
+
+??? Question "Is '`item/block name`' EMC-able?"
+	Do `EMC: ` in JEI and it'll list all items that have an EMC value.
+
 ??? Question "Why isn't '`insert name`' mod in ATM9-TTS yet?"
     ATM packs does not literally contain "All The Mods". Our main focus is having mods that's not: 1) buggy, 2) ruins performance or progression. If a mod supports Minecraft version **1.20.1**, and **Forge** (Not NeoForge), you may make a [suggestion](https://github.com/AllTheMods/ATM-9/issues/1).
 	
