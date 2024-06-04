@@ -22,7 +22,7 @@ Using **ME Pattern Providers**, we can fully automate the **Metallurgic Infuser*
 	- [ ] 8x Blank Patterns
 	
 ??? question "Do you have Refined Obsidian automated already?"
-	You can skip the **Obsidian Dust** filter on the left storage bus and the **Refined Obsidian Dust Pattern** and instead make a processing pattern to turn **Refined Obsidian Ingots** into **Refined Obsidian Dust**.
+	You can skip the **Obsidian Dust** filter on the left storage bus and the **Refined Obsidian Dust Pattern** and instead make a processing pattern to turn **Refined Obsidian Ingots** into **Refined Obsidian Dust** and put that in **Pattern Provider** connected to a **Crusher**.
 ---
 ### Building and Configuring
 
