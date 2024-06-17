@@ -1,6 +1,6 @@
 ---
 title: All The Mods 6
-description: All The Mods 6 Guide
+description: All The Mods 6 Guides
 ---
 
 # All The Mods 6

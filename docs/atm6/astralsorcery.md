@@ -1,3 +1,9 @@
+---
+title: Astral Sorcery
+description: ATM6 Astral Sorcery Guide
+authors: 
+---
+
 # Astral Sorcery
 
 <details>
@@ -157,4 +163,4 @@ Get the Linking Tool, put Iron Ore next to a collector Crystal and link the Crys
 
 Get the Starlight Infuser. Get one of your Rock Crystals and throw it in Liquid Starlight together with Starmetal Dust. Craft the Iridescent Altar. Get the Starlight Infuser.
 
-> Astral Sorcery | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/astral-sorcery) | [Astral Perk Planner](https://gritemordle.github.io/ASPlanner/)
+> Astral Sorcery | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/astral-sorcery) | [Astral Perk Planner](https://gritemordle.github.io/ASPlanner/)

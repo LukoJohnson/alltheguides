@@ -1,3 +1,9 @@
+---
+title: Resourceful Bees
+description: ATM6 Resourcesful Bees guide
+authors: 
+---
+
 # Resourceful Bees
 
 With extra centrifuge tiers, up to creative, you'll be processing combs a long time. We highly recommend you make the in game bee guide called the beepedia, bee quests and of course the manual, fifty shades of bees (in your akashic tome) for more info.
@@ -30,4 +36,4 @@ You can either craft a hive or get one from out in the world. Bees will anger if
 
 ![type:video](https://youtube.com/embed/0LK0C9fjl4A){width='50%'}
 
-> Resourceful Bees | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/resourceful-bees)
+> Resourceful Bees | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/resourceful-bees)

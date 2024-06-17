@@ -1,8 +1,8 @@
 ---
 title: Mekanism
-description: ATM9 Mekanism changes and tutorials
+description: ATM8 Mekanism guides
 authors:
-  - ArcTrooper
+ - ArcTrooper
 ---  
 
 # Mekanism

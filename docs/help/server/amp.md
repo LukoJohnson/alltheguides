@@ -6,6 +6,9 @@ authors:
  - ArcTrooper (Editor)
 ---
 
+???+ warning
+	This guide is outdated as of `6/1/24`. Guide will be updated to AMP's new UI.
+
 ## AMP Install Guide
 
 This is a guide for installing ATM9 (and possibly other packs) on CubeCoderz's AMP gameserver hosting software!

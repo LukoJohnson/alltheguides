@@ -2,8 +2,8 @@
 title: Backups
 description: How to get and recover different backups
 authors:
-  - ArcTrooper
-  - Bathsalts
+ - ArcTrooper
+ - Bathsalts
 ---
 
 # Backups

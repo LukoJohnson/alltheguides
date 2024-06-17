@@ -452,3 +452,5 @@ Let's first see how to draw a circle in blood. It's easy - just take damage, and
     Using this scroll grants the caster a bow, which can shoot tools and weapons.
     
     It drains mana from the caster on use of the scroll.
+
+> Mahou | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/mahou-tsukai)

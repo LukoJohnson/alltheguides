@@ -1,3 +1,9 @@
+---
+title: Apotheosis
+description: ATM6 Apotheosis Setups
+authors: 
+---
+
 # Apotheosis
 
 Overpowered enchanting, charms and bosses, apotheosis offers a variety of things to keep you busy. Don't forget to check out the Enchanment Library!
@@ -23,4 +29,4 @@ Overpowered enchanting, charms and bosses, apotheosis offers a variety of things
 - 2x - Shelf of Masterful Sight
 - 5x - Shelf of End Fused Rectification (20%)
 
-> Apotheosis | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/apotheosis)
+> Apotheosis | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/apotheosis)

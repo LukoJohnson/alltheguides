@@ -1,3 +1,8 @@
+---
+title: Mekanism
+description: ATM6 Mekanism Guide
+authors: 
+---
 # Mekanism
 
 To get started in **Mekanism** you just need **coal**, **osmium**, **redstone** and **iron** to make some **steel**. The Official [Mekanism Wiki](https://wiki.aidancbrady.com/wiki/Main_Page) has a lot of information on the setup of machines and how they can be used. Also, the Surviving with **Mekanism** series by **RagePlaysGames** is top notch! Every video has chapters so you can easily skip to the section you need, and each video is divided into **intro**, **mats**, **crafting**, **building**, and **how to use**. You can't go wrong.
@@ -31,4 +36,4 @@ To get started in **Mekanism** you just need **coal**, **osmium**, **redstone** 
 
 !!! Warning  "Accidentally leaked radiation? `/mek radiation removeAll`, `/mek radiation heal`"
 
-> Mekanism | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mekanism)
+> Mekanism | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/mekanism)

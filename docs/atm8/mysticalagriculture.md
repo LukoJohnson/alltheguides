@@ -1,8 +1,8 @@
 ---
 title: Mystical Agriculture
-description: ATM8 Mystical Agriculture changes and guides
+description: ATM8 Mystical Agriculture guides
 authors:
-    - ArcTrooper
+ - ArcTrooper
 ---
 
 # Mystical Agriculture

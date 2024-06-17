@@ -1,5 +1,7 @@
 ---
 title: Silent Gear
+description: ATM6 Silent Gear Guide
+authors: 
 ---
 
 # Silent Gear
@@ -7,6 +9,7 @@ title: Silent Gear
 The possibilities are endless with Silent Gear. The examples below simply show a few possibilities, out of the thousands of potential combinations.
 
 #### Blueprints
+
 Silent Gear can be very simple or very complex. Make yourself a blueprint and then surround that blueprint with mats needed. For example, if you have a pickaxe blueprint, you will need the blueprint, handle and 3 ingots. The materials used and order matter very much!
 
 #### Beyond The Basics
@@ -38,4 +41,4 @@ Check out these links for some additional information on material and additional
 ??? Information "**Gem & Ingot**"
     ![gem and ingot tooltip](img/sgear-gemingot.png)
 
-> Silent Gear | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/silent-gear)
+> Silent Gear | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/silent-gear)

@@ -1,5 +1,7 @@
 ---
 title: Botania Mana Enchanter
+description: ATM6 Botania Enchanting Guide
+authors: 
 ---
 
 # Botania Mana Enchanter
@@ -116,4 +118,4 @@ put a book into the dropper and the whole process should work automaticly.
     <source type='video/mp4' src='../img/How-to-AutoEnchant-ATM6-Sky.mp4'>
 </video>
 
-
+> Botania | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/botania)

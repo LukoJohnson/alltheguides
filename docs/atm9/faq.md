@@ -10,7 +10,7 @@ authors:
 
 ---
 
-???+ Question "Gameplay FAQs"
+???+ Abstract "Gameplay FAQs"
 	??? Question "Why can't I use modular router and watering can?"
 		By default, **Mystical Agriculture** does not allow fake players to automate watering cans. If you dislike this change, it can be changed within `config/mysticalagriculture-common.toml` > `fakePlayerWatering = true`.
 	
@@ -35,6 +35,9 @@ authors:
 		Flight is disabled in certain dimensions (**The Other**, **Blue Skies**, and **Twilight Forest**), to add more difficulty towards progression. If you dislike this change, it can be disabled in `worldName/serverconfig/noflyzone.snbt`
 
 ???+ Warning "Technical FAQs"
+	??? Question "I can't complete '`name of quest`' even though I fufilled the requirements?"
+		You can edit quests in the bottom right of the quest screen and then r-click the broken quest and force complete it.
+
 	??? Question "I have my chunks force loaded, but they don't run when I'm logged off."
 		1. Press ++m++ to open the map.
 		2. Press ++ctrl+s++ to open the server settings (requires OP).

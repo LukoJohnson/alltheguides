@@ -2,8 +2,8 @@
 title: Mekanism
 description: ATM9 Mekanism guides and changes
 authors:
-  - AlfredGG
-  - ArcTrooper
+ - AlfredGG
+ - ArcTrooper
 ---  
 
 # Mekanism

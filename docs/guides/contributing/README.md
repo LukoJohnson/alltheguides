@@ -1,9 +1,8 @@
 ---
-title: Contributing
-name: Contributing to All The Guides
+title: Contributing to ATG
 description: How to contribute!
 nav:
-    - examples
+ - examples
 ---
 
 # All The Guides [![](https://img.shields.io/github/actions/workflow/status/AllTheMods/alltheguides/mkdocs.yml?style=flat-square&label=mkdocs)](https://github.com/AllTheMods/alltheguides/actions/workflows/mkdocs.yml) [![](https://img.shields.io/github/actions/workflow/status/AllTheMods/alltheguides/publish.yml?style=flat-square&label=publish)](https://github.com/AllTheMods/alltheguides/actions/workflows/publish.yml)
@@ -195,6 +194,9 @@ Markdown files should have headers at the start to identify document (_Meta / SE
 
 ### Document Headers
 
+???+ danger "Warning"
+	Do **NOT** use ++tab++ to indent a list of authors in the `authors` section of document headers. It *WILL* cause errors.
+
 !!! Warning ""
 
     !!! Note ""
@@ -242,6 +244,9 @@ comments: false
 ---
 
 ### Configure Pages and Navigation (Optional)
+
+???+ danger "Warning"
+	Do **NOT** use ++tab++ to indent pages in `.pages` files. It *WILL* cause errors.
 
 Per directory, you can create a `.pages` file. This can be used to list each and all pages you want to show up on navigation, in your own order.
 
