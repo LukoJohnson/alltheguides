@@ -5,7 +5,7 @@ description: ATM9-TTS Intro Description
 
 # All The Mods 9
 
-[![](img/atm9TTSLogo.png){.center}](https://www.curseforge.com/minecraft/modpacks/all-the-mods-9-to-the-sky)
+[![](img/atm9TTSLogo.png){.center}](https://legacy.curseforge.com/minecraft/modpacks/all-the-mods-9-to-the-sky)
 
 **All The Mods** started out as a private pack for just a few friends that turned into something others wanted to play! It has all the basics that most other "big name" packs include but with a nice mix of some of newer or lesser-known mods as well. 
 
@@ -17,5 +17,6 @@ Does "**All the Mods**" really contain **ALL THE MODS**? No, of course not.
 
 ![type:video](https://youtube.com/embed/v7XcOBi8A5g)
 ![type:video](https://youtube.com/embed/S4sVbYu9u58)
+![type:video](https://youtube.com/embed/xn7os2v3YbA)
 
-> All The Mods 9 - To The Sky | [CurseForge](https://www.curseforge.com/minecraft/modpacks/all-the-mods-9-to-the-sky) | [GitHub](https://github.com/AllTheMods/All-the-mods-9-Sky)
+> All The Mods 9 - To The Sky | [CurseForge](https://legacy.curseforge.com/minecraft/modpacks/all-the-mods-9-to-the-sky) | [GitHub](https://github.com/AllTheMods/All-the-mods-9-Sky)

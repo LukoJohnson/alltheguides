@@ -2,7 +2,7 @@
 title: Extreme Reactors
 description: Exteme Reactors Changes
 authors:
-  - AlfredGG
+ - AlfredGG
 ---  
 
 # Extreme Reactors

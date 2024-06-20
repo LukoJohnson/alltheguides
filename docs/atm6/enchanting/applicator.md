@@ -1,7 +1,7 @@
 ---
 title: Enchantment Applicator
 authors:
-    - Seg
+ - Seg
 ---
 
 # Enchantment Applicator

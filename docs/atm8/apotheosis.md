@@ -2,8 +2,8 @@
 title: Apotheosis
 description: Apotheosis changes
 authors:
-    - ArcTrooper
-    - C-ffeeStain
+ - ArcTrooper
+ - C-ffeeStain
 ---
 
 # Apotheosis

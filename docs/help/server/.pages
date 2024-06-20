@@ -1,4 +1,4 @@
 nav:
  - README.md
- - "AMP": amp.md
+ - "AMP Server Setup": amp.md
  - ...

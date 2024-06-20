@@ -5,7 +5,8 @@ This page will go over extra typography features. If you're not familiar with Ma
 
 [Critic Markup](https://github.com/CriticMarkup/CriticMarkup-toolkit) can be used, which adds the ability to highlight suggested changes, as well as add inline comments to a document:
 
-![](img/formattingworkaround.png){.center}
+![](img/formattingWorkaroundLight.png#only-light){.center}
+![](img/formattingWorkaroundDark.png#only-dark){.center width='826px' height='288px'}
 
 Text can be {--deleted--} and replacement text {++added++}. This can also be
 combined into {~~one~>a single~~} operation. {==Highlighting==} is also
@@ -49,7 +50,7 @@ Text can be sub- and superscripted with a simple syntax, which is more convenien
 ---
 ### Adding keyboard keys
 
-Keyboard keys can be rendered with a simple syntax. Consult the [Python Markdown Extensions documentation](https://facelessuser.github.io/pymdown-extensions/extensions/keys/) to learn about all available shortcodes:
+Keyboard keys can be rendered with a simple syntax. Consult the [Python Markdown Extensions documentation](https://facelessuser.github.io/pymdown-extensions/extensions/keys/#extendingmodifying-key-map-index) to learn about all available shortcodes:
 
 ```
 ++ctrl+alt+del++
@@ -68,7 +69,6 @@ Keyboard keys can be rendered with a simple syntax. Consult the [Python Markdown
 ---
 ## Lists
 
----
 ### Un-Ordered Lists
 
 ```
@@ -247,3 +247,28 @@ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     This is a glossary that will be added at the bottom of the page and is clickable.
   [^2]:
     This is also a glossary at the end of the page.
+
+---
+### Adding Hidden Comments
+
+You can add comments within an document to communicate with other contributors that may edit the file.
+
+`<!--- This comment will not be rendered in the final HTML file. --->`
+
+```
+<!--- 
+This comment will also not be rendered in the final HTML file. 
+--->
+```
+
+<!--- This comment will be visible in "View Source". --->
+
+<!--- 
+This comment will be visible in "View Source". 
+--->
+
+However these will show in "View Source" if a user does so. To prevent that there is another way to add comments.
+
+`[//]: # (This type of comment will not show in either the final HTML or in "View Source")`
+
+[//]: # (This type of comment will not show in either the final HTML or in "View Source")

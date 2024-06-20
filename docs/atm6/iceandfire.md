@@ -1,3 +1,8 @@
+---
+title: Ice & Fire
+description: ATM6 Ice & Fire Guide
+authors: 
+---
 # Ice & Fire
 
 Dragons only spawn in **The Other** dimension which you can reach by using a **Teleport Pad** in the Nether. _(Shift-right click with an empty hand, and nothing in offhand)_. Most of other ice and fire structure spawns are disabled. 

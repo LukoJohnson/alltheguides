@@ -1,9 +1,9 @@
 ---
 authors:
-    - Xarrah
-    - BigFire
-    - Ultrameta
-    - Seg
+ - Xarrah
+ - BigFire
+ - Ultrameta
+ - Seg
 ---
 
 # Caliburn

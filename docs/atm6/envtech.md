@@ -1,9 +1,9 @@
 ---
 title: Environmental Tech
 authors:
-    - Xarrah
-    - Hytheria
-    - Seg
+ - Xarrah
+ - Hytheria
+ - Seg
 ---
 
 # Environmental Tech

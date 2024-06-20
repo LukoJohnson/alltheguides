@@ -5,7 +5,7 @@ description: ATM9 Intro Description
 
 # All The Mods 9
 
-[![](img/atm9Logo.png){.center}](https://www.curseforge.com/minecraft/modpacks/all-the-mods-9)
+[![](img/atm9Logo.png){.center}](https://legacy.curseforge.com/minecraft/modpacks/all-the-mods-9)
 
 **All The Mods** started out as a private pack for just a few friends that turned into something others wanted to play! It has all the basics that most other "big name" packs include but with a nice mix of some of newer or lesser-known mods as well. 
 

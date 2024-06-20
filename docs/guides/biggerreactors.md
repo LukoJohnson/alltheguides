@@ -60,59 +60,59 @@ Something to note is that Modpack authors have the ability to add or modify mode
 
     | ID | Absorption | Efficiency | Moderation | Conductivity |
     | -- | ---------- | ---------- | ---------- | ------------ |
-    | astralsorcery:liquid_starlight | 0.85 | 0.8 | 2.0 | 3.0
-    | biggerreactors:ludicrite_block | 0.6 | 0.87 | 3 | 3
-    | bloodmagic:life_essence_block | 0.7 | 0.55 | 1.75 | 2.5
-    | mekanism:ethene | 0.37 | 0.65 | 1.9 | 1.5
-    | mekanism:hydrofluoric_acid | 0.6 | 0.45 | 1.4 | 2.5
-    | mekanism:hydrogen | 0.2 | 0.3 | 1.2 | 0.1
-    | mekanism:hydrogen_chloride | 0.31 | 0.65 | 1.7 | 1
-    | mekanism:lithium | 0.7 | 0.6 | 1.04 | 0.7
-    | mekanism:oxygen | 0.01 | 0.35 | 1.04 | 0.1
-    | mekanism:sodium | 0.23 | 0.6 | 1.7 | 1
-    | mekanism:steam | 0.33 | 0.5 | 1.33 | 0.5
-    | mekanismgenerators:deuterium | 0.03 | 0.3 | 1.07 | 0.1
-    | minecraft:air | 0.1 | 0.25 | 1.1 | 0.05
-    | minecraft:cave_air | 0.1 | 0.25 | 1.1 | 0.05
-    | minecraft:glass | 0.2 | 0.25 | 1.1 | 0.3
-    | minecraft:ice | 0.33 | 0.33 | 1.15 | 0.1
-    | minecraft:snow_block | 0.15 | 0.33 | 1.05 | 0.05
-    | minecraft:void_air | 0.1 | 0.25 | 1.1 | 0.05
-    | minecraft:water | 0.33 | 0.5 | 1.33 | 0.1
-    | minecraft:lava | 0.33 | 0.33 | 1.15 | 0.7
-    | forge:storage_blocks/allthemodium | 0.66 | 0.9 | 3.5 | 3.5
-    | forge:storage_blocks/aluminum | 0.5 | 0.78 | 1.42 | 0.6
-    | forge:storage_blocks/bronze | 0.51 | 0.77 | 1.41 | 1
-    | forge:storage_blocks/copper | 0.5 | 0.75 | 1.4 | 1
-    | forge:storage_blocks/diamond | 0.55 | 0.85 | 1.5 | 3
-    | forge:storage_blocks/electrum | 0.53 | 0.82 | 1.47 | 2.2
-    | forge:storage_blocks/emerald | 0.55 | 0.85 | 1.5 | 2.5
-    | forge:storage_blocks/enderium | 0.53 | 0.88 | 1.6 | 3
-    | forge:storage_blocks/gold | 0.52 | 0.8 | 1.45 | 2
-    | forge:storage_blocks/graphite | 0.1 | 0.5 | 2 | 2
-    | forge:storage_blocks/invar | 0.5 | 0.79 | 1.43 | 0.6
-    | forge:storage_blocks/iron | 0.5 | 0.75 | 1.4 | 0.6
-    | forge:storage_blocks/lead | 0.75 | 0.75 | 1.75 | 1.5
-    | forge:storage_blocks/lumium | 0.75 | 0.55 | 1.5 | 1.8
-    | forge:storage_blocks/nickel | 0.5 | 0.82 | 1.46 | 0.6
-    | forge:storage_blocks/osmium | 0.51 | 0.77 | 1.41 | 1
-    | forge:storage_blocks/platinum | 0.53 | 0.86 | 1.58 | 2.5
-    | forge:storage_blocks/signalum | 0.63 | 0.66 | 1.5 | 1.8
-    | forge:storage_blocks/silver | 0.51 | 0.79 | 1.43 | 1.5
-    | forge:storage_blocks/steel | 0.5 | 0.78 | 1.42 | 0.6
-    | forge:storage_blocks/tin | 0.3 | 0.7 | 1.35 | 0.75
-    | forge:storage_blocks/unobtainium | 0.95 | 0.82 | 2 | 5
-    | forge:storage_blocks/vibranium | 0.15 | 0.75 | 8 | 4
-    | forge:storage_blocks/zinc | 0.51 | 0.77 | 1.41 | 1
-    | biggerreactors:liquid_obsidian | 0.3 | 0.7 | 1.35 | 0.75
-    | allthemodium:molten_allthemodium | 0.66 | 0.9 | 3.5 | 3.5
-    | allthemodium:molten_vibranium | 0.15 | 0.75 | 8 | 4
-    | allthemodium:molten_unobtainium | 0.95 | 0.82 | 2 | 5
-    | allthemodium:vapor_allthemodium | 0.66 | 0.9 | 3.5 | 3.5
-    | allthemodium:vapor_vibranium | 0.15 | 0.75 | 8 | 4
-    | allthemodium:vapor_unobtainium | 0.95 | 0.82 | 2 | 5
-    | forge:superheated_sodium | 0.23 | 0.6 | 1.7 | 1
-    | forge:redstone | 0.75 | 0.55 | 1.6 | 2.5
-    | forge:ender | 0.9 | 0.75 | 2.0 | 2
+    | astralsorcery:liquid_starlight | 0.85 | 0.8 | 2.0 | 3.0 |
+    | biggerreactors:ludicrite_block | 0.6 | 0.87 | 3 | 3 |
+    | bloodmagic:life_essence_block | 0.7 | 0.55 | 1.75 | 2.5 |
+    | mekanism:ethene | 0.37 | 0.65 | 1.9 | 1.5 |
+    | mekanism:hydrofluoric_acid | 0.6 | 0.45 | 1.4 | 2.5 |
+    | mekanism:hydrogen | 0.2 | 0.3 | 1.2 | 0.1 |
+    | mekanism:hydrogen_chloride | 0.31 | 0.65 | 1.7 | 1 |
+    | mekanism:lithium | 0.7 | 0.6 | 1.04 | 0.7 |
+    | mekanism:oxygen | 0.01 | 0.35 | 1.04 | 0.1 |
+    | mekanism:sodium | 0.23 | 0.6 | 1.7 | 1 |
+    | mekanism:steam | 0.33 | 0.5 | 1.33 | 0.5 |
+    | mekanismgenerators:deuterium | 0.03 | 0.3 | 1.07 | 0.1 |
+    | minecraft:air | 0.1 | 0.25 | 1.1 | 0.05 |
+    | minecraft:cave_air | 0.1 | 0.25 | 1.1 | 0.05 |
+    | minecraft:glass | 0.2 | 0.25 | 1.1 | 0.3 |
+    | minecraft:ice | 0.33 | 0.33 | 1.15 | 0.1 |
+    | minecraft:snow_block | 0.15 | 0.33 | 1.05 | 0.05 |
+    | minecraft:void_air | 0.1 | 0.25 | 1.1 | 0.05 |
+    | minecraft:water | 0.33 | 0.5 | 1.33 | 0.1 |
+    | minecraft:lava | 0.33 | 0.33 | 1.15 | 0.7 |
+    | forge:storage_blocks/allthemodium | 0.66 | 0.9 | 3.5 | 3.5 |
+    | forge:storage_blocks/aluminum | 0.5 | 0.78 | 1.42 | 0.6 |
+    | forge:storage_blocks/bronze | 0.51 | 0.77 | 1.41 | 1 |
+    | forge:storage_blocks/copper | 0.5 | 0.75 | 1.4 | 1 |
+    | forge:storage_blocks/diamond | 0.55 | 0.85 | 1.5 | 3 |
+    | forge:storage_blocks/electrum | 0.53 | 0.82 | 1.47 | 2.2 |
+    | forge:storage_blocks/emerald | 0.55 | 0.85 | 1.5 | 2.5 |
+    | forge:storage_blocks/enderium | 0.53 | 0.88 | 1.6 | 3 |
+    | forge:storage_blocks/gold | 0.52 | 0.8 | 1.45 | 2 |
+    | forge:storage_blocks/graphite | 0.1 | 0.5 | 2 | 2 |
+    | forge:storage_blocks/invar | 0.5 | 0.79 | 1.43 | 0.6 |
+    | forge:storage_blocks/iron | 0.5 | 0.75 | 1.4 | 0.6 |
+    | forge:storage_blocks/lead | 0.75 | 0.75 | 1.75 | 1.5 |
+    | forge:storage_blocks/lumium | 0.75 | 0.55 | 1.5 | 1.8 |
+    | forge:storage_blocks/nickel | 0.5 | 0.82 | 1.46 | 0.6 |
+    | forge:storage_blocks/osmium | 0.51 | 0.77 | 1.41 | 1 |
+    | forge:storage_blocks/platinum | 0.53 | 0.86 | 1.58 | 2.5 |
+    | forge:storage_blocks/signalum | 0.63 | 0.66 | 1.5 | 1.8 |
+    | forge:storage_blocks/silver | 0.51 | 0.79 | 1.43 | 1.5 |
+    | forge:storage_blocks/steel | 0.5 | 0.78 | 1.42 | 0.6 |
+    | forge:storage_blocks/tin | 0.3 | 0.7 | 1.35 | 0.75 |
+    | forge:storage_blocks/unobtainium | 0.95 | 0.82 | 2 | 5 |
+    | forge:storage_blocks/vibranium | 0.15 | 0.75 | 8 | 4 |
+    | forge:storage_blocks/zinc | 0.51 | 0.77 | 1.41 | 1 |
+    | biggerreactors:liquid_obsidian | 0.3 | 0.7 | 1.35 | 0.75 |
+    | allthemodium:molten_allthemodium | 0.66 | 0.9 | 3.5 | 3.5 |
+    | allthemodium:molten_vibranium | 0.15 | 0.75 | 8 | 4 |
+    | allthemodium:molten_unobtainium | 0.95 | 0.82 | 2 | 5 |
+    | allthemodium:vapor_allthemodium | 0.66 | 0.9 | 3.5 | 3.5 |
+    | allthemodium:vapor_vibranium | 0.15 | 0.75 | 8 | 4 |
+    | allthemodium:vapor_unobtainium | 0.95 | 0.82 | 2 | 5 |
+    | forge:superheated_sodium | 0.23 | 0.6 | 1.7 | 1 |
+    | forge:redstone | 0.75 | 0.55 | 1.6 | 2.5 |
+    | forge:ender | 0.9 | 0.75 | 2.0 | 2 |
 
 > Bigger Reactors | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/biggerreactors)

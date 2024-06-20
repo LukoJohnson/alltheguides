@@ -2,7 +2,7 @@
 title: Powah
 description: Powah changes
 authors:
-  - AlfredGG
+ - AlfredGG
 ---  
 
 # Powah!
