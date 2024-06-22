@@ -1,6 +1,7 @@
 ---
 title: Contributing Translations
 description: How to Contribute Translations to ATM!
+authors: 
 ---
 
 # All The Translations
@@ -25,7 +26,8 @@ Also, tell a staff member that you'd like to translate so they can give you acce
 - Have [Github Desktop](https://desktop.github.com/) or [Git Cli](https://cli.github.com/)
 	- **GitHub Desktop is recommended for those not familiar with Git.**
     - For quick edits, you can open a codespace on your forked repo using [Github Web Editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#opening-the-githubdev-editor).
-		- OR you can simply download the translation key file then upload to your repository. I will explain how to do that later.
+		- OR edit the lang file directly in your browser. [Explained below](#making-quick-edits).
+		- OR you can simply download the translation key file then upload to your repository. [Explained below](#another-optional-way).
 
 ---
 
@@ -38,7 +40,7 @@ Fork the modpack/mod you want to translate.
 - [Gravitas 1](https://github.com/AllTheMods/tfc/fork)
 - [Gravitas 2](https://github.com/AllTheMods/Gravitas2/fork)
 
-[All The Mods GitHub for any modpack that isn't listed above](https://github.com/AllTheMods)
+[All The Mods GitHub](https://github.com/AllTheMods) for any modpack that isn't listed above.
 
 ---
 
@@ -47,7 +49,7 @@ Fork the modpack/mod you want to translate.
 This will **Clone** your fork from GitHub onto your computer.
 
 ???+ information "GitHub Desktop"
-	Go to `File` -> `Clone repository...` OR do `Ctrl+Shift+O` and select your ATM Modpack fork.
+	Go to `File` -> `Clone repository...` OR do `Ctrl+Shift+o` and select your ATM Modpack fork.
 
 	!!! info "I recommend putting the repository under `C:/Users/yourPCName` for easy access"
 
@@ -241,7 +243,7 @@ Download the `en_us.json` lang file from the respective pack, the links below ar
 - [Gravitas 1](https://github.com/AllTheMods/tfc/blob/main/kubejs/assets/kubejs/lang/en_us.json)
 - [Gravitas 2](https://github.com/AllTheMods/Gravitas2/blob/main/kubejs/assets/gravitas/lang/en_us.json)
 
-For all other packs, the lang file will be under `packName/kubejs/assets/kubejs/lang/en_us.json` in their respective repositories.
+For all other packs, the lang file will be under `packName/kubejs/assets/kubejs/lang/en_us.json` in their [respective repositories](https://github.com/AllTheMods).
 
 ???+ warning "Important"
 	As state in the beginning, if you are translating a pack that is in active development, then you need to use the same file path as above but for the **`dev` branch**.
@@ -309,9 +311,36 @@ When submitting a PR (Pull Request), you're requesting us to **Pull** translatio
 
 ---
 
+## Making Quick Edits
+
+!!! warning "This requires you to have committed your lang file at least once."
+
+Instead of going through the above process again to do a small correction or addition, you can do an edit directly in your browser!
+
+**1.** Go to your fork of the pack you are translating and navigate to `kubejs/assets/kubejs/lang` and click on your lang file.
+
+**2.** Click the little edit button in the top-right under the `History` button.
+![Yes I use light mode for GitHub, bite me.](img/translationQuickEdit1.png)
+
+**3.** After you are done, click `Commit changes...` and fill out what changes you made, then click `Commit changes`
+
+**4.** Now when you go to the "homepage" of your fork, there should be a yellow banner that has a `Compare & pull request` button. That will be how you make a PR for your quick edit.
+![](img/translationQuickEdit2.png)
+
+---
+
 ## More Resources
 
 Most of everything you need to know is explained in this guide, however if you have questions or concerns feel free to ask in the #translation-department!
+
+- [ToshibaMicrowave's FTBQuests Tutorials](https://www.youtube.com/playlist?list=PLi-eopKJxIIg1K3sAlxwHLwFixLE20ezZ)
+	- This playlist contains short tutorials covering [FTB Quests](https://legacy.curseforge.com/minecraft/mc-mods/ftb-quests-forge)
+- [List of Translators](https://discord.com/channels/254530689225981953/1240295487509368872/1251896531544571945)
+	- List of languages and their translators. You need access to the **#translation-department** to view the [Discord](https://discord.com/invite/allthemods) message.
+- [List of Language Codes](http://www.lingoes.net/en/translator/langcode.htm)
+	- Browser may give you a warning since the site is in `http` and not `https`.
+- [Minecraft Formatting Codes](https://minecraft.wiki/w/Formatting_codes)
+	- Instead of using `§`, you will use `&` for all color codes within the quests.
 
 ---
 
