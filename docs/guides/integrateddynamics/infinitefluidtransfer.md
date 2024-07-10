@@ -2,7 +2,7 @@
 title: Infinite Fluid Transfer
 description: Infinite Fluid Transfer
 authors:
-  - Jebraltar
+ -Jebraltar
 date: 2023-09-10
 ---
 
@@ -42,3 +42,5 @@ The Variable Card acts as a boolean true value to enable the **Export All Fluids
 <video width='960' height='384' controls>
   <source src='../img/JgeZnCD.mp4' type='video/mp4'>
 </video>
+
+> [Integrated Dynamics](https://legacy.curseforge.com/minecraft/mc-mods/integrated-dynamics)

@@ -1,15 +1,15 @@
 ---
-title: F.A.Q
+title: FAQ
 description: Frequently Asked Questions
 --- 
 
-# F.A.Q
+# FAQ
 
-This F.A.Q is put into 3 sections. 
+This FAQ is put into 3 sections. 
 
 - [Technical](#technical)
-- [Gameplay](#gameplay)
 - [Servers](#servers)
+- [Gameplay](#gameplay)
 
 ---
 
@@ -133,3 +133,7 @@ This F.A.Q is put into 3 sections.
 ---
 
 ## Gameplay
+
+Visit the FAQ of your specific pack to view it's FAQ!
+
+---

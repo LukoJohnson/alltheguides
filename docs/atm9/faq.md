@@ -36,7 +36,7 @@ authors:
 
 ???+ Warning "Technical FAQs"
 	??? Question "I can't complete '`name of quest`' even though I fufilled the requirements?"
-		You can edit quests in the bottom right of the quest screen and then r-click the broken quest and force complete it.
+		You can enable edit quests in the bottom right of the quest screen (you need OP for this) and then r-click the broken quest and force complete it OR reset it's progress if you still have the items.
 
 	??? Question "I have my chunks force loaded, but they don't run when I'm logged off."
 		1. Press ++m++ to open the map.

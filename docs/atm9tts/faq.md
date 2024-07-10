@@ -31,7 +31,7 @@ description: ATM9TTS Frequently Asked Questions
 		To report bugs, dupes or similar, head over to the [ATM9-TTS GitHub](https://github.com/AllTheMods/All-the-mods-9-Sky/issues) and open a new issue describing the occurrence.
 	
 	??? Question "I can't complete '`name of quest`' even though I fufilled the requirements?"
-		You can edit quests in the bottom right of the quest screen and then r-click the broken quest and force complete it.
+		You can enable edit quests in the bottom right of the quest screen (you need OP for this) and then r-click the broken quest and force complete it OR reset it's progress if you still have the items.
 		
 	??? Question "What are the recommended Java arguments for this pack?"
 		- **Client arguments**: send `?args` in the **#bot-spam** channel in our [Discord](https://discord.com/invite/allthemods).

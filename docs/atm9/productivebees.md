@@ -14,7 +14,7 @@ authors:
 
 ## Jonh09's Bee Guide
 
-Hi, I'm Jonh09 and I made this guide to help people who are getting into **Productive Bees** or want to know more advanced stuff.
+Hi, I'm Jonh09 and this guide is to help people who are getting into **Productive Bees** or want to know more advanced stuff.
 
 If you're starting out and want to learn more, check out [Kai's Guides](#kaimonicks-bee-guides) for complete set of guides. [Pilpoh](https://www.youtube.com/watch?v=7wg3UQ_AsAA) also has an advanced guide! Also, read the **Productive Bees book**; it has all you need to know, including upgrades and how they work, different types of bees, different machines, etc. A glance at the book will help if you get stuck. Also, remember that **JEI** is your best friend.
 
