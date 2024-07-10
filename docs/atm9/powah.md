@@ -7,7 +7,7 @@ authors:
 
 # Powah!
 
-**Powah** is a tech mod that adds Various ways to generate, store, and transmit Forge Energy.
+**Powah** is a tech mod that adds various ways to generate, store, and transmit FE (Forge Energy).
 
 ### Power Gen Changes
 
@@ -53,7 +53,6 @@ authors:
 - **Nitro**: {~~ 20000 ~> 50000 RF/t ~~}
 
 ??? Note
-
       While it may seem like a massive buff, **Solar Panels** are more expensive than almost every other generator, including **Reactors**. Each tier requires 3 of the previous tier, so this should make them more of an enticing option for late game players.
 
 > Powah! | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/powah)

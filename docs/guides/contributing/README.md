@@ -203,50 +203,48 @@ Markdown files should have headers at the start to identify document (_Meta / SE
 
         Highlighted lines are required!!
 
-```yaml title='example.md' hl_lines="2 3"
+```yaml title='example.md' hl_lines="2 3 11"
 ---
-title: Title Of Your Document
-description: How to make a Document
-authors:
-  - John Doe
-  - Second Name
-  - Florida Man
-date: 2023-24-08
+title: Title of Your Document
+description: Description of your doc
+authors: 
+ - John Doe
+ - Second Name
+ - Florida Man
 comments: false
 ---
 
-# Page Header
+# mainPageHeader
 
-  Page Content
-...
+Content.
+
+## someTitle
+
+Content.
+
+> [modName](legacy CurseForge link)
+
 ```
 
-??? Information "Descriptions"
+???+ Information "Descriptions"
 
-    `title:`
-    : The page title of your document
+	- `title:`
+		- The page title of your document
+	- `description:`
+		- The description of your page/what it's about. Only shows in the embed of links
+	- `authors:`
+		- The list of authors that have contributed to this document.
+	- `comments:`
+		- Enable/Disable the use of comments on your page. Default: `false`
 
-    `description:`
-    : The Description of your page / what it's about
-
-    `authors:`
-    : The list of Authors that have contributed to this document.
-
-    `date:`
-    : The current date when the document was created (_YYYY-DD-MM_)
-
-    `comments:`
-    : Enable / Disable the use of comments on your page. Default: `false`
-
-
-> **Note** Your page should start with a `H1` (`#`) page header!
+!!! warning "Your page should start with a `H1` (`#`) page header!"
 
 ---
 
 ### Configure Pages and Navigation (Optional)
 
 ???+ danger "Warning"
-	Do **NOT** use ++tab++ to indent pages in `.pages` files. It *WILL* cause errors.
+	Do **NOT** use ++tab++ to indent new lines in `.pages` files. It *WILL* cause errors.
 
 Per directory, you can create a `.pages` file. This can be used to list each and all pages you want to show up on navigation, in your own order.
 
