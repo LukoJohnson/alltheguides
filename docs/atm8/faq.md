@@ -1,19 +1,19 @@
 ---
-title: ATM9 FAQ
-description: ATM9 Frequently Asked Questions
+title: ATM8 FAQ
+description: ATM8 Frequently Asked Questions
 authors: 
 ---
 
 # FAQ
 
-**All The Mods 9** Frequently Asked Questions
+**All The Mods 8** Frequently Asked Questions
 
 ---
 
 ???+ Abstract "Gameplay FAQs"
 	??? Question "Why can't I use modular router and watering can?"
 		By default, **Mystical Agriculture** does not allow fake players to automate watering cans. If you dislike this change, it can be changed within `config/mysticalagriculture-common.toml` > `fakePlayerWatering = true`.
-
+	
 	??? Question "Do I need to chunkload all the chunks my Chunk Destroyer is going to mine?"
 		You do *not* need to load chunks you're mining. You only need to chunkload the chunk the **Chunk Destroyer** is in.
 
@@ -30,9 +30,6 @@ authors:
 
 	??? Question "How do I change `/home`, `/tpa` etc cooldown?"
 		To change the behavior of `/home` or to re-enable `/back` and `/rtp`, edit `saves/worldName/serverconfig/ftb-essentials.snbt`. **The world/server has to be stopped for the changes to take effect.**
-
-	??? Question "Why is flight disabled?"
-		Flight is disabled in certain dimensions (**The Other**, **Blue Skies**, and **Twilight Forest**), to add more difficulty towards progression. If you dislike this change, it can be disabled in `worldName/serverconfig/noflyzone.snbt`
 		
 	??? Question "I can't complete '`questName`' even though I fufilled the requirements?"
 		You can enable edit quests in the bottom right of the quest screen (you need OP for this) and then r-click the broken quest and `Complete Instantly` it OR click the quest then r-click the reward and `Reset Progress` if you still want the rewards.
@@ -47,22 +44,16 @@ authors:
 			1. Press ++m++ to open the map.
 			2. Press ++ctrl+s++ to open the server settings (requires OP).
 			3. Change `Forceloading Mode` to `always`.
-			![](img/faqChunkloadIGN.png)
+			![](../atm9/img/faqChunkloadIGN.png)
 		
 		??? Info "With the Config File"
 			1. Stop server.
 			2. Navigate to `world/serverconfig/ftbchunks-world.snbt` and look for `force_load_mode: default` change that from `default` to `always`.
 			3. Save and start the server.
-			![](img/faqChunkloadFile.png)
+			![](../atm9/img/faqChunkloadFile.png)
 		
-	??? Question "What's the difference between ATM9 and ATM9: No Frills?"
-		[Here is a comparison](https://www.modpackindex.com/modpacks/compare?modpacks=64056,74905)
-		
-	??? Question "Why isn't '`insert name`' mod in ATM9 yet?"
-		ATM packs does not literally contain "All The Mods". Our main focus is having mods that's not: 1) buggy, 2) ruins performance or progression. If a mod supports Minecraft version **1.20.1**, and **Forge** (Not NeoForge), you may make a [suggestion](https://github.com/AllTheMods/ATM-9/issues/1).
-	
 	??? Question "I found a bug/dupe in the pack. How can I report it?"
-		To report bugs, dupes or similar, head over to the [ATM9 GitHub](https://github.com/AllTheMods/ATM-9/issues) and open a new issue describing the occurrence.
+		To report bugs, dupes or similar, head over to the [ATM8 GitHub](https://github.com/AllTheMods/ATM-8/issues) and open a new issue describing the occurrence.
 
 	??? Question "What are the recommended Java arguments for this pack?"
 		- **Client arguments**: send `?args` in the **#bot-spam** channel in our [Discord](https://discord.com/invite/allthemods).

@@ -32,7 +32,6 @@ description: Current Team Members!
 - `Drack.ion`
 - `Draxial`
 - `Jebraltar`
-- `KJM`
 - `LobsterJonn`
 - `radiomike12`
 - `ToshibaMicrowave`
@@ -53,17 +52,18 @@ description: Current Team Members!
 
 #### Former - Retired
 
-- `AlfredGG` | **(Former QuestDev)**
-- `EnigmaQuip`
-- `Phantom`
-- `Dijkstra`
-- `Seg`
-- `screret`
-- `uʍopǝpᴉsdn`
-- `BeeJnugggets`
 - `0mega420`
+- `AlfredGG` | **(Former QuestDev)**
+- `BeeJnugggets`
+- `Dijkstra`
+- `EnigmaQuip`
+- `KJM`
+- `Phantom`
+- `screret`
+- `Seg`
 - `Thunder_Nova the Pun_isher`
+- `uʍopǝpᴉsdn`
 
 ---
 
-> Current as of (04/26/2024)
+> Current as of (07/26/2024)

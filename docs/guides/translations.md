@@ -27,7 +27,7 @@ This guide will take you in chronological order from forking a repo, to committi
 ### Requirements
 
 - Know the language you want to translate *(duh)*
-- A text editor ([Notepad++](https://notepad-plus-plus.org) is a great one)
+- A text editor like [Notepad++](https://notepad-plus-plus.org) or [Visual Studio Code](https://code.visualstudio.com).
 - Have [Github Desktop](https://desktop.github.com/) or [Git Cli](https://cli.github.com/)
 	- **GitHub Desktop is recommended for those not familiar with Git.**
     - For quick edits, you can open a codespace on your forked repo using [Github Web Editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#opening-the-githubdev-editor).

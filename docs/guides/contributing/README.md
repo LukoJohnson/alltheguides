@@ -71,11 +71,15 @@ The __`mkdocs`__ branch is the live - up to date branch that should be used _pri
 
 Depending on current setup, you may have an editor (_Visual Studio Code_), that has **Git** integration. You're free to use this, Github Desktop or Git.
 
+---
+
 #### GitHub Desktop
 
 Go to `File` -> `Clone repository...` OR do `Ctrl+Shift+O` and select your All the Guides fork.
 
 !!! info "I recommend putting the repository under `C:/Users/yourPCName` for easy access"
+
+---
 
 #### Git CLI
 
@@ -83,10 +87,11 @@ Go to `File` -> `Clone repository...` OR do `Ctrl+Shift+O` and select your All t
 git clone https://github.com/USERNAME/alltheguides
 ```
 
+---
+
 ### Enable Workflows
 
 ???+ danger "Make sure Workflows are enabled, otherwise PR's will **NOT** be accepted."
-
     ![](assets/workflow.png)
 
 ---
@@ -107,7 +112,7 @@ pip uninstall -r ./requirements.txt -y
 
 ## Serve
 
-Serve will launch a server locally to test changes live @ [`localhost:8000`](http://localhost:8000). Importantly, it will provide warnings, errors, and mistakes {~~(_spelling errors_) ~> disabled for the time being, use Grammarly or another spellchecker ~~}. Once changes are satisfied without issues, test [Build](#build) before you commit / make a Pull Request.
+Serve will launch a server locally to test changes live @ [`localhost:8000`](http://localhost:8000). Importantly, it will provide warnings, errors, and {~~ mistakes (_spelling errors_) ~> disabled for the time being, use Grammarly or another spellchecker ~~}. Once changes are satisfied without issues, test your [Build](#build) before you commit / make a Pull Request.
 
 !!! Information "2 methods in serving MkDocs locally"
 
@@ -149,7 +154,7 @@ Once you're _committed_ to your changes, you can then **Commit** your changes, t
 
 Depending on current setup, you may have an editor (_Visual Studio Code_), that has **Git** integration. You're free to use this, Github Desktop, or Git.
 
-??? information "Making a GitHub commit with GitHub Desktop"
+???+ information "Making a GitHub commit with GitHub Desktop"
 	All changes made will be selected by default, if you do not want to commit some changes, deselect those.
 	
 	Fill out the `Summary` and `Description` on the bottom left, click `Commit to mkdocs` when you're ready to commit.
@@ -203,7 +208,7 @@ Markdown files should have headers at the start to identify document (_Meta / SE
 
         Highlighted lines are required!!
 
-```yaml title='example.md' hl_lines="2 3 11"
+```yaml title='example.md' hl_lines="2 3 10"
 ---
 title: Title of Your Document
 description: Description of your doc
@@ -211,7 +216,6 @@ authors:
  - John Doe
  - Second Name
  - Florida Man
-comments: false
 ---
 
 # mainPageHeader
@@ -222,7 +226,7 @@ Content.
 
 Content.
 
-> [modName](legacy CurseForge link)
+> modName | [modName](legacy CurseForge link)
 
 ```
 
@@ -304,5 +308,16 @@ This is the directory layout that **MkDocs** uses.
 - [Writing Your Docs](https://www.mkdocs.org/user-guide/writing-your-docs/)
 - [Material MarkDown](https://squidfunk.github.io/mkdocs-material/reference/)
 - [PyMarkdown Extension](https://python-markdown.github.io/extensions/)
+
+---
+
+## FAQ
+
+??? question "FAQ"
+	- Test 1
+
+??? question "FAQ 2"
+	- Test 2
+
 
 > All The Mods | [GitHub](https://github.com/AllTheMods) | [Discord](https://discord.com/invite/allthemods) | [Akliz Server Hosting](https://www.akliz.net/allthemods)
