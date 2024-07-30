@@ -313,11 +313,21 @@ This is the directory layout that **MkDocs** uses.
 
 ## FAQ
 
-??? question "FAQ"
-	- Test 1
+??? question "My header is displaying above the page title!"
+	- It usually means that you put a `Tab` indent somewhere. Likely in your list of authors.
+	
+	![](assets/faqHeader.png){style='border: 1px solid orange'}
 
-??? question "FAQ 2"
-	- Test 2
+??? question "My author's list is spelling them out letter by letter!"
+	- You didn't put a space after the dash. `- authorName` not `-authorName`
+	
+	![](assets/faqAuthor1.png){style='border: 1px solid orange'}
+	
+??? question "My locally hosted preview won't refresh with changes!"
+	- Check your PowerShell console output and read any warnings it spits out. It will tell you exactly what files are causing the error.
+	- It is likely a misspelled file name or you have the incorrect path to an image.
+	
+	![](assets/faqWarning.png){style='border: 1px solid orange'}
 
 
 > All The Mods | [GitHub](https://github.com/AllTheMods) | [Discord](https://discord.com/invite/allthemods) | [Akliz Server Hosting](https://www.akliz.net/allthemods)
