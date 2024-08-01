@@ -6,6 +6,9 @@ authors:
 
 # All The Translations
 
+???+ warning "FTB Quests 1.21+"
+	Translating lang files and previewing them all while in-game is now possible. I may or may not adjust this page to include that method, as it would require rearranging this guide.
+
 ## Important!
 
 There is ***no*** set or forced timeline for translations. *Work on them at your own pace!* PR them however you want, either as whole chapters, sections of chapters, or even the whole thing if you want. **We are incredibly grateful for any contributions you make!**
@@ -15,7 +18,7 @@ Also, tell a staff member that you'd like to translate so they can give you acce
 ???+ warning "Important note for packs in development"
 	If you are translating a pack that is under ***active development***, then you need to use the lang file from the **`dev` branch**, not `main`. The `dev` branch will always contain the most up-to-date quest lang file that you will translate.
 
-???+ danger "Note regarding AI/Machine translations"
+???+ danger "Warning regarding AI/Machine translations"
 	We are **not** looking for AI/Machine translations.  We are looking for native speakers who are looking to put in the effort to make sure grammar is correct for readers of that language. We would've done it ourselves if we wanted a cheap attempt at quest translations.
 
 ---
@@ -38,14 +41,22 @@ This guide will take you in chronological order from forking a repo, to committi
 
 ### Fork the Repository
 
-Fork the modpack/mod you want to translate. 
+Fork the modpack/mod you want to translate. Make sure `Copy the main branch only` is checked.
 
+The links should take you directly to the `Create a new fork` page.
+
+<!--- Add/deprecate items on this list as future modpacks release --->
+
+- [ATM10 (Alpha)](https://github.com/AllTheMods/ATM-10/fork)
 - [ATM9/No Frills (NF's quests are the same as 9, just no Greg)](https://github.com/AllTheMods/ATM-9/fork)
 - [ATM9 to the Sky](https://github.com/AllTheMods/All-the-mods-9-Sky/fork)
 - [Gravitas 1](https://github.com/AllTheMods/tfc/fork)
 - [Gravitas 2](https://github.com/AllTheMods/Gravitas2/fork)
 
 [All The Mods GitHub](https://github.com/AllTheMods) for any modpack that isn't listed above.
+
+![Click "Fork" and then it'll take you the page in the 2nd image](img/translationFork1.png)
+![Remember to use the dev branch if you are translating a modpack under active development](img/translationFork2.png)
 
 ---
 
@@ -54,15 +65,14 @@ Fork the modpack/mod you want to translate.
 This will **Clone** your fork from GitHub onto your computer.
 
 ???+ information "GitHub Desktop"
-	Go to `File` -> `Clone repository...` OR do `Ctrl+Shift+o` and select your ATM Modpack fork.
+	Go to `File` -> `Clone repository...` OR `Ctrl+Shift+o`, select your ATM Modpack fork, the select `To contribute to the parent project`.
 
 	!!! info "I recommend putting the repository under `C:/Users/yourPCName` for easy access"
-
-??? information "Git CLI"
-	``` title="Change `USERNAME` to your GitHub name and `MODPACK` to the name of your fork"
-	git clone https://github.com/USERNAME/MODPACK
 	
-	```
+	![Click "File" then "Clone repository...".](img/translationCloneBranch1.png)
+	![Select the repo you just forked and set the location to want the repo to save to.](img/translationCloneBranch2.png)
+	![Select "To contribute to the parent project" and continue.](img/translationCloneBranch3.png)
+
 ---
 
 After cloning the repository go to where you cloned it on your computer and go to `packName/kubejs/assets/kubejs/lang` then copy and paste the `en_us.json` file into the same spot.
@@ -74,9 +84,9 @@ Rename the copied `en_us.json` to the language code of the lanuage you want to t
 ??? abstract "Language Codes (Ctrl+F to find language)"
 	| Code | Language |
 	|----- | -------- |
-	|af_ZA | Afrikaans (South Africa) | 
-	|ar_AE | Arabic (U.A.E.) | 
-	|ar_BH | Arabic (Bahrain) | 
+	| af_ZA | Afrikaans (South Africa) | 
+	| ar_AE | Arabic (U.A.E.) | 
+	| ar_BH | Arabic (Bahrain) | 
 	| ar_DZ | Arabic (Algeria) | 
 	| ar_EG | Arabic (Egypt) | 
 	| ar_IQ | Arabic (Iraq) | 
@@ -243,12 +253,15 @@ Instead of copying the entire repo onto your computer, you can also download onl
 
 Download the `en_us.json` lang file from the respective pack, the links below are the most up-to-date files the translations are to be based off of.
 
+- [ATM10 (Alpha)](https://github.com/AllTheMods/ATM-10/blob/questtest/config/ftbquests/quests/lang/en_us.snbt)
 - [ATM9/No Frills](https://github.com/AllTheMods/ATM-9/blob/main/kubejs/assets/kubejs/lang/en_us.json)
 - [ATM9 to the Sky](https://github.com/AllTheMods/All-the-mods-9-Sky/blob/dev/kubejs/assets/kubejs/lang/en_us.json)
 - [Gravitas 1](https://github.com/AllTheMods/tfc/blob/main/kubejs/assets/kubejs/lang/en_us.json)
 - [Gravitas 2](https://github.com/AllTheMods/Gravitas2/blob/main/kubejs/assets/gravitas/lang/en_us.json)
 
-For all other packs, the lang file will be under `packName/kubejs/assets/kubejs/lang/en_us.json` in their [respective repositories](https://github.com/AllTheMods).
+???+ note "Note"
+	- For 1.20.1 and before: The lang file will be under `packName/kubejs/assets/kubejs/lang/en_us.json`.
+	- For 1.21+: The lang file will be under `packName/config/ftbquests/quests/lang/en_us.snbt`.
 
 ???+ warning "Important"
 	As state in the beginning, if you are translating a pack that is in active development, then you need to use the same file path as above but for the **`dev` branch**.
@@ -285,34 +298,28 @@ Depending on current setup, you may have an editor (_Visual Studio Code_), that 
 	1. Fill out the **`Summary`** and **`Description`** on the bottom left
 	2. Click **`Commit to main`** when you're ready to commit.
 	
-	If you made a mistake, you can undo the commit in the bottom left. Otherwise click **`Push origin`** to push the commit to GitHub.
+	If you made a mistake, you can **undo** the commit in the *bottom left*. Otherwise click **`Push origin`** to push the commit to GitHub.
+	
+	![](img/translationCommit1.png)
+	![You can undo your commit if you changed your mind. If all is good then you can push to origin.](img/translationCommit2.png)
 
-???+ Information "If you downloaded just the lang file"
+???+ Information "Making a commit if you downloaded just the lang file"
 	1. Go to your repository on the website and go to same spot you downloaded the `en_us.json` lang file from.
 	2. Click **`Add file`** in the top right and click **`Upload files`**
-	3. Upload your translated lang file and click **`Commit changes`**
-
-??? Information "Making a commit with Git"
-    Add files to Commit.
-    ```
-    git commit .
-    ```
-
-    Add a message to your Commit. We recommend being more descriptive about your Commit(s).
-    ```
-    git commit -m "update"
-    ```
-
-    Push changes
-    ```
-    git push
-    ```
+	3. Upload your translated lang file, fill out the description of changes you made, and click **`Commit changes`**
+	
+	![](img/translationFileCommit1.png)
+	![](img/translationFileCommit2.png)
 
 ---
 
 ## Pull Request
 
+After pushing to origin, there should be a yellow banner on the main repository that says `main had recent pushes X seconds ago`. Click `Compare & pull request`.
+
 When submitting a PR (Pull Request), you're requesting us to **Pull** translations from your Repository (Fork) to be approve & merged into the official pack. This is done in browser by going to the modpack's repository and creating a PR from your `main` branch to ours.
+
+![](img/translationPR1.png)
 
 ---
 
@@ -340,13 +347,31 @@ Most of everything you need to know is explained in this guide, however if you h
 
 - [ToshibaMicrowave's FTBQuests Tutorials](https://www.youtube.com/playlist?list=PLi-eopKJxIIg1K3sAlxwHLwFixLE20ezZ)
 	- This playlist contains short tutorials covering [FTB Quests](https://legacy.curseforge.com/minecraft/mc-mods/ftb-quests-forge)
-- [List of Translators](https://discord.com/channels/254530689225981953/1240295487509368872/1251896531544571945)
-	- List of languages and their translators. You need access to the **#translation-department** to view the [Discord](https://discord.com/invite/allthemods) message.
 - [List of Language Codes](http://www.lingoes.net/en/translator/langcode.htm)
 	- Browser may give you a warning since the site is in `http` and not `https`.
 - [Minecraft Formatting Codes](https://minecraft.wiki/w/Formatting_codes)
 	- Instead of using `§`, you will use `&` for all color codes within the quests.
 
 ---
+
+## List of Translators
+
+| Language | Translators |
+| -------- | ----------- |
+| **:flag_ae: Arabic** | amro |
+| **:flag_nl: Dutch** | Riley |
+| **:flag_ph: Filipino (Philippines)** | CptZ |
+| **:flag_fr: French** | Luny, Galahad |
+| **:flag_de: German** | ffup , Torben, Riaru, Satherov (AE2 Supremacy) |
+| **:flag_it: Italian** | elfo |
+| **:flag_jp: Japanese** | ll1 (flll) |
+| **:flag_kr: Korean** | JJYong |
+| **:flag_no: Norwegian (Bokmål)** | Permest, A group of amish goat milkers |
+| **:flag_pl: Polish** | Observer, Miko_boi, lena |
+| **:flag_pt: Portugese** | oRuiva |
+| **:flag_ro: Romanian** | KGR |
+| **:flag_ru: Russian** | Slava_vas, Depozit, Gordry(Миша) |
+| **:flag_es: Spanish** | RadzRatz, TenCross, Arivio, Daboruu, Metabodiru |
+*Last updated 7/31/24*
 
 > All The Mods | [GitHub](https://github.com/AllTheMods) | [Discord](https://discord.com/invite/allthemods)
