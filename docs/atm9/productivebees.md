@@ -10,7 +10,7 @@ authors:
 
 ## Kaimonick's Bee Guides
 
-[Click here to view Kai's bee guide!](../guides/kaimonickguides.md/#productive-bees)
+[Click here to view Kai's bee guide!](../mods/kaimonickguides.md/#productive-bees)
 
 ## Jonh09's Bee Guide
 
