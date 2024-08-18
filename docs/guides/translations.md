@@ -18,7 +18,7 @@ Also, tell a staff member that you'd like to translate so they can give you acce
 ???+ warning "Important note for packs in development"
 	If you are translating a pack that is under ***active development***, then you need to use the lang file from the **`dev` branch**, not `main`. The `dev` branch will always contain the most up-to-date quest lang file that you will translate.
 
-???+ danger "Regarding AI/Machine translations"
+???+ failure "Regarding AI/Machine translations"
 	We are **not** looking for AI/Machine translations.  We are looking for native speakers who are looking to put in the effort to make sure grammar is correct for readers of that language. We would've done it ourselves if we wanted a cheap attempt at quest translations.
 
 ---
