@@ -7,7 +7,7 @@ authors:
 # All The Translations
 
 ???+ warning "FTB Quests 1.21+"
-	Translating lang files and previewing them all while in-game is now possible. I may or may not adjust this page to include that method, as it would require rearranging this guide.
+	Translating lang files and previewing them all while in-game is now possible. I may or may not adjust this page to include that method, as it would a slight rewrite of this guide.
 
 ## Important!
 
@@ -18,14 +18,14 @@ Also, tell a staff member that you'd like to translate so they can give you acce
 ???+ warning "Important note for packs in development"
 	If you are translating a pack that is under ***active development***, then you need to use the lang file from the **`dev` branch**, not `main`. The `dev` branch will always contain the most up-to-date quest lang file that you will translate.
 
-???+ danger "Warning regarding AI/Machine translations"
+???+ danger "Regarding AI/Machine translations"
 	We are **not** looking for AI/Machine translations.  We are looking for native speakers who are looking to put in the effort to make sure grammar is correct for readers of that language. We would've done it ourselves if we wanted a cheap attempt at quest translations.
 
 ---
 
 ## Getting Started
 
-This guide will take you in chronological order from forking a repo, to committing, and then submitting a pull request.
+This guide will take you in chronological order from [Forking a repo](#fork-the-repository), to making a [Commit](#commit-updating), and then submitting a [Pull Request (PR)](#pull-request). You can also click on any of the images to enlarge them.
 
 ### Requirements
 
@@ -73,9 +73,10 @@ This will **Clone** your fork from GitHub onto your computer.
 	![Select the repo you just forked and set the location to want the repo to save to.](img/translationCloneBranch2.png)
 	![Select "To contribute to the parent project" and continue.](img/translationCloneBranch3.png)
 
----
 
-After cloning the repository go to where you cloned it on your computer and go to `packName/kubejs/assets/kubejs/lang` then copy and paste the `en_us.json` file into the same spot.
+After cloning the repository go to where you cloned it on your computer and navigate to `packName/kubejs/assets/kubejs/lang`, then copy and paste the `en_us.json` file into the same spot.
+
+!!! warning "For 1.21+: The lang file will be under `packName/config/ftbquests/quests/lang/en_us.snbt`."
 
 Rename the copied `en_us.json` to the language code of the lanuage you want to translate. All language codes can be found below or [here](http://www.lingoes.net/en/translator/langcode.htm).
 
@@ -354,7 +355,9 @@ Most of everything you need to know is explained in this guide, however if you h
 
 ---
 
-## List of Translators
+## Translator Credits
+
+Translators who have contributed translations to ATM packs/mods.
 
 | Language | Translators |
 | -------- | ----------- |

@@ -70,9 +70,9 @@ ATM9 adds **Mystical Agriculture Tiered Crystals** which, as the name suggests, 
 
 #### The "Brain"
 
-First I'll show you how to build the "brain" of those whole system. You can place it above everything (like in the image above) or underneath the floor.
+First we'll build the "brain" of those whole system. You can place the brain above everything (like in the image above), underneath the floor, or anywhere else you see fit.
 
-1. Place a **Sink/Eternal Water Block** and an **ME Interface** on the corners of a **Quantum Ring** and then place **2x Quartz Fibers/Cable Anchors** between the Sink and ME Interface and on the center of the Quantum Ring. 
+1. Place a **Sink/Eternal Water Block** and an **ME Interface** on the corners of a **Quantum Ring** and then place **2x Quartz Fibers/Cable Anchors** on the Quantum Ring, between the Sink and ME Interface you just placed. 
 2. Then place your **2x colored cables** (Lime cables) on top of them along with an **ME Controller**.
 3. The **1x colored cable** (Magenta cable) should connect the quantum ring and the ME Interface.
 
