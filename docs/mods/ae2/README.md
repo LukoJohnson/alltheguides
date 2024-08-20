@@ -1,7 +1,8 @@
 ---
 title: Applied Energistics 2
 description: Applied Energstics 2 Guide
-author: Satherov
+authors: 
+  - Satherov
 ---
 
 # Applied Energistics 2
@@ -21,13 +22,13 @@ Welcome to Applied Energistics 2 and my attempt at a guide that's simple enough 
 AE2 probably one of the most **well-known** mods out there, and the best (completely unbias) mod out there.
 
 ### Logistic
-With AE2 you can move so many **different things** around and in probably the **best** performing way any mod does.
+With AE2 you can move so many **different things** around and in probably the **best** performing way any mod does. Using your **Me System** you can move any item anywhere at any point at near instant speeds.  
 
 ### Storage
-The **Matter Energy System** can be used to store many different things, ranging from items and fluids to mana and energy.
+The **Matter Energy System** can be used to store many different things, ranging from items and fluids to mana and energy. You can store **billions** of items without much effort, search for them and use all those items to craft even more.
 
 ### Autocrafting
-Using all the stored items from your system, you can **autocraft** both using AE2's Molecular Assemblers or machines from **other mods**.
+Using all the stored items from your system, you can **autocraft** both using AE2's Molecular Assemblers or machines from **other mods**. You can make ginormous crafts, using millions of items and dozens of machines and AE2 will take all this effort from you with a single click.
 
 ---
 
@@ -36,11 +37,11 @@ Using all the stored items from your system, you can **autocraft** both using AE
 I know many people out there prefer **Refined Storage** because of its simpler approach to a lot of things, so I want to use this opportunity to address some of the seemingly **nonsensical limitations** right away.
 
 ### Channels
-Probably the biggest complaint right at the beginning: **Channels**. They are the bane of so many people using AE2 for the first time, while in reality they exist for a pretty simple reason: **Lag**. 
+Probably the biggest complaint right at the beginning: **Channels**. Channels arent as much of a problem as so many people make it seem.
 
-Large networks with hundreds of devices connected will lead to large amounts of lag and also prevent some of the optimization methods implemented by the AE2 Devs to properly do their job. 
+You can easily get thousands of Channels and when using P2P, moving all those Channels isn't much of an issue as well.
 
-Additionally, channels pose quite an interesting **challenge** (at least in my opinion) and are honestly not *that* big of a limitation.
+For more info on channels, check [Channels](channels.md)
 
 ### Type Limit
 The so despaired **Type Limit** the **ME Storage Cells** have, once again exists for a very simple reason: Protecting you from yourself.

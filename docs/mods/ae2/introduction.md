@@ -1,7 +1,8 @@
 ---
 title: Applied Energistics 2
 description: Introduction and Material Overview as well as Controller Rules
-author: Satherov
+authors:
+  - Satherov
 ---
 
 # Introduction
@@ -68,3 +69,30 @@ There are a couple of rules you have to follow when building a **Multiblock Cont
 ![](img/controllerShowcase.png)
 
 For a Step-by-Step of the last one, check [Setups](setups)
+
+---
+
+## Devices
+
+This will be a quick rundown of the most important **Devices** and a rough description of their use. For detailed descriptions of their uses, check the AE2 Guide.
+
+### Cell Storage
+- The **ME Drive** will hold **10 Storage Cells** but needs a **Terminal** to view the contents.
+- The **ME Chest** only holds **1 Storage Cell** but doesn't need a Terminal.
+
+### Terminals
+- The **ME Terminal** lets you view the content of you **Storage Cells** as well as **input** and **output** Items into them.
+- The **ME Crafting Terminal** has the same functions as a **ME Terminal**, but also has a **Crafting Table** integrated.
+- The **ME Pattern Encoding Terminal** works like an **ME Terminals**, but lets you make **Patterns** instead of crafting.
+- The **ME Pattern Access Terminal** allows you to access all **Pattern Providers** connected to the network and allows you to insert / extract **Patterns**.
+
+### Import & Export Bus
+- The **ME Import Bus** will **input** Items from another inventory into your System.
+- The **ME Export Bus** will **output** Items from your System into another inventory.
+
+### Storage Bus
+- The **ME Storage Bus** can read items from a connected **Inventory**, showing them in your Terminals and also allows you to **pull** / **push** items into said inventory.
+
+### Interface
+- The **Interface** allows you to **stock** a set number of items inside it, acting like a chest that will **restock automatically** from your **ME System**.
+- You can also use the **Interface** to **instantly** import into your ME System.
