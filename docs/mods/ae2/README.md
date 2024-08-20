@@ -13,7 +13,7 @@ authors:
 
 Welcome to Applied Energistics 2 and my attempt at a guide that's simple enough for anyone to understand.
 
-!!! tip "If you're wondering how to automate something or need a step-by-step, most likely there will be something in the [Setups](setups) section"
+!!! tip "If you're wondering how to automate something or need a step-by-step, you can look into the [Setups](setups) section"
 
 ---
 

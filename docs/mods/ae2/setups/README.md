@@ -11,10 +11,10 @@ authors:
 
 #### Welcome to the Setups
 
-This section will provide you with some example setups, in case you're lazy and just want something functional :P
+Here you will find some extra setups for AE2 that you wont find on the online Guide.
 
 !!! info "AE2 Guide"
-    Also check out the setups in the [AE2 Online Guide](https://guide.appliedenergistics.org/1.21/example-setups/example-setups-index)
+    It's still recommended that you check out the [AE2 Online Guide](https://guide.appliedenergistics.org/1.21/example-setups/example-setups-index) if you need something that you can't find here.
 
 ---
 

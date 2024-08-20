@@ -1,6 +1,6 @@
 ---
 title: Applied Energistics 2
-description: Overview of the Setups Chapter
+description: Inscriber Setups
 authors:
   - Satherov
 ---
@@ -16,9 +16,9 @@ Here you'll find some example setups for automating Inscribers.
 ## Easy Setup using AE2
 
 This setup is incredibly easy, because it takes almost **no effort** to set up and is technically **infinitely expandable**.
-A drawback is, that it takes quite **a lot** of Channels if you want to scale it up.
+A drawback is that it takes quite **a lot** of Channels if you want to scale it up.
 
-### Items requiredr
+### Items required
 
 ??? list "Items required"
     - [ ] 2x Inscribers
@@ -34,7 +34,7 @@ For the **Circuit Patterns**
 
 !!! warning "Remove the **Inscriber Press** if you copy the recipe from EMI!"
 
-For the **Processor Patterns** just copy straight from EMI. You dont have to edit anything
+For the **Processor Patterns** copy straight from EMI. You don't have to edit anything
 
 
 ### Inscribers
