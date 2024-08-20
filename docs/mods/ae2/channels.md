@@ -1,6 +1,6 @@
 ---
 title: Applied Energistics 2
-description: Channels,
+description: Channels, Wireless, Quantum Ring and P2P
 authors:
   - Satherov
 ---
@@ -9,7 +9,7 @@ authors:
 
 ---
 
-Here, I'm going to teach you all about Channels and why they're actually not that bad at all.
+Here, I'm going to teach you all about **Channels**, how to **wirelessly** move them, as well as how **P2P** works.
 
 ---
 
@@ -39,11 +39,14 @@ To get your channels to where you want, you'll obviously need some **Cables**. T
 | Dense Covered Cable |    32    | :material-close:  |
 |  Dense Smart Cable  |    32    | :material-check:  |
 
+### Internal
+Full Block Devices, like the **Interface** or the **Pattern Provider** can move up to **8 Channels** through them, acting as a **small Cable**.
+
 ### Cable Variants
 Additionally, there are also a handful of **subcategories** of cables.
 
-- **Covered Cables** are purely visual and offer no gameplay advantage
-- **Smart Cables** will display the **Amount of Channels** currently used at the top of the screen (Required is WAILA / TOP / Jade / etc.)
+- **Covered Cables** are purely visual and offer no gameplay advantage.
+- **Smart Cables** will display the **Amount of Channels** currently used at the top of the screen. (Required is WAILA / TOP / Jade / etc.)
 
 ![](img/jade.png)
 
@@ -52,7 +55,7 @@ All Cables are available in **17 different Colors**, all vanilla colors and **Fl
 
 - **Colored Cables** will **not** connect to each other.
 - **Fluix Cables** will connect to **any** cable.
-- To completely prevent cables connecting to each other, use **Cable Anchors**
+- To completely prevent cables connecting to each other, use **Cable Anchors**.
 
 ### Hiding Cables
 You can hide Cables using **Facades**. Surround any block with **Cable Anchors**.
@@ -68,10 +71,10 @@ Every device connected to your **ME Network** will need a **Channel** to functio
 ![](img/channelUsage.png)
 
 ???+ example "Imagine **Channels** as **USB-Cables**"
-    - You have a bundle of **USB-Cables** (ME Cable)
-    - You get those Cables from your **PC** (ME Controller)
-    - Each Device you plug in, needs one **USB-Connection** (one Channel)
-    - If you run out of **USB-Connections** you still have your Bundle, but no more connections (No more channels on the cable)
+    - You have a bundle of **USB-Cables**. (ME Cable)
+    - You get those Cables from your **PC**. (ME Controller)
+    - Each Device you plug in, needs one **USB-Connection**. (one Channel)
+    - If you run out of **USB-Connections** you still have your Bundle, but no more connections. (No more channels on the cable)
 
 ---
 
@@ -124,9 +127,6 @@ P2P doesn't just exist for channels they also exist for **a lot** more things, w
 
 You can transform normal P2P Tunnels into different versions, by using a specific item. You can check what Item by pressing `U` or `Right-Click` on the item in EMI.
 
+---
 
-
-
-
-
-
+> Applied Energistics 2 | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)

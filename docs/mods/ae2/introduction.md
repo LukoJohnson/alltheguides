@@ -1,6 +1,6 @@
 ---
 title: Applied Energistics 2
-description: Introduction and Material Overview as well as Controller Rules
+description: Introduction and Material Overview as well as Controller Rules and short Explanation of the most important Devices.
 authors:
   - Satherov
 ---
@@ -11,7 +11,7 @@ authors:
 
 In this section, I'm going to talk all about how you get all the **resources** to get started with AE2 and the core elements function.
 
-!!! warning "Check **EMI** / **JEI** for the recipes!"
+!!! warning "Check **EMI** / **JEI** for recipes!"
 
 ---
 
@@ -96,3 +96,7 @@ This will be a quick rundown of the most important **Devices** and a rough descr
 ### Interface
 - The **Interface** allows you to **stock** a set number of items inside it, acting like a chest that will **restock automatically** from your **ME System**.
 - You can also use the **Interface** to **instantly** import into your ME System.
+
+---
+
+> Applied Energistics 2 | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)

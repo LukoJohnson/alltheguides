@@ -39,7 +39,7 @@ I know many people out there prefer **Refined Storage** because of its simpler a
 ### Channels
 Probably the biggest complaint right at the beginning: **Channels**. Channels arent as much of a problem as so many people make it seem.
 
-You can easily get thousands of Channels and when using P2P, moving all those Channels isn't much of an issue as well.
+You can easily get thousands of Channels, and when using P2P, moving all those Channels isn't much of an issue as well.
 
 For more info on channels, check [Channels](channels.md)
 
@@ -52,3 +52,8 @@ AE2 directly discourages you from having too many **NBT Items** inside your **ME
 
 There are also some **Applied Energistics Addons** that promise to either remove or increase the type limit. **ABSOLUTELY DO NOT TRUST THEM!** Some of the mods that remove the Type limit have some ways to prolong the effects of NBT Overflow, but especially the ones that just increase the limit often have **absolutely no protection!**
 
+For more info on Types, check [Storage](storage.md)
+
+---
+
+> Applied Energistics 2 | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
