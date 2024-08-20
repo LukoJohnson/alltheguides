@@ -39,6 +39,9 @@ Breaking the **Budding Certus Quartz** will decrease their "level" by 1. Mining 
 
 For all but the **Flawless Budding** the level will also randomly decrease after each time **Certus Quartz** grows.
 
+!!! tip "How to get a Flawless Budding Certus Quartz"
+    You can use a **Cardboard Box** from **yMekanism** to pick them up
+
 ---
 
 ## Processors

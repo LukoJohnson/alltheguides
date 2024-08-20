@@ -2,6 +2,8 @@ nav:
  - Applied Energistics 2: README.md
  - Introduction: introduction.md
  - Channels: channels.md
+ - P2P: p2p.md
  - Storage: storage.md
  - Autocrafting: autocrafting.md
+ - Subnets: subnets.md
  - Setups: setups
