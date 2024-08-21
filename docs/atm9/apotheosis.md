@@ -11,7 +11,7 @@ authors:
 
 ## Kaimonick's Apotheosis Overview
 
-[Click here to view Kai's guide!](../guides/kaimonickguides.md/#apotheosis)
+[Click here to view Kai's guide!](../mods/kaimonickguides.md/#apotheosis)
 
 ## Starting Enchanting Setup
 

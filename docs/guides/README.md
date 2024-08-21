@@ -10,7 +10,7 @@ description: How our guides work!
 
 #### Welcome to the Guides! 
 
-You'll find various mods in the sidebar with tips on how they can be utilized, as well as how to contribute your own guides to this website or to help contribute translations!
+Here you'll fine out how to contribute your own guides to this website or to help contribute translations as well as some tips on how to create your own guides!
 
 ---
 
