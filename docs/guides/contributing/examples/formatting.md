@@ -67,6 +67,28 @@ Keyboard keys can be rendered with a simple syntax. Consult the [Python Markdown
 ++lbutton+mbutton+rbutton++
 
 ---
+### Adding Material Icons
+
+You can also add icons to better convey what may go in your guide!
+
+:material-information-outline:
+
+:material-source-merge:
+
+:material-zip-box:
+
+[Material Design Icons](https://materialdesignicons.com/cdn/1.6.50-dev/)
+
+This website contains all of the icons you can use within ATG.
+
+???+ warning "Replace `mdi` with `material`"
+	You need to replace `mdi` with `material` for the icons to work.
+	For example `material-information-outline` is listed as `mdi-information-outline` on the website.
+
+[Icons can have hoverable tooltips also!](#tool-tips)
+
+---
+
 ## Lists
 
 ### Un-Ordered Lists
@@ -249,7 +271,7 @@ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     This is also a glossary at the end of the page.
 
 ---
-### Adding Hidden Comments
+## Adding Hidden Comments
 
 You can add comments within an document to communicate with other contributors that may edit the file.
 

@@ -7,8 +7,6 @@ authors:
 
 # Inscribers
 
----
-
 Here you'll find some example setups for automating Inscribers.
 
 ---
@@ -72,6 +70,4 @@ You want to expand the setup?
 - You can add up to **4 Inscribers** around a **single** Pattern Provider
 - **Repeat** all the steps above and make a **second** setup. AE2 will use **both** for autocrafting
 
----
-
-> Applied Energistics 2 | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
+> Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)

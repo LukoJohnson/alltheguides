@@ -7,13 +7,11 @@ authors:
 
 # Applied Energistics 2
 
----
-
 ![](img/logo.png)
 
 Welcome to Applied Energistics 2 and my attempt at a guide that's simple enough for anyone to understand.
 
-!!! tip "If you're wondering how to automate something or need a step-by-step, you can look into the [Setups](setups) section"
+!!! tip "If you're wondering how to automate something or need a step-by-step, you can look into the [Setups section.](setups/README.md)"
 
 ---
 
@@ -22,7 +20,7 @@ Welcome to Applied Energistics 2 and my attempt at a guide that's simple enough 
 AE2 probably one of the most **well-known** mods out there, and the best (completely unbias) mod out there.
 
 ### Logistic
-With AE2 you can move so many **different things** around and in probably the **best** performing way any mod does. Using your **Me System** you can move any item anywhere at any point at near instant speeds.  
+With AE2 you can move so many **different things** around and in probably the **best** performing way any mod does. Using your **ME System** you can move any item anywhere at any point at near instant speeds.  
 
 ### Storage
 The **Matter Energy System** can be used to store many different things, ranging from items and fluids to mana and energy. You can store **billions** of items without much effort, search for them and use all those items to craft even more.
@@ -54,6 +52,4 @@ There are also some **Applied Energistics Addons** that promise to either remove
 
 For more info on Types, check [Storage](storage.md)
 
----
-
-> Applied Energistics 2 | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
+> Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)

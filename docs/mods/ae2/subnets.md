@@ -7,8 +7,6 @@ authors:
 
 # Subnets
 
----
-
 This Chapter will explain **Subnets**, how to best use them and why they're so **essential**.
 
 ---
@@ -51,6 +49,4 @@ You can have a **Controller** in your Subnet without any issues. Since there is 
 
 ![](img/controllerSubnet.png)
 
----
-
-> Applied Energistics 2 | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
+> Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)

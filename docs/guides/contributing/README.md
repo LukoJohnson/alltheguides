@@ -1,6 +1,9 @@
 ---
 title: Contributing to ATG
 description: How to contribute!
+authors:
+ - ArcTrooper
+ - Seg
 nav:
  - examples
 ---
@@ -92,7 +95,7 @@ git clone https://github.com/USERNAME/alltheguides
 ### Enable Workflows
 
 ???+ danger "Make sure Workflows are enabled, otherwise PR's will **NOT** be accepted."
-    ![](assets/workflow.png)
+    ![](img/workflow.png)
 
 ---
 
@@ -262,7 +265,7 @@ nav:
   - dir/README.md
 
   # Can change page titles
-  - "3 Is better" : page3
+  - "3 Is better" : page3.md
 
   # Navigation link to another website
   - "Google" : https://google.com
@@ -277,6 +280,7 @@ nav:
     - page3
   
   # 3 dots will auto generate the rest of the pages you've not defined from current directory
+  # THIS IS REQUIRED IF YOU'RE MAKING A NAV FILE.
   - ...
 ```
 
@@ -316,18 +320,18 @@ This is the directory layout that **MkDocs** uses.
 ??? question "My header is displaying above the page title!"
 	- It usually means that you put a `Tab` indent somewhere. Likely in your list of authors.
 	
-	![](assets/faqHeader.png){style='border: 1px solid orange'}
+	![](img/faqHeader.png){style='border: 1px solid orange'}
 
 ??? question "My author's list is spelling them out letter by letter!"
 	- You didn't put a space after the dash. `- authorName` not `-authorName`
 	
-	![](assets/faqAuthor1.png){style='border: 1px solid orange'}
+	![](img/faqAuthor1.png){style='border: 1px solid orange'}
 	
 ??? question "My locally hosted preview won't refresh with changes!"
 	- Check your PowerShell console output and read any warnings it spits out. It will tell you exactly what files are causing the error.
 	- It is likely a misspelled file name or you have the incorrect path to an image.
 	
-	![](assets/faqWarning.png){style='border: 1px solid orange'}
+	![](img/faqWarning.png){style='border: 1px solid orange'}
 
 
 > All The Mods | [GitHub](https://github.com/AllTheMods) | [Discord](https://discord.com/invite/allthemods) | [Akliz Server Hosting](https://www.akliz.net/allthemods)

@@ -9,6 +9,8 @@ authors:
 
 The big one, if you want to move a lot of Channels in a single cable.
 
+---
+
 ## Portals
 You can essentially imagine two **P2P Tunnels** as **Portals** that connect to each other.
 
@@ -40,4 +42,4 @@ You can transform normal P2P Tunnels into different versions, by using a specifi
 
 ---
 
-> Applied Energistics 2 | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
+> Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)

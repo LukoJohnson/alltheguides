@@ -7,8 +7,6 @@ authors:
 
 # Channels
 
----
-
 Here, I'm going to teach you all about **Channels**, how to **wirelessly** move them, as well as how **P2P** works.
 
 ---
@@ -31,13 +29,13 @@ You can have a Network **without** a controller, but you can only have a maximum
 
 To get your channels to where you want, you'll obviously need some **Cables**. There are **Small Cables** which carry **8 Channels** and **Dense Cables** which carry **32 Channels**
 
-|        Name         | Channels |    Shows Usage    |
-|:-------------------:|:--------:|:-----------------:|
-|     Glass Cable     |    8     | :material-close:  |
-|    Covered Cable    |    8     | :material-close:  |
-|     Smart Cable     |    8     | :material-check:  |
-| Dense Covered Cable |    32    | :material-close:  |
-|  Dense Smart Cable  |    32    | :material-check:  |
+|        Name         | Channels | Shows Channel Usage |
+|:-------------------:|:--------:| :-----------------: |
+|     Glass Cable     |    8     |   :material-close:  |
+|    Covered Cable    |    8     |   :material-close:  |
+|     Smart Cable     |    8     |   :material-check:  |
+| Dense Covered Cable |    32    |   :material-close:  |
+|  Dense Smart Cable  |    32    |   :material-check:  |
 
 ### Internal
 Full Block Devices, like the **Interface** or the **Pattern Provider** can move up to **8 Channels** through them, acting as a **small Cable**.
@@ -95,6 +93,4 @@ The **Quantum Ring** is a **3x3x1 Multiblock** that can transfer up to **32 Chan
 
 ![](img/quantumRing.png)
 
----
-
-> Applied Energistics 2 | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
+> Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)

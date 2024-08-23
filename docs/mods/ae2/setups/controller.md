@@ -7,16 +7,13 @@ authors:
 
 # Sath's ME Core
 
----
-
-
 This will be a Step-by-Step of the Controller I use in my builds, giving you a grand total of **16,384 Channels** over **16 Dense Cables** with **32 P2P Tunnels each**
 
 ---
 
 ## Requirements
 
-??? list "Items required"
+???+ list "Items required"
     - [ ] 208x ME Controller
     - [ ] 512x P2P Tunnel
     - [ ] 32x Wireless Connectors
@@ -118,6 +115,4 @@ To actually get **Channels** from the controller, you can pull a **Dense Cable**
 Then pull of a **small Cable** from that and add a **P2P Tunnel**. 
 Connect it to one from that line as the dense Cable originates and you're done
 
----
-
-> Applied Energistics 2 | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
+> Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)

@@ -7,8 +7,6 @@ authors:
 
 # Autocrafting
 
----
-
 Probably *the* thing your ME System is supposed to do for you is taking all that nasty crafting from you and have it **autocraft** for you. In this Section I'm going over how you set up your **ME System** for just that.
 
 ---
@@ -114,6 +112,4 @@ Now that you have all the setup, you want to actually request a craft. You can d
 !!! tip "Keep Stock"
     Do you always want to have a set amount of a certain Item in your ME System? You can use an **ME Requestor**.
 
----
-
-> Applied Energistics 2 | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
+> Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)
