@@ -64,7 +64,7 @@ ATM9 adds **Mystical Agriculture Tiered Crystals** which, as the name suggests, 
 
 !!! warning "This farm requires a general understanding of **AE2** and **Thermal Series**"
 
-[Click here to view Kai's AE2 guide!](../guides/kaimonickguides.md/#apotheosis)
+[Click here to view Kai's AE2 guide!](../mods/kaimonickguides.md/#apotheosis)
 
 <!--- No I did not link to apotheosis on accident ^^^ --->
 
