@@ -1,7 +1,8 @@
 ---
 title: Contributing Translations
 description: How to Contribute Translations to ATM!
-authors: 
+authors:
+ - ArcTrooper
 ---
 
 # All The Translations

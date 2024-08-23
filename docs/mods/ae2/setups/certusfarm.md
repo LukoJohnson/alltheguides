@@ -32,7 +32,7 @@ This setup is not the only setup there is, there are different setups you can do
 
 !!! info "Click on the image to make it bigger!"
 
-![](img/ae2CertusFarm.png){.center}
+![](../img/ae2CertusFarm.png){.center}
 
 1. Place a **Growth Accelerator** and your **Flawless Certus Block** next to each other.
 2. Put **2x AE2 cables** on top of the growth accelerator then a **Quartz Fiber**, then place your **Annihilation Plane** facing towards the budding certus.
@@ -43,13 +43,13 @@ This setup is not the only setup there is, there are different setups you can do
 ??? question "My cables aren't connecting to my Growth Accelerator!"
 	You need to make sure it's pointed up so the grid is facing the sky. The left ones are in the correct orientation while the ones on the right are not.
 	
-	![](img/ae2CertusFarmGrowthPos.png){.center}
+	![](../img/ae2CertusFarmGrowthPos.png){.center}
 
 ---
 
 Below is an example of a full farm, Fluix Cables are used for demonstration purposes only, you are free to use whatever cable you want.
 
-![](img/ae2CertusFarmFull.png){.center}
+![](../img/ae2CertusFarmFull.png){.center}
 
 ## How it works
 

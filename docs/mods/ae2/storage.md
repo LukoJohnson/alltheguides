@@ -7,8 +7,6 @@ authors:
 
 # Storage
 
----
-
 This Chapter will explain **Storage Cells**, **Types**, **Bytes** and how and where you can store your Stuff.
 
 ---
@@ -47,20 +45,20 @@ There's a bunch of different Cells, these are probably the most important ones.
 
 |                 Cell                  |             Name             |    Type     | Type Limit |  Amount  |
 |:-------------------------------------:|:----------------------------:|:-----------:|:----------:|:--------:|
-|      ![](img/cells/itemCell.png)      |     ME Item Storage Cell     |    Items    |     63     | 1k-256k  |
-|    ![](img/cells/megaItemCell.png)    |    MEGA Item Storage Cell    |    Items    |     63     | 1m-256m  |
-|      ![](img/cells/bulkCell.png)      |        MEGA Bulk Cell        |    Items    |     1      | infinite |
-|     ![](img/cells/fluidCell.png)      |    ME Fluid Storage Cell     |    Fluid    |     18     | 1k-256k  |
-|   ![](img/cells/megaFluidCell.png)    |   MEGA Fluid Storage Cell    |    Fluid    |     18     | 1m-256m  |
-|    ![](img/cells/chemicalCell.png)    |   ME Chemical Storage Cell   |  Chemical   |     15     | 1k-256k  |
-|  ![](img/cells/megaChemicalCell.png)  |  MEGA Chemical Storage Cell  |  Chemical   |     15     | 1m-256m  |
-|      ![](img/cells/manaCell.png)      |     ME Mana Storage Cell     |    Mana     |     1      | 1k-256k  |
-|    ![](img/cells/megaManaCell.png)    |    MEGA Mana Storage Cell    |    Mana     |     1      | 1m-256m  |
-|     ![](img/cells/sourceCell.png)     |    ME Source Storage Cell    |   Source    |     1      | 1k-256k  |
-|   ![](img/cells/megaSourceCell.png)   |   MEGA Source Storage Cell   |   Source    |     1      | 1m-256m  |
-|      ![](img/cells/fluxCell.png)      |      ME FE Storage Cell      |   Energy    |     1      | 1k-256m  |
-| ![](img/cells/infiniteWaterCell.png)  |    ME Infinite Water Cell    |    Water    |     1      | infinite |
-| ![](img/cells/infiniteCobbleCell.png) | ME Infinite Cobblestone Cell | Cobblestone |     1      | infinite |
+|      ![](img/itemCell.png)      |     ME Item Storage Cell     |    Items    |     63     | 1k-256k  |
+|    ![](img/megaItemCell.png)    |    MEGA Item Storage Cell    |    Items    |     63     | 1m-256m  |
+|      ![](img/bulkCell.png)      |        MEGA Bulk Cell        |    Items    |     1      | infinite |
+|     ![](img/fluidCell.png)      |    ME Fluid Storage Cell     |    Fluid    |     18     | 1k-256k  |
+|   ![](img/megaFluidCell.png)    |   MEGA Fluid Storage Cell    |    Fluid    |     18     | 1m-256m  |
+|    ![](img/chemicalCell.png)    |   ME Chemical Storage Cell   |  Chemical   |     15     | 1k-256k  |
+|  ![](img/megaChemicalCell.png)  |  MEGA Chemical Storage Cell  |  Chemical   |     15     | 1m-256m  |
+|      ![](img/manaCell.png)      |     ME Mana Storage Cell     |    Mana     |     1      | 1k-256k  |
+|    ![](img/megaManaCell.png)    |    MEGA Mana Storage Cell    |    Mana     |     1      | 1m-256m  |
+|     ![](img/sourceCell.png)     |    ME Source Storage Cell    |   Source    |     1      | 1k-256k  |
+|   ![](img/megaSourceCell.png)   |   MEGA Source Storage Cell   |   Source    |     1      | 1m-256m  |
+|      ![](img/fluxCell.png)      |      ME FE Storage Cell      |   Energy    |     1      | 1k-256m  |
+| ![](img/infiniteWaterCell.png)  |    ME Infinite Water Cell    |    Water    |     1      | infinite |
+| ![](img/infiniteCobbleCell.png) | ME Infinite Cobblestone Cell | Cobblestone |     1      | infinite |
 
 
 ---
@@ -75,6 +73,4 @@ This way, AE2 will treat this Storage as if it was a **Storage Cell**, reading t
 
 The Controller represents the **ME System** in this case, and the **Barrel** with the **Storage Bus** attached to it is the external inventory.
 
----
-
-> Applied Energistics 2 | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
+> Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)

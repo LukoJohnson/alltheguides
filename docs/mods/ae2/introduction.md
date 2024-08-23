@@ -7,8 +7,6 @@ authors:
 
 # Introduction
 
----
-
 In this section, I'm going to talk all about how you get all the **resources** to get started with AE2 and the core elements function.
 
 !!! warning "Check **EMI** / **JEI** for recipes!"
@@ -35,12 +33,12 @@ Besides the mysterious cube, inside the meteor are also some **Budding Certus Qu
 
 Breaking the **Budding Certus Quartz** will decrease their "level" by 1. Mining them with **Silk Touch** will **not** decrease a level. (The Flawless one will lose a level regardless)
 
-**Flawless** ➡ **Flawed** ➡ **Chipped** ➡ **Damaged** ➡ **Regular Block** 
+**Flawless** :material-arrow-right: **Flawed** :material-arrow-right: **Chipped** :material-arrow-right: **Damaged** :material-arrow-right: **Regular Block** 
 
 For all but the **Flawless Budding** the level will also randomly decrease after each time **Certus Quartz** grows.
 
 !!! tip "How to get a Flawless Budding Certus Quartz"
-    You can use a **Cardboard Box** from **yMekanism** to pick them up
+    You can use a **Cardboard Box** from **Mekanism** to pick them up
 
 ---
 
@@ -62,7 +60,7 @@ The **Controller** is probably the most important block of your entire network. 
 
 Each Face of the **Controller** can supply your network with **32 Channels**, meaning, in theory, when using all 6 sides, you get a total of **192 Channels**.
 
-### Rules
+### Controller Rules
 There are a couple of rules you have to follow when building a **Multiblock Controller**.
 
 1. All Controllers need to **touch each other**. You cannot have multiple Controllers in one network.
@@ -71,7 +69,7 @@ There are a couple of rules you have to follow when building a **Multiblock Cont
 
 ![](img/controllerShowcase.png)
 
-For a Step-by-Step of the last one, check [Setups](setups)
+For a Step-by-Step of the last one, check [Setups](setups/README.md)
 
 ---
 
@@ -100,6 +98,4 @@ This will be a quick rundown of the most important **Devices** and a rough descr
 - The **Interface** allows you to **stock** a set number of items inside it, acting like a chest that will **restock automatically** from your **ME System**.
 - You can also use the **Interface** to **instantly** import into your ME System.
 
----
-
-> Applied Energistics 2 | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
+> Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)
