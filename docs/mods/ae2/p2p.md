@@ -26,7 +26,7 @@ Without a Controller, you'll only have **8 Channels** available on the cable con
 Now while this looks almost identical, the difference is pretty significant. You now have **32 Channels** per Controller face, each of which being able to hold **1 P2P Tunnel** for a total of **32 P2P Tunnels** per **Dense Cable**.
 
 ## 32 x 32 Channels
-In this example, we have **32 P2P Tunnels** connected to the controller on the left and then another **32 P2P Tunnels** connected on the right. Each Colored Cable on the right gets their Channels from the Controller, so we've essentially just moved **1024 (32 x 32) Channels** in a single **Dense Cable** (Technically two Cable cause of the Controller in the middle).
+In this example, we have **32 P2P Tunnels** connected to the controller on the left and then another **32 P2P Tunnels** connected on the right. Each Colored Cable on the right gets their Channels from the Controller, so we've essentially just moved **1024 (32 x 32) Channels** in a single **Dense Cable**. (Technically two Cable cause of the Controller in the middle)
 
 ![](img/p2pNet.png)
 
