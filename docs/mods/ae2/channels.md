@@ -27,15 +27,15 @@ You can have a Network **without** a controller, but you can only have a maximum
 
 ## Moving Channels
 
-To get your channels to where you want, you'll obviously need some **Cables**. There are **Small Cables** which carry **8 Channels** and **Dense Cables** which carry **32 Channels**
+To get your channels to where you want, you'll obviously need some **Cables**. There are **Small Cables** which carry **8 Channels** and **Dense Cables** which carry **32 Channels**.
 
 |        Name         | Channels | Shows Channel Usage |
-|:-------------------:|:--------:| :-----------------: |
-|     Glass Cable     |    8     |   :material-close:  |
-|    Covered Cable    |    8     |   :material-close:  |
-|     Smart Cable     |    8     |   :material-check:  |
-| Dense Covered Cable |    32    |   :material-close:  |
-|  Dense Smart Cable  |    32    |   :material-check:  |
+|:-------------------:|:--------:|:-------------------:|
+|     Glass Cable     |    8     |  :material-close:   |
+|    Covered Cable    |    8     |  :material-close:   |
+|     Smart Cable     |    8     |  :material-check:   |
+| Dense Covered Cable |    32    |  :material-close:   |
+|  Dense Smart Cable  |    32    |  :material-check:   |
 
 ### Internal
 Full Block Devices, like the **Interface** or the **Pattern Provider** can move up to **8 Channels** through them, acting as a **small Cable**.
@@ -71,7 +71,7 @@ Every device connected to your **ME Network** will need a **Channel** to functio
 
 ![](img/channelUsage.png)
 
-???+ example "Imagine **Channels** as **USB-Cables**"
+???+ example "Imagine **Channels** as **USB-Cables**."
     - You have a bundle of **USB-Cables**. (ME Cable)
     - You get those Cables from your **PC**. (ME Controller)
     - Each Device you plug in, needs one **USB-Connection**. (one Channel)
@@ -83,8 +83,8 @@ Every device connected to your **ME Network** will need a **Channel** to functio
 
 When it comes to moving Channels **without** Cables, you have two options.
 
-### Wireless Connector
-The **Me Wireless Connector** can move up to **32 Channels** over a short distance and can also be **colored**. They use an **exponential amount** of **Energy** for every block and they do **not** work **cross-dimensionally**. They need to be connected via the **ME Wireless Setups Kit**.
+### Wireless Connector (added by ExtendedAE)
+The **ME Wireless Connector** can move up to **32 Channels** over a short distance and can also be **colored**. They use an **exponential amount** of **Energy** for every block and they do **not** work **cross-dimensionally**. They need to be connected via the **ME Wireless Setups Kit**.
 
 ![](img/wirelessConnectors.png)
 
