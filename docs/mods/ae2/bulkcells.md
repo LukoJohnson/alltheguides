@@ -8,11 +8,63 @@ authors:
 # Bulk Cells
 
 This is a quick overview to the best storage addons you'll ever need :] <br>
-You'll find How to Use Bulk Cells, the characteristic of the Bulk Cells itself, and the general idea of "Bulk Storage".  
+In this, You'll find How to Use Bulk Cells, the characteristic of the Bulk Cells itself, and the general idea of "Bulk Storage".  
 
-## Bulk Storage
-Before we went deeper, One might asks what is "bulk" and why we use it in storage? moreover related to AE2.
-Now take a look at this mess:
+## Bulk Concepts
+???+ warning "Familiarize yourself with these items"
+    ![](img/bulkRequirements.png) <br>
+    * Cell Workbench
+    * MEGA Bulk Item Storage Cell
+    * MEGA Decompression Module
+    * Compression Card
+ 
+
+Before we went deeper, One might asks what is "bulk" and why we use it in storage? moreover related to AE2.<br>
+
+Now take a look at this mess:<br>
+
+![](img/randomMess.png)<br>
+
+From the image above, there's random things like building blocks, seeds, some saplings, and miscellaneous materials. We also notices that most of these items **does not exceeed 1000**. We'll call this as **Random Mess** for now<br>
+
+In contrary, from the image below, we can see that these items is **stored at a very big numbers** compared to the previous ones. Instead, we'll call this as **Bulk**<br>
+
+![](img/bulkMess.png) <br>
+
+### General vs Bulk Storage 
+All of those random bits and pieces items typically stored insides what we call **"General Storage"**. In a literal sense, every dumps & junks we insert to the network, will eventually ends up in this type of storages. Just like the Random Mess we had before. Any other things then (generally) will be stored insides a **"Bulk Storage"** <br>
+!!! note "A literal "storing items in bulks" !"
+
+### Partition?
+Just in case it's not obvious now, 'partitioning' cells is an important aspect when we talk about bulk storage. Imagine your creeper farm generating thousands gunpowder per minutes, this will clogs up your 'general storage' quickly over time (you don't want your cells is filled up with gunpowder **only** didn't you?). <br>
+
+In this case, we **partitions** a cell (generally the ones who can stores alot) and assigned it to a specific cell. **Priority System** in AE2 means you can tell items to go into a specific storage (or drives) first, before it goes into another storage. <br>
+
+???+ note "On the topic of General Storage vs Bulk Storage & Partitions in-between"
+    ![](img/priorityInsert.png) <br>
+    The system works like this: <br>
+    1. You insert the items into the network <br>
+    2. The network now tried to "store" said items into the valid 'storage' <br> 
+    3. It checks the valid storage with the highest priority (in this case, Bulk storage) <br>
+    4. If it fails to store said items into the Bulk Storage, it checks agains the next valid storage <br>
+    > Thus gunpowder always get stored first inside bulk storage, and anything that isn't gunpowder stored inside general storage. It doesn't clogs the system, and you can always dump more junks into the system 
+
+For a better grasp of the differences between the two, take a look at this table:<br>
+
+| **General Storage** | **Bulk Storage** |
+|:---:|:---:|
+| Typically stores random things | Typically stores specific items (mainly resources/mob drops/farm drops) |
+| Ex. Cobble walls, doors, fence, lantern, furnace | Ex. Iron ingots, spruce logs, diamonds, rotten flesh, wheat |
+| Doesn't really wants "partition" | Partition is a must (at the very least, highly suggested) |
+| Requires less works | Usually more steps to do |
+| Good for dumping unorganized items | Good for optimizing your network contents |
+| Tends to be used less per ME Drive | Tends to be used more per ME Drive |
+| Identic with lower amount of items (less than 5k, etc.) | Identic with high number of items (thousands/millions/billions even!) |
+
+<br>
+
+
+
 
 
 ## What Is Bulk Cells?
@@ -22,12 +74,5 @@ Now take a look at this mess:
 ## How To Use It?
 
 
-
-
-
-!!! note ""
-    You must throw Caliburn into the lake with all Ender Upgrade Orbs you plan to use at the same time in a single throw. You only have one chance to increase the Innate Cap. 
-    If for example you only throw 10 Ender Upgrade Orbs and Caliburn into the lake, then later throw 16 (for a total of 26) in the lake with Caliburn it will not accept the remaining 16 Ender Upgrade Orbs. If this happens you need to make a new Caliburn. 
-
-
-> Mahou Tsukai | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/mahou-tsukai)
+> MEGA Cells | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/mega-cells) <br>
+> ExtendedAE | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/ex-pattern-provider)
