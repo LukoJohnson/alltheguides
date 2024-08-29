@@ -28,10 +28,10 @@ What a Subnet does, is **reducing** the number of channels you use on your main 
 
 ![](img/channelReduction.png)
 
-Instead of having to use **6 Channels** for **6 Import Buses**, you only use **1 Channel** for the **Interface**, while the **Import Buses** are in a **Subnet**
+Instead of having to use **6 Channels** for **6 Import Buses**, you only use **1 Channel** for the **Interface**, while the **Import Buses** are in a **Subnet**.
 
 !!! info "Power transfer"
-    Subnets do **not** transfer power, which is why there is the **Yellow Cable** with a **Quartz Fiber** attached
+    Subnets do **not** transfer power, which is why there is the **Yellow Cable** with a **Quartz Fiber** attached.
 
 ---
 

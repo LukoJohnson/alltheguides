@@ -15,7 +15,7 @@ Probably *the* thing your ME System is supposed to do for you is taking all that
 
 To get your System to do anything, you need to teach your System how to do it first. For that, AE2 offers **four different Patterns**, which you can make in the **Pattern Encoding Terminal**. 
 
-!!! tip "You can paste in any recipe from **EMI** by clicking the `+` icon. You can also **drag** items from EMI"
+!!! tip "You can paste in any recipe from **EMI** by clicking the `+` icon. You can also **drag** items from EMI."
 
 ???+ info "Crafting"
     All but the **Processing Patterns** are done in the **Molecular Assembler**. You do **not** have to connect a **Smithing Table** or **Stonecutter** to a **Pattern Provider**.
@@ -24,7 +24,7 @@ To get your System to do anything, you need to teach your System how to do it fi
 The **Crafting Pattern** is used to automate all recipes done in the **Crafting Table**. 
 
 ???+ note "Substitution"
-    - ![](img/patternSubstitution.png) When creating Patterns, you can see these small buttons. They allow you to enable/disable Substitution
+    - ![](img/patternSubstitution.png) When creating Patterns, you can see these small buttons. They allow you to enable/disable Substitution.
     - The first one allows you to toggle **Item Substitution**. When **disabled**, your system will only use the **exact** items set in the pattern. **Disable** this if you have a recipe with **NBT-Items** or reusable items such as **Tools**.
     - The second one allows you to toggle **Fluid Substitution**. When **enabled**, your system will use Fluids directly, instead of a **bucket** with the Fluid inside.
 
@@ -59,9 +59,9 @@ They normally go hand-in-hand with the **Pattern Provider**. If you place the **
 
 The best possible Setup is a **Pattern Provider** surrounded by **6 Molecular Assemblers**.
 
-!!! info "Molecular Assemblers do not consume a channel, but still transfer up to 8 Channels"
+!!! info "Molecular Assemblers do not consume a channel, but still transfer up to 8 Channels."
 
-!!! tip "It's very much recommended you use **Acceleration Cards** to speed up your Assemblers"
+!!! tip "It's very much recommended you use **Acceleration Cards** to speed up your Assemblers."
 
 ![](img/ppSetup.png)
 
@@ -75,7 +75,7 @@ You can use the **Pattern Provider** to automate almost **any machine**. Once yo
 ## Crafting Processing Units
 
 The **CPUs** will decide how **large** your craft can be and how many **steps** of the recipe will be crafted at once. 
-Each Multiblock will only do **1 Request** at a time. If you want to start multiple requests at the same time, you'll have to build more **CPUs**
+Each Multiblock will only do **1 Request** at a time. If you want to start multiple requests at the same time, you'll have to build more **CPUs**.
 
 ### Crafting Monitor
 Probably the most boring part. All it does is show the current craft being fulfilled by the CPU.
@@ -107,9 +107,9 @@ The structure **MUST** be **rectangular**. Any other Shape will **not** work.
 
 Now that you have all the setup, you want to actually request a craft. You can do this by simple `Middle-Clicking` on the Item in your Terminal, specify an amount and click **craft**.
 
-!!! warning "Make sure you don't have a **Keybind conflict**. Sorting your inventory is often causing trouble"
+!!! warning "Make sure you don't have a **Keybind conflict**. Sorting your inventory is often causing trouble."
 
 !!! tip "Keep Stock"
-    Do you always want to have a set amount of a certain Item in your ME System? You can use an **ME Requestor**.
+    Do you always want to have a set amount of a certain Item in your ME System? You can use an **ME Requester**.
 
 > Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)

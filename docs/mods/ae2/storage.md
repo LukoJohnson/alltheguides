@@ -43,20 +43,20 @@ For many People, **Types** seem to be quite the limitation, however, if you have
 
 There's a bunch of different Cells, these are probably the most important ones.
 
-|                 Cell                  |             Name             |    Type     | Type Limit |  Amount  |
-|:-------------------------------------:|:----------------------------:|:-----------:|:----------:|:--------:|
-|      ![](img/itemCell.png)      |     ME Item Storage Cell     |    Items    |     63     | 1k-256k  |
-|    ![](img/megaItemCell.png)    |    MEGA Item Storage Cell    |    Items    |     63     | 1m-256m  |
+|              Cell               |             Name             |    Type     | Type Limit |  Amount  |
+|:-------------------------------:|:----------------------------:|:-----------:|:----------:|:--------:|
+|      ![](img/itemCell.png)      |     ME Item Storage Cell     |    Items    |     63     | 1K-256K  |
+|    ![](img/megaItemCell.png)    |    MEGA Item Storage Cell    |    Items    |     63     | 1M-256M  |
 |      ![](img/bulkCell.png)      |        MEGA Bulk Cell        |    Items    |     1      | infinite |
-|     ![](img/fluidCell.png)      |    ME Fluid Storage Cell     |    Fluid    |     18     | 1k-256k  |
-|   ![](img/megaFluidCell.png)    |   MEGA Fluid Storage Cell    |    Fluid    |     18     | 1m-256m  |
-|    ![](img/chemicalCell.png)    |   ME Chemical Storage Cell   |  Chemical   |     15     | 1k-256k  |
-|  ![](img/megaChemicalCell.png)  |  MEGA Chemical Storage Cell  |  Chemical   |     15     | 1m-256m  |
-|      ![](img/manaCell.png)      |     ME Mana Storage Cell     |    Mana     |     1      | 1k-256k  |
-|    ![](img/megaManaCell.png)    |    MEGA Mana Storage Cell    |    Mana     |     1      | 1m-256m  |
-|     ![](img/sourceCell.png)     |    ME Source Storage Cell    |   Source    |     1      | 1k-256k  |
-|   ![](img/megaSourceCell.png)   |   MEGA Source Storage Cell   |   Source    |     1      | 1m-256m  |
-|      ![](img/fluxCell.png)      |      ME FE Storage Cell      |   Energy    |     1      | 1k-256m  |
+|     ![](img/fluidCell.png)      |    ME Fluid Storage Cell     |    Fluid    |     18     | 1K-256K  |
+|   ![](img/megaFluidCell.png)    |   MEGA Fluid Storage Cell    |    Fluid    |     18     | 1M-256M  |
+|    ![](img/chemicalCell.png)    |   ME Chemical Storage Cell   |  Chemical   |     15     | 1K-256K  |
+|  ![](img/megaChemicalCell.png)  |  MEGA Chemical Storage Cell  |  Chemical   |     15     | 1M-256M  |
+|      ![](img/manaCell.png)      |     ME Mana Storage Cell     |    Mana     |     1      | 1K-256K  |
+|    ![](img/megaManaCell.png)    |    MEGA Mana Storage Cell    |    Mana     |     1      | 1M-256M  |
+|     ![](img/sourceCell.png)     |    ME Source Storage Cell    |   Source    |     1      | 1K-256K  |
+|   ![](img/megaSourceCell.png)   |   MEGA Source Storage Cell   |   Source    |     1      | 1M-256M  |
+|      ![](img/fluxCell.png)      |      ME FE Storage Cell      |   Energy    |     1      | 1K-256M  |
 | ![](img/infiniteWaterCell.png)  |    ME Infinite Water Cell    |    Water    |     1      | infinite |
 | ![](img/infiniteCobbleCell.png) | ME Infinite Cobblestone Cell | Cobblestone |     1      | infinite |
 
@@ -65,7 +65,7 @@ There's a bunch of different Cells, these are probably the most important ones.
 
 ## External Storage
 
-To use other blocks as storage, attach a **Storage Bus** to it and increase the priority (click the little cog in the top right)
+To use other blocks as storage, attach a **Storage Bus** to it and increase the priority. (click the little cog in the top right)
 
 This way, AE2 will treat this Storage as if it was a **Storage Cell**, reading the contents, showing them in your Terminal and prefer that as an input. (useful if you don't want to have an item on your drive AND an external Storage) 
 

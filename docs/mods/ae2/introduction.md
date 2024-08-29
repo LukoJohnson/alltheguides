@@ -38,7 +38,7 @@ Breaking the **Budding Certus Quartz** will decrease their "level" by 1. Mining 
 For all but the **Flawless Budding** the level will also randomly decrease after each time **Certus Quartz** grows.
 
 !!! tip "How to get a Flawless Budding Certus Quartz"
-    You can use a **Cardboard Box** from **Mekanism** to pick them up
+    You can use a **Cardboard Box** from **Mekanism** to pick them up.
 
 ---
 
@@ -69,7 +69,7 @@ There are a couple of rules you have to follow when building a **Multiblock Cont
 
 ![](img/controllerShowcase.png)
 
-For a Step-by-Step of the last one, check [Setups](setups/README.md)
+For a Step-by-Step of the last one, check [Setups](setups/README.md).
 
 ---
 
