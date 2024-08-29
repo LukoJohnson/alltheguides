@@ -51,7 +51,7 @@ In this case, we **partitions** a cell (generally the ones who can stores alot) 
 
 For a better grasp of the differences between the two, take a look at this table:<br>
 
-| **General Storage** | **Bulk Storage** |
+| **General Storage** <br> ![](img/itemCell.png) | **Bulk Storage** <br> ![](img/bulkCell.png) |
 |:---:|:---:|
 | Typically stores random things | Typically stores specific items (mainly resources/mob drops/farm drops) |
 | Ex. Cobble walls, doors, fence, lantern, furnace | Ex. Iron ingots, spruce logs, diamonds, rotten flesh, wheat |
@@ -63,13 +63,32 @@ For a better grasp of the differences between the two, take a look at this table
 
 <br>
 
-
-
-
-
 ## What Is Bulk Cells?
+**MEGA Bulk Item Storage Cell**, further referred as 'Bulk Cells', is a storage cell from an addon mods called MEGA Cells by ninety. <br>
 
-**MEGA Bulk Item Storage Cell**, further referred as 'Bulk Cells', is a storage cell from an addon called MEGA Cells by ninety.
+Bulk Cells is incredibly powerful. A single cell can only holds 1 type of item, **but** it's theoretically able to store ``maxLong`` value. Which is ``9.223.372.036.854.775.807`` (9.2 Quintillions) of items, **practically infinite**. <br>
+
+!!! abstract "But hey, there's more"
+    On top of storing items, Bulk Cells also have the abilities to **compress & decompress** items! 
+
+### Compress & Decompress
+Having to make a pattern to craft ``nugget`` from an ``iron ingots``, and another pattern for crafting ``iron block``, AND THEN another pattern to craft those back into iron ingots is surely labour-intensive. Up until now, you might be familiar by using **Storage Drawers** to do this kind of thing. A Compacting Drawers to be exact.<br>
+
+But this comes with a small problem. 
+
+
+
+Luckily the Bulk Cells already takes care of that for us.
+
+### Storage Drawers?
+
+### How does it work?
+!!! danger "Disclaimer"
+    This sub-chapter may or may not explain it 1:1 to the actual backend code logic. This sub-chapter only gives the rough ideas on why things works
+
+
+    
+
  
 ## How To Use It?
 
