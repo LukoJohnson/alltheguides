@@ -8,7 +8,7 @@ copyright: All The Mods &trade; | Made By <a href='https://ko-fi.com/segfault' t
 strict: !ENV [ENABLE_STRICT, true]
 extra:
   generator: true
-  homepage: /
+  homepage: /alltheguides/
   version:
     default: stable
   social:
