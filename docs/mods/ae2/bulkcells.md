@@ -15,7 +15,7 @@ In this section, You'll find **How to Use Bulk Cells**, the **characteristic of 
 
 !!! danger "You can skip to ``How To Use`` sub-chapter if you dislike reading"  
 ???+ warning "Familiarize yourself with these required items"
-    ![](img/bulkRequirements.png)  
+    ![](img-bulk/booldBulkRequirements.png)  
     * Cell Workbench  
     * MEGA Bulk Item Storage Cell  
     * MEGA Decompression Module  
@@ -25,13 +25,13 @@ Before we went deeper, One might asks what is "bulk" and why we use it in storag
 
 Now take a look at this mess:  
 
-![](img/randomMess.png)  
+![](img-bulk/booldRandomMess.png)  
 
 From the image above, there's **random things** like building blocks, seeds, some saplings, and miscellaneous materials. We also notices that most of these items **does not exceeed 1000**. We'll call this as **Random Mess** for now.  
 
 In contrary, from the image below, we can see that those items is **stored at a very big numbers** compared to the previous ones. Instead, we'll refer this as **Bulk Mess**  
 
-![](img/bulkMess.png)  
+![](img-bulk/booldBulkMess.png)  
 
 ### General vs Bulk Storage 
 
@@ -45,7 +45,7 @@ Just in case it's not obvious now, 'partitioning' cells is an important aspect w
 In this case, we **partitions** a cell (generally the ones who can stores alot) and assigned it to a specific cell. **Priority System** in AE2 means you can tell items to go into a specific storage (or drives) first, before it goes into another storage.  
 
 ???+ note "On the topic of General Storage vs Bulk Storage & Partitions in-between"
-    ![](img/priorityInsert.png)  
+    ![](img-bulk/booldPriorityInsert.png)  
     The system works like this:   
     1. You insert the items into the network   
     2. The network now tried to "store" said items into the valid 'storage'  
