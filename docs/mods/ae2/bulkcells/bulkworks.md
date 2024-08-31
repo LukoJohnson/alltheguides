@@ -24,7 +24,7 @@ Borrowing the previous analogy, we also wanted to downcraft ``1x blocks`` back i
 
 Then the system also makes a *ghost-patterns* that handles ``crafting 3x iron into 2x``, ``2x into 1x``, and more until it reaches the desired amount from the system (9 iron blocks).
 
-??? question "Yes, but WHEN it does compression/decompress?"
+??? question "Yes, but WHEN it does compression/decompression?"
     Generally it happens **when the network interacts with item amounts**.  
     This includes, but not limited to:  
     1. Items **entering** the network  
@@ -35,8 +35,7 @@ Then the system also makes a *ghost-patterns* that handles ``crafting 3x iron in
     !!! tip "If you insert/extract items within the network, if it's possible, it will always gets **unified with other compressed variants**. And the system shows the **highest compressed form possible** in the network (here, it's 9x iron & 3 5x iron) ![](img-bulk/booldCompressedStoring.png)"
 
 !!! danger "Regarding Energy Usage"
-    It is also worth noting that **every contents (items/gas/fluid/etc.) movement inside an AE2 network requires energy** (in the form of AE). Compressing/Decompressing **is no exception**. On a rare case, One can have not enough network buffer to do any item compression, oftentimes resulting in a **failed Crafting Request**.
+    It is also worth noting that **every contents (items/gas/fluid/etc.) movement inside an AE2 network requires energy** (in the form of AE) and it's relative to the amounts moved per tick. Compressing/Decompressing **is no exception**. On a rare case, One can stumbbled upon **not enough network buffer** to do any item compression, oftentimes resulting in a **failed Crafting Request**.
 
-> Functional Storage | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/functional-storage)  
+> Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)  
 > MEGA Cells | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/mega-cells)  
-> ExtendedAE | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/ex-pattern-provider)

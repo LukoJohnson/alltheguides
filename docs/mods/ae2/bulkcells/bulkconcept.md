@@ -40,6 +40,9 @@ Just in case it's not obvious now, 'partitioning' cells is an important aspect w
 
 In this case, we **partitions** a cell (generally the ones who can stores alot) and assigned it to a specific cell. **Priority System** in AE2 means you can tell items to go into a specific storage (or drives) **first**, before it goes into another storage.  
 
+???+ tip "If you looking on how to do partitions..."    
+    Head over to [How To Partition A Cell](bulkhow.md/#partition)
+
 ???+ info "Items route in the network on General Storage vs Bulk Storage & Partitions in-between"
     ![](img-bulk/booldPriorityInsert.png)  
     The system works like this:   
@@ -64,6 +67,5 @@ For a better grasp of the differences between the two, take a look at this table
 ??? tip "Did you know that?"
     Due to how storages in AE2 works (**Bytes & Types**), 20 item cells can stores **1.260** types of items but they stored less than 20 **Bulk Cells**! This is also why we use the term General & Bulk storages.  
 
-> Functional Storage | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/functional-storage)  
+> Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)  
 > MEGA Cells | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/mega-cells)  
-> ExtendedAE | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/ex-pattern-provider)
