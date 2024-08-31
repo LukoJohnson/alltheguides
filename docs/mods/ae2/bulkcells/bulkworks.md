@@ -5,20 +5,24 @@ authors:
     - Boold
 ---
 
-# How does it works?
+# *Why 1+1 = 2?*
 
 !!! danger "Disclaimer"
     This sub-chapter may or may not explain it 1:1 to the actual backend code logic. This sub-chapter only gives you the rough ideas on why things works.
 
 !!! tip "**Decompression Module is crucial** for the network. It enables the network to do all compression/decompression (despite the name only suggests decompressing items). Otherwise your Bulk Cells is just a **fancy infinite chest**"
 
-???+ info "Compressing/Upcrafting"
-    It has been mentioned before that **Bulk Cells can compress items automatically**. With the analogy of having to make patterns to craft ``nuggets`` to ``ingots``, then ``ingots`` to ``blocks``, then ``blocks`` to ``1x blocks``, and etc. this can adds up alot in the **pattern provider**. Instead, we can use **Compression Card** inside the bulk cells to enable 'compression'. This will **allow the network** to automatically makes a *ghost-pattern* that handles **all compression**. Yes, ***everything***. From as small as nuggets, up to 9x variants (if possible).
 
-???+ info "Decompressing/Downcrafting"  
-    Borrowing the previous analogy, we also wanted to downcraft ``1x blocks`` back into ``blocks`` and more. The bulk cells also **handles downcrafting quite similar to compressing**. When a craft request a form of items at a smaller variant 
-    !!! example "Example, make 9 ``iron blocks`` but we only have ``3x iron blocks``"
-    Then the system also makes a *ghost-patterns* that handles ``crafting 3x iron into 2x``, ``2x into 1x``, and more until it reaches the desired amount from the system (9 iron blocks).
+## Compressing/Upcrafting
+
+It has been mentioned before that **Bulk Cells can compress items automatically**. With the analogy of having to make patterns to craft ``nuggets`` to ``ingots``, then ``ingots`` to ``blocks``, then ``blocks`` to ``1x blocks``, and etc. this can adds up alot in the **pattern provider**. Instead, we can use **Compression Card** inside the bulk cells to enable 'compression'. This will **allow the network** to automatically makes a *ghost-pattern* that handles **all compression**. Yes, ***everything***. From as small as nuggets, up to 9x variants (if possible).
+
+## Decompressing/Downcrafting
+Borrowing the previous analogy, we also wanted to downcraft ``1x blocks`` back into ``blocks`` and more. The bulk cells also **handles downcrafting quite similar to compressing**. When a craft request a form of items at a smaller variant 
+
+!!! example "Example, make 9 ``iron blocks`` but we only have ``3x iron blocks``"
+
+Then the system also makes a *ghost-patterns* that handles ``crafting 3x iron into 2x``, ``2x into 1x``, and more until it reaches the desired amount from the system (9 iron blocks).
 
 ??? question "Yes, but WHEN it does compression/decompress?"
     Generally it happens **when the network interacts with item amounts**.  

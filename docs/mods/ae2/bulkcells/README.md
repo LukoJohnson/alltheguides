@@ -16,3 +16,5 @@ Generally this chapter splits into 4 different sub-chapters.
 
 > Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)  
 > MEGA Cells | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/mega-cells) 
+> Functional Storage | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/functional-storage)  
+> ExtendedAE | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/ex-pattern-provider)

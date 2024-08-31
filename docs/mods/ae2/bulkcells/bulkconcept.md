@@ -1,11 +1,11 @@
 ---
-title: Bulk Concepts
+title: Concepts
 description: Explanations regarding the term of bulk & general storages
 authors: 
     - Boold
 ---
 
-# Bulk Concepts
+# *This is bulk skits*
 
 ???+ warning "Familiarize yourself with these required items"
     ![](img-bulk/booldBulkRequirements.png)  
@@ -14,7 +14,7 @@ authors:
     * MEGA Decompression Module  
     * Compression Card  
 
-### Where bulk terms is used
+## Where bulk terms is used
 Before we went deeper, One might asks what is "bulk" and why we use it in storage, or where do we find it? moreover related to AE2.  
 
 Now take a look at this mess:  
@@ -27,12 +27,12 @@ In contrast, from the image below, we can see that those items is **stored at a 
 
 ![](img-bulk/booldBulkMess.png)  
 
-### General vs Bulk Storage 
+## General vs Bulk Storage 
 
 All of those random bits and pieces of items previously typically stored insides what we call a **"General Storage"**. In a literal sense, every dumps & junks we insert to the network, will **eventually ends up** in this type of storages. Just like the Random Mess we had before. Any other things then (generally) will be stored insides a **"Bulk Storage"**  
 !!! note "A literal "storing items in bulks" !"
 
-### Partition?
+## Partition?
 
 Just in case it's not obvious now, 'partitioning' cells is an important aspect when we talk about bulk storage. Imagine your creeper farm generating thousands of gunpowder per minutes, this will clogs up your 'general storage' quickly over time (you don't want your cells is filled up with gunpowder **only** didn't ya?).  
 
