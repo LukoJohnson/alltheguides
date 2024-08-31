@@ -7,9 +7,9 @@ authors:
 
 # *How to do X, Y, Z???*
 
-> *Here comes the main dish*  
+*Here comes the main dish*  
 
-Up to this point, you should already know why bulk matters, how to do partitions, and the items required for it as well (refer to the notes in Bulk Concepts)
+Up to this point, you should already know why bulk matters, how to do partitions, and the **items required** for it as well (refer to the requirements in [Concepts](bulkconcept.md) Chapter) 
 
 > Functional Storage | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/functional-storage)  
 > MEGA Cells | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/mega-cells)  
