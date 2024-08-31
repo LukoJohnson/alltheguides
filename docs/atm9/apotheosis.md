@@ -60,12 +60,6 @@ You do not have to place the blocks exactly as I do, these are just an example.
 	
 ![](img/apoth_charm.png){.center}
 
-### Superior Sigil of Socketing
-
-!!! info "5x Echoing Deepshelf, 2x Draconic Endshelf, 2x Soul-Touched Deepshelf"
-
-![](img/apoth_socketing.png){.center}
-
 ### Tome of Superior Scrapping
 
 !!! info "3x Echoing Deepshelf, 1x Soul-Touched Deepshelf, 1x Endshelf, 1x Draconic Endshelf"
@@ -83,6 +77,14 @@ You do not have to place the blocks exactly as I do, these are just an example.
 !!! info "7x Echoing Deepshelf, 3x Draconic Endshelf, 2x Soul-Touched Deepshelf"
 
 ![](img/apoth_library.png){.center}
+
+### Superior Sigil of Socketing
+
+!!! warning "Removed in pack version 0.3.0"
+
+!!! info "5x Echoing Deepshelf, 2x Draconic Endshelf, 2x Soul-Touched Deepshelf"
+
+![](img/apoth_socketing.png){.center}
 
 ---
 ## Infused Teleportation Core Setups
