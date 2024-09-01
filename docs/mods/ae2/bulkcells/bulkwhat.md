@@ -9,7 +9,7 @@ authors:
 
 This sub-chapter brings to you the overview of **bulk cells** & it's accompanying trinkets.  
 
-## What is Bulk Cells?
+## What Are Those?
 
 ### Bulk Cells
 
@@ -20,17 +20,17 @@ Bulk Cells is an incredibly powerful cell. A single cell can only holds 1 type o
 
 ??? tip "Did you know that?"
     Assuming:  
-    - You can theoretically produces a resource at a ``maxInt`` value per tick (2.147.483.647 of iron ingots for example)  
+    - You can theoretically produces a resource at a ``maxInt`` value per tick (2.147.483.647 of iron ingots per tick for example)  
     - And do it 24/7  
 
-    It still requires **6 years, 10 months, and 7 days** to only reach max capacity of ``maxLong`` (a 19 digits numbers). And ``BigInt`` can holds **more** than 268.000.000 digits (relative to your system memory ofc) ! this also means you do **not** need any kind of Overflow Destruction... (or is it?)  
+    It still requires **6 years, 10 months, and 7 days** to only reach max capacity of ``maxLong`` (a 19 digits numbers). And ``BigInt`` can holds **more** than 268.000.000 digits (relative to your system memory of course) ! This also means you **do not** need any kind of Overflow Prevention... (or is it?)  
 
 
 !!! abstract "But hey, there's more"
     On top of storing items, Bulk Cells also have the abilities to **compress & decompress** items automatically! 
 
 ### Compression & Decompression
-Having to make a pattern to craft ``nuggets`` from an ``iron ingots``, and another pattern for crafting ``iron block``, AND THEN another pattern to craft those back into iron ingots is surely **labour-intensive**, especially when you're playing a pack that **adds more than** just iron, gold, copper, & diamonds. Up until now, you might be familiar by using **Storage Drawers** to do this kind of thing. A Compacting Drawers to be exact.  
+Having to make a pattern to craft ``nuggets`` from an ``iron ingots``, and another pattern for crafting ``iron block``, AND THEN another pattern to craft those back into iron ingots is surely **labor-intensive**, especially when you're playing a pack that **adds more than** just iron, gold, copper, & diamonds. Up until now, you might be familiar by using **Storage Drawers** to do this kind of thing. A Compacting Drawers to be exact.  
 
 !!! danger "But this comes with a small problem for drawers"  
     Compacting Drawers (and any other variants of physical-storage-compactor from other mods) for the longest time existing never plays nice with AE2. This is because when a storage controller (ones you used to read all the drawers content) reads by a Storage Bus (External Storage application), **it reports the content incorrectly**.
@@ -54,7 +54,7 @@ Compression Card is a **Card Upgrade** which you can install to a bulk cell **in
 
 ![](img-bulk/decompressionModule.png){.center width='75px' height='75px'}  
 Decompression Module is a **cable sub-part**, meaning it can only be attached into a **regular-sized ME cable** (won't connect into dense). Simultaneously with compression cards, this thing instead enables **the network** itself to be able to do any decompression. To install it, just place it anywhere in the network (like the **Wireless Access Point**).  
-!!! danger "Any decompression requires a **functional CPU Multiblock**!"
+!!! danger "Any decompression requires a **functional CPU Multiblock** !"
 
 
 ## Storage Drawers vs Bulk Cells
@@ -81,7 +81,7 @@ Then let me present to you the ups & downs.
 ???+ success "Additional Notes"
     ??? tip "Regarding Space-Efficient..."
         ![](img-bulk/booldSizeComparison.png){.center}  
-        This is the looks of storing 20 item in bulks. ME Drive from base AE2 holds 10 cell each, and ME Extended Drive from **ExtendedAE** mods can holds 20 cell each. Making it more compact with **1:20 ratio** of space to item types compared to drawers.
+        This is the looks of storing 20 items in bulks. ME Drive from base AE2 holds 10 cell each, and ME Extended Drive from **ExtendedAE** mods can holds 20 cell each. Making it more compact with **1:20 ratio** of space to item types compared to drawers.
     ??? tip "Regarding External Storage..."
         External Storage is perfectly fine to do. Slight delay (performance affection) is bound to happen because it tries to read every slots in a **drawer network** that a storage bus able to read to. This is also mentioned by the **in-game guide**.  
 
