@@ -30,7 +30,7 @@ With the importance of **Decompression Module** & **Priority System**, at the ve
 
 * Top-left drive bay is for 'General Storage' with lowest priority  
 * Bottom-left drive bay is for 'Bulk Storages' with **highest priority**  
-* **Decompression Module** is crucial to allow this network to compress/decompress stored items inside a bulk cell  
+* **Decompression Module** is crucial to allow this network to decompress stored items inside a bulk cell  
 * Because they make a *ghost-patterns*, a basic **CPU multiblock** is no less important (otherwise you can't decompress things)  
 
 
