@@ -31,7 +31,7 @@ authors:
 		It's from Quark, the default keybind to toggle it is ++k++.
 		
 	??? Question "There are yellow numbers on all my inventory slots!"
-		It's from Crash Utilities, the default keybind to toggle it is ++ctrl+i++.
+		It's from Super Factory Manager, the default keybind to toggle it is ++ctrl+i++.
 
 	??? Question "How do I find '`insert name`' biome?"
 		**Nature's Compass** is a really nice tool to find any and all biomes in the modpack. Craft it, right click with it in your hand, and you can run the search for any biome you are looking for (such as the Deep Dark).
