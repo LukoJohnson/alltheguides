@@ -9,7 +9,7 @@ authors:
 
 Here comes the main dish  
 
-Up to this point, you should already know what is bulk and why it matters. Aswell as the **items required** for it (refer to the requirements in the [Concepts](bulkconcept.md) Chapter) 
+Up to this point, you should already know what is bulk and why it matters. As well as the **items required** for it (refer to the requirements in the [Concepts](bulkconcept.md) Chapter) 
 
 ## Partition
 1. You need a Cell & Cell Workbench  
@@ -33,8 +33,8 @@ Up to this point, you should already know what is bulk and why it matters. Aswel
 With the importance of **Decompression Module** & **Priority System**, at the very least your network should look like this.  
 ![](img-bulk/booldBulkSetup.png)  
 
-* Top-left drive bay is for 'General Storage' with lowest priority  
-* Bottom-left drive bay is for 'Bulk Storages' with **highest priority**/higher than the general storage's  
+* Top-left drive bay is for 'General Storage' with the lowest/lower priority  
+* Bottom-left drive bay is for 'Bulk Storages' with ** the highest priority**/higher than the general storage's  
 * **Decompression Module** is crucial to allow this network to decompress stored items inside a bulk cell  
 * Because they make a *ghost-patterns*, a basic **CPU multiblock** is no less important (otherwise you can't decompress things)  
 
