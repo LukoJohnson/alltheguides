@@ -11,6 +11,11 @@ authors:
 ---
 
 ???+ Abstract "Gameplay FAQs"
+	??? Question "Items in my RS storage aren't showing, I can't access items through any means."
+		It's most likely due to your controller reaching 64kFE/t power draw, when this threshold is reached, RS starts glitching out. 
+		
+		You can remedy this by increasing the energy capacity of the controller in `saves/worldName/serverconfig/refinedstorage-server.toml` on line 36.
+		
 	??? Question "Why can't I use modular router and watering can?"
 		By default, **Mystical Agriculture** does not allow fake players to automate watering cans. If you dislike this change, it can be changed within `config/mysticalagriculture-common.toml` > `fakePlayerWatering = true`.
 
@@ -24,6 +29,9 @@ authors:
 
 	??? Question "What's the little 3D cube next to my crosshair?"
 		It's from Quark, the default keybind to toggle it is ++k++.
+		
+	??? Question "There are yellow numbers on all my inventory slots!"
+		It's from Crash Utilities, the default keybind to toggle it is ++ctrl+i++.
 
 	??? Question "How do I find '`insert name`' biome?"
 		**Nature's Compass** is a really nice tool to find any and all biomes in the modpack. Craft it, right click with it in your hand, and you can run the search for any biome you are looking for (such as the Deep Dark).
