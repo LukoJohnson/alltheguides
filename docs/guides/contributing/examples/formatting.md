@@ -48,9 +48,9 @@ Text can be sub- and superscripted with a simple syntax, which is more convenien
 - A^T^A
 
 ---
-### Adding keyboard keys
+### Adding Keyboard Keys
 
-Keyboard keys can be rendered with a simple syntax. Consult the [Python Markdown Extensions documentation](https://facelessuser.github.io/pymdown-extensions/extensions/keys/#extendingmodifying-key-map-index) to learn about all available shortcodes:
+Keyboard keys can be rendered with a simple syntax. Consult the [Python Markdown Extensions documentation](https://facelessuser.github.io/pymdown-extensions/extensions/keys/#extendingmodifying-key-map-index) to learn all available shortcodes:
 
 ```
 ++ctrl+alt+del++
@@ -77,15 +77,13 @@ You can also add icons to better convey what may go in your guide!
 
 :material-zip-box:
 
-[Material Design Icons](https://materialdesignicons.com/cdn/1.6.50-dev/)
-
-This website contains all of the icons you can use within ATG.
-
-???+ warning "Replace `mdi` with `material`"
-	You need to replace `mdi` with `material` for the icons to work.
-	For example `material-information-outline` is listed as `mdi-information-outline` on the website.
+[Material Design Icons](https://materialdesignicons.com/cdn/1.6.50-dev/) contains all of the icons you can use within ATG.
 
 [Icons can have hoverable tooltips also!](#tool-tips)
+
+???+ danger "Replace `mdi` with `material`"
+	You need to replace `mdi` with `material` for the icons to work.
+	For example on the website it's listed as `mdi-information-outline`, you need to change it to `material-information-outline`.
 
 ---
 
@@ -232,7 +230,7 @@ For all other elements, a title can be added by using the Attribute Lists extens
 :material-information-outline:{ title="Important information" }
 
 ---
-### Adding abbreviations
+### Adding Abbreviations
 
 Abbreviations can be defined by using a special syntax similar to URLs and footnotes, starting with a `*` and immediately followed by the term or acronym to be associated in square bracket. Once an abbreviation is defined, it can be used anywhere in the document.
 
@@ -249,7 +247,7 @@ The HTML specification is maintained by the W3C.
 *[W3C]: World Wide Web Consortium
 
 ---
-### Adding a glossary
+### Adding a Glossary
 
 ```title="Example Glossary"
 Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
@@ -289,7 +287,7 @@ This comment will also not be rendered in the final HTML file.
 This comment will be visible in "View Source". 
 --->
 
-However these will show in "View Source" if a user does so. To prevent that there is another way to add comments.
+However, the two exmaples above will show in "View Source" if a user does so. To prevent that there is another way to add comments.
 
 `[//]: # (This type of comment will not show in either the final HTML or in "View Source")`
 

@@ -1,3 +1,7 @@
+---
+title: Material Examples
+description: A list of possible MD formatting for use in AllTheGuides.
+---
 
 # Examples
 
