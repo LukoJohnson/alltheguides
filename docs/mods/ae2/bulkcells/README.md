@@ -2,21 +2,19 @@
 title: Bulk Cells Introduction
 description: Overview of Bulk Cells chapter
 authors:
-  - Boold
+ - Boold
 ---
 
 # Preface
 
 This is a guide to the best storage cell (totally unbiased) you'll ever need :]  
 
-In this chapter, You'll find **How to Use Bulk Cells**, the **characteristic of the Bulk Cells** itself, the **general idea of "Bulk Storage"** and so much more.  
+In this section, you'll find **how to use Bulk Cells**, the **characteristics of Bulk Cells**, the **general idea of "Bulk Storage"**, and so much more.  
 
 !!! warning "Disclaimer"
-    Going thru this without prior experience of **Applied Energistics 2** mod might be difficult to grasp. I still encourage you to read the [AE2 Online Guide](https://guide.appliedenergistics.org/) first (or quick-read the guides here).
+    It may be difficult to grasp the concept of Bulk Cells without prior experience of **Applied Energistics 2**. I still encourage you to read the [AE2 Guide](../README.md) first (or the [official AE2 Guide](https://guide.appliedenergistics.org/)).
 
 Currently, this chapter splits into 4 different sub-chapters.  
-
-
 
 !!! danger "You can skip to [How To Use](bulkhow.md) sub-chapter if you dislike reading & just wanted to know how to do all of this"  
 

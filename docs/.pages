@@ -1,5 +1,4 @@
 nav:
-# - Blogs: /atg/blog
  - <b>Pack Guides</b>:
    - Home: README.md
    - All The Mods 10 (Alpha): atm10
@@ -12,8 +11,8 @@ nav:
    - All The Spells - Spellbound: atms
    - All The Mods 6: atm6
    - Legacy Packs: legacy
-# - Misc: misc
  - Mod Guides: mods
  - Contributing: guides
  - Help: help
  - About: about
+ # - Blogs: /atg/blog

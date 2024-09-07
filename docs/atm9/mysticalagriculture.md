@@ -108,11 +108,10 @@ Now we'll build one of the "modules" that make up the entire thing. Each column 
 3. For the Phytos it'll be slightly different depending on which side the ME Interface is on. You will have it **Auto Input/Output** the side touching the interface. The image below is for a phyto with an interface to the left.
 ![](img/phytoae2_phytosettings.png){.center}
 
-4. Each Phyto will have **1x Draconic Integral Component & 3x Twinite Flux Linkages**. This combination provides maximum efficiency, of course you can put the lower tier ones in as you are working up to these.
+4. Each Phyto will have **1x Abyssal Integral Component & 3x Abyssal Flux Linkages**. This combination provides maximum efficiency, of course you can put the lower tier ones in as you are working up to these.
 ![](img/phytoae2_phytoaugs.png){.center}
 
-??? Question "Why not use Shellite instead of Twinite? KJM explains"
-	The stats for Shellite Flux Linkage is 120% & 1.1x. The stats for the Twinite Flux Linkage is 110% & 1.01x. An MA seed uses 20,000FE to complete one growth operation, and Phytos fill at 20FE/t by default. That 20,000 number is multiplied by the process energy statistic. A single Shellite upgrade would modify it to 22,000FE, and Twinite goes to 20,200FE. The second stat modified is energy usage. Shellite increases the per-tick power consumption to 44FE/t, and Twinite increases it to 42FE/t. A recipe runs for 50 seconds by default since 20,000 divided by 20 divided by 20 (the number of ticks per second) is 50. Placing the numbers in for shellite 22,000/44/20 = 25 and for Twinite 20,200/42/20 = 24. Therefore, Twinite at a base level with a single upgrade is 1 second faster than Shellite. This number is further modified by adding multiple linkages and the integral component. 
+<!--- Replace the image above with abyssal. --->
 
 You'll stack these modules to a **maximum of 8 tall** and arrange them into 4 walls.
 
