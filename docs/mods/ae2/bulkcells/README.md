@@ -14,9 +14,9 @@ In this section, you'll find **how to use Bulk Cells**, the **characteristics of
 !!! warning "Disclaimer"
     It may be difficult to grasp the concept of Bulk Cells without prior experience of **Applied Energistics 2**. I still encourage you to read the [AE2 Guide](../README.md) first (or the [official AE2 Guide](https://guide.appliedenergistics.org/)).
 
-Currently, this chapter splits into 4 different sub-chapters.  
+Currently, this chapter splits into 4 different subchapters.  
 
-!!! danger "You can skip to [How To Use](bulkhow.md) sub-chapter if you dislike reading & just wanted to know how to do all of this"  
+!!! danger "You can skip to [How To Use](bulkhow.md) subchapter if you dislike reading & just wanted to know how to do all of this"  
 
 > Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)  
 > MEGA Cells | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/mega-cells)  

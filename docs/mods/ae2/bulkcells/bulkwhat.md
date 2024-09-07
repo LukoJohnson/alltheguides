@@ -7,7 +7,7 @@ authors:
 
 # *Everything About It*
 
-This sub-chapter brings to you the overview of **bulk cells** & it's accompanying trinkets.  
+This subchapter brings to you the overview of **bulk cells** & it's accompanying trinkets.  
 
 ## What Are Those?
 
@@ -15,12 +15,12 @@ This sub-chapter brings to you the overview of **bulk cells** & it's accompanyin
 
 **MEGA Bulk Item Storage Cell**, further referred as 'Bulk Cells', is a storage cell from an addon mods called **MEGA Cells** by ninety.  
 
-Bulk Cells is an incredibly powerful cell. A single cell can only holds 1 type of item, **but** it stores item in ``BigInt`` value. Which is **frickin' big**, the limitations is your system memory. **Practically infinite**.  
+Bulk Cells is an incredibly powerful cell. A single cell can only hold 1 type of item, **but** it stores item in ``BigInt`` value. Which is **frickin' big**, the limitations is your system memory. **Practically infinite**.  
 > Read more about [BigInt Max Limit](https://stackoverflow.com/questions/12088436/what-does-biginteger-having-no-limit-mean)   
 
 ??? tip "Did you know that?"
     Assuming:  
-    - You can theoretically produces a resource at a ``maxInt`` value per tick (2.147.483.647 of iron ingots per tick for example)  
+    - You can theoretically produce a resource at a ``maxInt`` value per tick (2.147.483.647 of iron ingots per tick for example)  
     - And do it 24/7  
 
     It still requires **6 years, 10 months, and 7 days** to only reach max capacity of ``maxLong`` (a 19 digits numbers). And ``BigInt`` can holds **more** than 268.000.000 digits (relative to your system memory of course) ! This also means you **do not** need any kind of Overflow Prevention... (or is it?)  
@@ -37,7 +37,7 @@ Having to make a pattern to craft ``nuggets`` from an ``iron ingots``, and anoth
     ??? example "Example of misreports to AE2"
         ![](img-bulk/booldCompactingMisreport.png){.center}  
         ![](img-bulk/booldCompactingExample.png){.center height='75px'}
-        Here we can see that the system reads we have 81 nuggets, 9 iron ingots, and 1 iron block. But clearly **we don't have those**, since that would just means we have 3 iron blocks. When the drawer itself definitely shows **it only has 1**. This also sometimes referred as "**Over-Report**"      
+        Here we can see that the system reads we have 81 nuggets, 9 iron ingots, and 1 iron block. But clearly **we don't have those**, since that would just mean we have 3 iron blocks. When the drawer itself definitely shows **it only has 1**. This also sometimes referred as "**Over-Report**"      
 
 
 !!! note "Luckily the Bulk Cells already takes care of that for us :3"
@@ -60,7 +60,7 @@ Decompression Module is a **cable sub-part**, meaning it can only be attached in
 ## Storage Drawers vs Bulk Cells
 
 One might wonder,
-!!! quote "Huh. Bulk cells seems just like **Storage Drawers**. Both can **stores alot** & **compresses items**. Why would I use these cells instead of drawers?"  
+!!! quote "Huh. Bulk cells seems just like **Storage Drawers**. Both can **store a lot** & **compresses items**. Why would I use these cells instead of drawers?"  
 
 Then let me present to you the ups & downs.  
 
@@ -81,9 +81,9 @@ Then let me present to you the ups & downs.
 ???+ success "Additional Notes"
     ??? tip "Regarding Space-Efficient..."
         ![](img-bulk/booldSizeComparison.png){.center}  
-        This is the looks of storing 20 items in bulks. ME Drive from base AE2 holds 10 cell each, and ME Extended Drive from **ExtendedAE** mods can holds 20 cell each. Making it more compact with **1:20 ratio** of space to item types compared to drawers.
+        This is the looks of storing 20 items in bulks. ME Drive from base AE2 holds 10 cell each, and ME Extended Drive from **ExtendedAE** mods can hold 20 cell each. Making it more compact with **1:20 ratio** of space to item types compared to drawers.
     ??? tip "Regarding External Storage..."
-        External Storage is perfectly fine to do. Slight delay (performance affection) is bound to happen because it tries to read every slots in a **drawer network** that a storage bus able to read to. This is also mentioned by the **in-game guide**.  
+        External Storage is perfectly fine to do. Slight delay (performance affection) is bound to happen because it tries to read every slot in a **drawers network** that a storage bus able to read to. This is also mentioned by the **in-game guide**.  
 
 > Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)  
 > Functional Storage | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/functional-storage)  
