@@ -20,9 +20,6 @@ jobs:
       ENABLE_OFFLINE: true
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: mkdocs
-          fetch-depth: 0
       - uses: astral-sh/setup-uv@v2
         with:
           enable-cache: true
