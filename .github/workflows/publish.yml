@@ -19,17 +19,13 @@ jobs:
         with:
           ref: mkdocs
           fetch-depth: 0
+      - uses: astral-sh/setup-uv@v2
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
       - uses: actions/setup-python@v5
         with:
-          python-version: 3.x
-          cache: pip
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
-      - uses: actions/cache@v4
-        with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
-          restore-keys: |
-            mkdocs-material-
-      - run: pip --disable-pip-version-check install --no-compile -r requirements.txt --upgrade
+          python-version-file: ".python-version"
+      - run: uv sync
       - run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
-      - run: mkdocs gh-deploy
+      - run: uv run mkdocs gh-deploy

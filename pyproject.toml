@@ -1,0 +1,22 @@
+[project]
+name = "alltheguides"
+version = "0.1.0"
+description = "Guides for the AllTheMods series of modpacks"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs",
+    "mkdocs-autorefs",
+    "mkdocs-awesome-pages-plugin",
+    "mkdocs-git-authors-plugin",
+    "mkdocs-git-committers-plugin",
+    "mkdocs-git-revision-date-localized-plugin",
+    "mkdocs-glightbox",
+    "mkdocs-markmap",
+    "mkdocs-material",
+    "mkdocs-meta-descriptions-plugin",
+    "mkdocs-minify-plugin",
+    "mkdocs-open-in-new-tab",
+    "mkdocs-video",
+    "mkdocstrings",
+]

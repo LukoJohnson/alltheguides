@@ -35,7 +35,7 @@ ATG will migrate from `pip` to `pipenv` soon™
         2. Assets may be included with document(s) within folders in an organized way.
     6. No profanity, and assets and or links to outside websites that contains adult like content, paid material, and or in-appropriate things.
         1. You'll be **banned** from future **PR's**.
-    7. You shall **NOT** touch `mkdocs.yml`, `requirements.txt`, or workflow files, _unless authorized, and you know what you're doing_.
+    7. You shall **NOT** touch `mkdocs.yml`, `pyproject.toml`, or workflow files, _unless authorized, and you know what you're doing_.
     8. Documentation should ONLY be related to **All The Mods**, if it needs to be.
     9. Javascript is **NOT** allowed.
     10. Folders & files must be in `lowercase` letters, with no spaces. `Camelcase` for image files is allowed.
@@ -59,6 +59,8 @@ You will be required to [Serve](#serve), and [Build](#build) this guide, which c
 - Git ([Github Desktop](https://desktop.github.com/) or [Git Cli](https://cli.github.com/))
     - _Your editor may already have Git integrated_
     - For quick edits, you could open a codespace on your forked repo using [Github Web Editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor).
+- [uv package manager](https://docs.astral.sh/uv/getting-started/installation/#winget)
+    - We recommend the winget installation method, if you're on Windows.
 
 > You're **not** required to have knowledge of them (_specifically **Python**_), but they must be installed..
 
@@ -86,7 +88,7 @@ Go to `File` -> `Clone repository...` OR do `Ctrl+Shift+O` and select your All t
 
 #### Git CLI
 
-``` title="Change `USERNAME` to your GitHub name"
+``` title="Change 'USERNAME' to your GitHub name"
 git clone https://github.com/USERNAME/alltheguides
 ```
 
@@ -103,12 +105,8 @@ git clone https://github.com/USERNAME/alltheguides
 
 All The Guides requires some Python dependencies that's used to build, and provide features to the Guide itself. 
 
-``` title='To Install'
-pip install -r ./requirements.txt --upgrade
 ```
-
-``` title="To Uninstall"
-pip uninstall -r ./requirements.txt -y
+uv sync
 ```
 
 ---
@@ -117,17 +115,9 @@ pip uninstall -r ./requirements.txt -y
 
 Serve will launch a server locally to test changes live @ [`localhost:8000`](http://localhost:8000). Importantly, it will provide warnings, errors, and {~~ mistakes (_spelling errors_) ~> disabled for the time being, use Grammarly or another spellchecker ~~}. Once changes are satisfied without issues, test your [Build](#build) before you commit / make a Pull Request.
 
-!!! Information "2 methods in serving MkDocs locally"
-
-    ```
-    mkdocs serve
-    ```
-
-    ```
-    python -m mkdocs serve
-    ```
-
-> `mkdocs serve --help`
+```
+uv run mkdocs serve
+```
 
 ---
 
@@ -135,17 +125,9 @@ Serve will launch a server locally to test changes live @ [`localhost:8000`](htt
 
 Build will finalize compiling **Markdown** and output **HTML** files in the `site` folder. This folder should be _ignored_. The build should succeed without any warnings or errors before **Committing** and submitting a **Pull Request**.
 
-!!! Information "2 methods in building MkDocs locally"
-
-    ```
-    mkdocs build
-    ```
-
-    ```
-    python -m mkdocs build
-    ```
-
-> `mkdocs build --help`
+```
+uv run mkdocs build
+```
 
 ---
 

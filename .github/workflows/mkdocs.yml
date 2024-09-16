@@ -20,19 +20,12 @@ jobs:
       ENABLE_OFFLINE: true
     steps:
       - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v2
         with:
-          ref: mkdocs
-          fetch-depth: 0
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
       - uses: actions/setup-python@v5
         with:
-          python-version: 3.x
-          cache: pip
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
-      - uses: actions/cache@v4
-        with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
-          restore-keys: |
-            mkdocs-material-
-      - run: pip --disable-pip-version-check install --no-compile -r requirements.txt --upgrade
-      - run: mkdocs build
+          python-version-file: ".python-version"
+      - run: uv sync
+      - run: uv run mkdocs build
