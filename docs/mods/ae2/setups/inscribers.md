@@ -167,5 +167,10 @@ Your browser does not support the video tag.
 !!! bug "Bugged Interface"
     As of the **26th August** the GUI for the **Label Gun** is bugged, use `Shift + Scroll` instead
 
+!!! tip "Workaround"
+    A workaround for if you have GUI's that are invisible or not showing properly, go to your accessibility settings and change this setting to off
+
+    ![](img/menuBlur.png)
+
 
 > Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)
