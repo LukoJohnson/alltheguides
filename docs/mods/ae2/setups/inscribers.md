@@ -62,7 +62,7 @@ For the Pattern Provider **with** the Press
 
 For the Pattern Provider **without**
 
-![](img/circuitProvider.png)
+![](img/processorProvider.png)
 
 ### Expansion
 You want to expand the setup? 
