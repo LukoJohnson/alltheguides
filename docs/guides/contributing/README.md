@@ -10,13 +10,9 @@ nav:
 
 # All The Guides [![](https://img.shields.io/github/actions/workflow/status/AllTheMods/alltheguides/mkdocs.yml?style=flat-square&label=mkdocs)](https://github.com/AllTheMods/alltheguides/actions/workflows/mkdocs.yml) [![](https://img.shields.io/github/actions/workflow/status/AllTheMods/alltheguides/publish.yml?style=flat-square&label=publish)](https://github.com/AllTheMods/alltheguides/actions/workflows/publish.yml)
 
- ![GitHub Repo stars](https://img.shields.io/github/stars/AllTheMods/alltheguides?style=flat-square) ![GitHub forks](https://img.shields.io/github/forks/AllTheMods/alltheguides) ![GitHub watchers](https://img.shields.io/github/watchers/AllTheMods/alltheguides?style=flat-square) ![GitHub](https://img.shields.io/github/license/AllTheMods/alltheguides?style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/AllTheMods/alltheguides?style=flat-square) ![GitHub forks](https://img.shields.io/github/forks/AllTheMods/alltheguides) ![GitHub watchers](https://img.shields.io/github/watchers/AllTheMods/alltheguides?style=flat-square) ![GitHub](https://img.shields.io/github/license/AllTheMods/alltheguides?style=flat-square)
 
 ---
-
-## Contributing Restructuring Coming Soon™
-
-ATG will migrate from `pip` to `pipenv` soon™
 
 ## Guidelines
 
@@ -26,7 +22,7 @@ ATG will migrate from `pip` to `pipenv` soon™
 
     1. You may **NOT** publicly republish **All The Guides** live on another website.
     2. You may **NOT** delete or entirely change another author work (except typos / incorrect information), unless given permission to do so from the original **Author**. 
-    3. No warnings or errors that prevents `mkdocs serve | build`.
+    3. No warnings or errors that prevents `uv run mkdocs serve | build`.
         1. If you get any errors or warnings, try/get help resolving them before pushing. 
         2. You may **NOT** disable `strict` mode(s) for any reason.
     4. Your document(s) **MUST** contain a `title` and `description` variable. If you created a page, you may add `authors:`, and additional variables if necessary. [Read Below](#document-headers)
@@ -59,10 +55,10 @@ You will be required to [Serve](#serve), and [Build](#build) this guide, which c
 - Git ([Github Desktop](https://desktop.github.com/) or [Git Cli](https://cli.github.com/))
     - _Your editor may already have Git integrated_
     - For quick edits, you could open a codespace on your forked repo using [Github Web Editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor).
-- [uv package manager](https://docs.astral.sh/uv/getting-started/installation/#winget)
-    - We recommend the winget installation method, if you're on Windows.
+- [UV Package Manager](https://docs.astral.sh/uv/getting-started/installation/#winget)
+    - We recommend the `winget` installation method, if you're on Windows.
 
-> You're **not** required to have knowledge of them (_specifically **Python**_), but they must be installed..
+> You are **not** required to have knowledge of them (_specifically **Python**_), but they must be installed..
 
 ---
 
@@ -101,9 +97,15 @@ git clone https://github.com/USERNAME/alltheguides
 
 ---
 
-### Python Dependencies
+### Install UV and Python Dependencies
 
-All The Guides requires some Python dependencies that's used to build, and provide features to the Guide itself. 
+Install **UV**
+
+```
+winget install --id=astral-sh.uv  -e
+```
+
+All The Guides requires some Python dependencies that are used to [build](#build) and provide features for the Guide itself.
 
 ```
 uv sync
@@ -123,7 +125,7 @@ uv run mkdocs serve
 
 ## Build
 
-Build will finalize compiling **Markdown** and output **HTML** files in the `site` folder. This folder should be _ignored_. The build should succeed without any warnings or errors before **Committing** and submitting a **Pull Request**.
+Build will finalize compiling **Markdown** and output **HTML** files in the `site` folder. This folder should be _ignored_. The build should succeed ***without*** any warnings or errors before [Committing](#commit-updating) and submitting a [Pull Request](#pull-request).
 
 ```
 uv run mkdocs build
