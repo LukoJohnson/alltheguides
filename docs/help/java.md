@@ -11,6 +11,7 @@ description: Get the right Java you need!
 - Minecraft **1.16**  | [Java 8](https://adoptium.net/?variant=openjdk8&jvmVariant=hotspot) OR [Java 11](https://adoptium.net/?variant=openjdk11&jvmVariant=hotspot) | `sudo apt install openjdk-11-jdk`
 - Minecraft **1.17** | [Java 16](https://adoptium.net/?variant=openjdk16&jvmVariant=hotspot) | `sudo apt install openjdk-16-jdk`
 - Minecraft **1.18+** | [Java 17](https://adoptium.net/?variant=openjdk17&jvmVariant=hotspot) | `sudo apt install openjdk-17-jdk`
+- Minecraft **1.21+** | [Java 21](https://adoptium.net/?variant=openjdk21&jvmVariant=hotspot) | `sudo apt install openjdk-21-jdk`
 
 ??? Note "Other Java Download Links"
     [Amazon Corretto](https://aws.amazon.com/corretto/), [Azul Zulu](https://www.azul.com/downloads/?package=jdk#zulu), or [Oracle JDK](https://www.oracle.com/java/technologies/downloads/archive/)
