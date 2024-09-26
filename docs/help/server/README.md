@@ -93,6 +93,7 @@ Most server host has a one-click server installer you can use, otherwise
 If server host requires a `.jar` file, later **Forge** versions cannot be ran directly. If older, you can upload and use the `forge-*universal.jar` as custom jar. Extract & Upload **Server-Files** to main server folder. **Otherwise**,
 
 - Download [ServerStarter](https://github.com/BloodyMods/ServerStarter/releases) jar, then upload to main server folder. Use this as the custom jar.
+	- Use [neoforged/ServerStarterJar](https://github.com/neoforged/ServerStarterJar) for NeoForge and Forge 1.17 and earlier.
 - Download pack **Server-Files** from **CurseForge**, extract, and upload **ALL** to main server folder.
 - Create a file named `server-setup-config.yaml`, and copy / paste the config example below. 
 
@@ -110,7 +111,7 @@ Modifiy config for pack if necessary, specifically the `mcVersion` and `loaderVe
         description: All The Mods 9
     install:
         mcVersion: 1.20.1
-        loaderVersion: 47.2.19
+        loaderVersion: 47.3.7
         installerUrl: "https://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar"
         installerArguments:
             - "--installServer"

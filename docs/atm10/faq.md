@@ -10,8 +10,8 @@ authors:
 
 ---
 
-???+ Danger "ALPHA DISCLAIMER"
-	ATM10 is in public ***alpha***, meaning there will be bugs, missing mods, no traditional ATM endgame, missing quests, etc. It will be getting frequent updates as mod devs update to 1.21, and the ATM dev team continues to work on adding new mods, quests, and scripts. [You can report bugs and make suggestions here.](https://github.com/AllTheMods/ATM-10/issues/)
+???+ Danger "BETA DISCLAIMER"
+	ATM10 is in public ***beta***, meaning there will be bugs, missing mods, no traditional ATM endgame, missing quests, etc. It will be getting frequent updates as mod devs update to 1.21, and the ATM dev team continues to work on adding new mods, quests, and scripts. [You can report bugs and make suggestions here.](https://github.com/AllTheMods/ATM-10/issues/)
 	
 
 ???+ Abstract "Gameplay FAQs"
@@ -33,7 +33,7 @@ authors:
 		To report bugs, dupes or similar, head over to the [ATM10 GitHub](https://github.com/AllTheMods/ATM-10/issues) and open a new issue describing the occurrence.
 
 	??? Question "What are the recommended Java arguments for this pack?"
-		- **Client arguments**: send `?args` in the **#bot-spam** channel in our [Discord](https://discord.com/invite/allthemods).
+		- **Client arguments**: send `?args21` in the **#bot-spam** channel in our [Discord](https://discord.com/invite/allthemods).
 		- **Server arguments**: send `?svargs` in the **#bot=spam** channel in our [Discord](https://discord.com/invite/allthemods).
 
 	??? Question "Why does my game crash while launching?"
