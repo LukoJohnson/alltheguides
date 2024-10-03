@@ -57,6 +57,8 @@ Then add cables in any color
 
 ![](img/controller/p2p2.png)
 
+!!! danger "If the cable are unpowered they will say you don't have enough channels. Ignore this until the very last step!"
+
 Then add Dense Cables and a **Wireless Connector**
 
 ![](img/controller/p2p3.png)
