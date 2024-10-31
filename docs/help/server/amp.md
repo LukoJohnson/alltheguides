@@ -27,7 +27,7 @@ This is a guide for installing ATM9 (and possibly other packs) on CubeCoderz's A
 
 ### Creating a New Instance.
 
-![](img/ss1.png)
+![](img/ampSS1.png)
 
 - Under **Select Application**, choose **Minecraft Java Edition**.
 - Under **Friendly Name**, pick a name to reference the server such as **ATM9**.
@@ -36,7 +36,7 @@ This is a guide for installing ATM9 (and possibly other packs) on CubeCoderz's A
 	If you do not want the instance to start every time AMP is started, uncheck the **Start Instance on Boot** option. This is **on** by default.
 - Select **Create Instance**
 
-![](img/ss2.png)
+![](img/ampSS2.png)
 
 ---
 
@@ -44,11 +44,11 @@ This is a guide for installing ATM9 (and possibly other packs) on CubeCoderz's A
 
 - Choose **Manage** from the newly created instance
 
-![](img/ss3.png)
+![](img/ampSS3.png)
 
 - On the left menu, select **Configuration** and then **Server Settings**
 
-![](img/ss4.png)
+![](img/ampSS4.png)
 
 Change the following:
 
@@ -59,7 +59,7 @@ Change the following:
 - **Simulation Distance**: `6`
 - **Use Synchronous IO**: `off`
 
-![](img/ss5.png)
+![](img/ampSS5.png)
 
 ---
 
@@ -69,7 +69,7 @@ Change the following:
 
 - **Require Session IP Stickiness**: `off`
 
-![](img/ss6.png)
+![](img/ampSS6.png)
 
 ---
 
@@ -82,7 +82,7 @@ Change the following:
 - **Stop Timeout**: `60000`
 - **Backup Count Limit**: `3`
 
-![](img/ss7.png)
+![](img/ampSS7.png)
 
 ---
 
@@ -92,7 +92,7 @@ Change the following:
 
 - **Console Scrollback Period**: `120`
 
-![](img/ss8.png)
+![](img/ampSS8.png)
 
 ---
 
@@ -111,7 +111,7 @@ Change the following:
 ???+ note
 	If `Java 17` is not in the dropdown list, you need to close AMP completely, install `Java 17` to the server, then restart AMP.
 
-![](img/ss9.png)
+![](img/ampSS9.png)
 
 ---
 
@@ -131,7 +131,7 @@ Change the following:
 	- Highly recommended to use this feature, but only after the server is successfully running
 - **Max tick Time**: `-1`
 
-![](img/ss10.png)
+![](img/ampSS10.png)
 
 ---
 
@@ -139,11 +139,11 @@ Change the following:
 
 Click the **Back** arrow at the top of the left menu
 
-![](img/ss11.png)
+![](img/ampSS11.png)
 
 Select **Console** from the left menu and then click **Update** from the middle screen.
 
-![](img/ss12.png)
+![](img/ampSS12.png)
 
 Wait while the server downloads and installs the selected forge version. 
 
@@ -151,7 +151,7 @@ Wait while the server downloads and installs the selected forge version.
 
 When it finishes it should say **The server installed successfully**; if it does not please doublecheck the above settings and verify you have selected the appropriate Forge Version.
 
-![](img/ss13.png)
+![](img/ampSS13.png)
 
 ---
 
@@ -168,13 +168,13 @@ The easiest way to import the server files is to unzip the files and create a ne
 I recommend using **7zip** as this is what I have used for testing
 !!! warning "Make sure you save as .zip and not .7z"
 
-![](img/ss14.png)
+![](img/ampSS14.png)
 
 ---
 
 Drag the newly created zip file into the **File Manager window**. Once it finishes you may need to refresh the page to see the file in the file list.
 
-![](img/ss15.png)
+![](img/ampSS15.png)
 
 ---
 
@@ -184,8 +184,8 @@ Right click the .zip file in the list and chose **Extract Here**.
 
 Once it finishes you may need to **refresh** the page to see the newly extracted files populated in the list.
 
-![](img/ss16.png)
-![](img/ss17.png){align=right}
+![](img/ampSS16.png)
+![](img/ampSS17.png){align=right}
 
 ---
 
@@ -193,11 +193,11 @@ Once it finishes you may need to **refresh** the page to see the newly extracted
 
 Select **Console** from the left menu and click **Start**.
 
-![](img/ss18.png)
+![](img/ampSS18.png)
 
 - Accept the EULA that pops up
 
-![](img/ss19.png)
+![](img/ampSS19.png)
 
 ---
 
@@ -208,7 +208,7 @@ The server will now start. This can take several minutes depending on your serve
 	
 You will know it is finished when the notification window in the bottom right disappears and the server says **Dedicated server took XXX.XX seconds to load**.
 
-![](img/ss20.png)
+![](img/ampSS20.png)
 
 ---
 
