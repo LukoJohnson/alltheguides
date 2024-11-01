@@ -26,18 +26,21 @@ This guide will explain how to setup an AllTheMods server locally, or with a ser
 
 ### Java
 
-If you have multiple [Java](../java.md) versions installed, the default `java -version` will be used, which may not be the correct version based on the **Minecraft** version. There are 3 solutions
+If you have **multiple** [Java](../java.md) versions installed, the default `java -version` will be used, which may not be the correct version based on the **Minecraft** version. Either of these solutions will work, you do not have to do all of them.
 
-- Edit the `startserver` file and change `java` to the desired install-location  
+If you only have **one** [Java](../java.md) version installed, you do not have to specify a **Java Path** or **System Environmental Variable**, but specifying the path anyway will ensure you won't break anything if you ever decide to install another version of java
+
+1. Simply uninstall all [Java](../java.md) versions except the one being used.
+2. Edit the `startserver` file and change `java` to the desired install-location  
     - Ex: `C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe`
     ![](../img/setJava.png)
-- Look for **System Environmental Variable** in your Windows Search bar
+3. Look for **System Environmental Variable** in your Windows Search bar
     - Under the Tab **Advanced**, click on **Environmental Variables**
     - Under **System Variables**, choose **new**
     - Name it as specified at the top in the **startserver** file (Ex: **ATM10_Java**)
     - Set **Value** as the install-location of the desired Java version
-- On **Linux**, you can re-configure [Java](../java.md) using `sudo update-alternatives --config java`
-- Simply uninstall all [Java](../java.md) versions except the one being used.
+4. On **Linux**, you can re-configure [Java](../java.md) using `sudo update-alternatives --config java`
+
 
 !!! Note "If you've just installed [Java](../java.md), you may need to restart your OS."
 
@@ -54,7 +57,9 @@ If you have multiple [Java](../java.md) versions installed, the default `java -v
     - **Windows**: Execute `startserver.bat`
     - **Linux**: Execute `./startserver.sh`
 
-After running `serverstart.bat` once, you're required to accept the [Minecraft Eula](https://www.minecraft.net/en-us/eula) in the `eula.txt` file by setting `eula=true` 
+The first time you tun `startserver` it will generate a bunch of files. **Do not end the installer during this**. If you do so, you might have to start over
+
+After running `serverstart` once, you're required to accept the [Minecraft Eula](https://www.minecraft.net/en-us/eula) in the `eula.txt` file that was automatically generated, by setting `eula=true` 
 
 Make any changes necessary to `server.properties`, `configs`, and or `world/serverconfigs`, and run `startserver.bat/sh` again to start the server. 
 
@@ -75,8 +80,11 @@ Once it says **Dedicated server took xx seconds to load** you're good to go and 
         java -Xms4G -Xmx8G -jar forge-*universal.jar
         ```
 
-??? Note "How to allocate RAM or add Arguments?"
-    Allocating RAM and or adding Arguments are applied within `usr_jvm_args.txt`. Older versions of **Forge** will require adding arguments in the script file, if that file doesn't exist.
+??? Note "How to add Arguments?"
+    To add [Arguments](../java/#java-arguments) set them within the `usr_jvm_args.txt` file. Older versions of **Forge** will require adding arguments in the script file, if that file doesn't exist.
+
+??? Note "How to add Ram?"
+    Edit the `-Xms` (Startup Ram) and `-Xmx` (Maximum Ram) within the `usr_jvm_args.txt` file
 
 ??? Note "How To Import A World?"
     Upload world folder to server folder. Make sure the world folder is named `world`.
