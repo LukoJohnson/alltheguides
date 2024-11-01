@@ -40,8 +40,6 @@ The most common launchers are [CurseForge](https://www.curseforge.com/download/a
 
 !!! Bug "Need Help? Check out the dedicated [Help](help/README.md) section, especially [F.A.Q](help/faq.md)"
 
-
-------
-
+---
 
 > All The Mods | [GitHub](https://github.com/AllTheMods) | [Discord](https://discord.com/invite/allthemods) | [Akliz Server Hosting](https://www.akliz.net/allthemods)

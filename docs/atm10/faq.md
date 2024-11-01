@@ -10,10 +10,6 @@ authors:
 
 ---
 
-???+ Danger "BETA DISCLAIMER"
-	ATM10 is in public ***beta***, meaning there will be bugs, missing mods, no traditional ATM endgame, missing quests, etc. It will be getting frequent updates as mod devs update to 1.21, and the ATM dev team continues to work on adding new mods, quests, and scripts. [You can report bugs and make suggestions here.](https://github.com/AllTheMods/ATM-10/issues/)
-	
-
 ???+ Abstract "Gameplay FAQs"
 	??? Question "How do I change `/home`, `/tpa` etc cooldown?"
 		To change the behavior of `/home` or to re-enable `/back` and `/rtp`, edit `saves/worldName/serverconfig/ftb-essentials.snbt`. **The world/server has to be stopped for the changes to take effect.**
