@@ -72,23 +72,18 @@ Keyboard keys can be rendered with a simple syntax. Consult the [Python Markdown
 You can also add icons to better convey what may go in your guide!
 
 :material-information-outline:
-`:material-information-outline:`
 
 :material-source-merge:
-`:material-source-merge:`
 
-:material-badge-account-horizontal:
-`:material-badge-account-horizontal:`
+:material-zip-box:
 
-This website contains all of the icons you can use within ATG.
-
-[Material Design Icons](https://pictogrammers.com/library/mdi/) 
+[Material Design Icons](https://materialdesignicons.com/cdn/1.6.50-dev/) contains all of the icons you can use within ATG.
 
 [Icons can have hoverable tooltips also!](#tool-tips)
 
-???+ danger "Add `material-` before the name of the icon"
-	You need to add `material-` for the icons to work.
-	For example an icon is listed as `information-outline`, you need to change it to `material-information-outline`.
+???+ danger "Replace `mdi` with `material`"
+	You need to replace `mdi` with `material` for the icons to work.
+	For example on the website it's listed as `mdi-information-outline`, you need to change it to `material-information-outline`.
 
 ---
 
