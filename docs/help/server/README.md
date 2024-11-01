@@ -6,16 +6,19 @@ This guide will explain how to setup an AllTheMods server locally, or with a ser
 
 ## Prerequisites
 
-- [x] Server with at-least **8GB**+ RAM (_As required for most ATM packs_).
-- [x] CPU that's atleast **3.5Ghz** of speed.
-- [x] Specific [Java](../java.md) version based on the pack **Minecraft** version.
+- [x] Server with at least **8GB+** of RAM (*As required for most ATM packs*).
+- [x] CPU with at least **3.5Ghz**.
+- [x] The specific [Java](../java.md) version based on the pack's **Minecraft** version.
 
 ---
 
 ## Installation
 
-- Download modpack **Server-Files** from **CurseForge**.
-- Extract **Server-Files** to a folder.
+- Go to the **Curseforge** Page of the modpack
+- Click on **Files** and chose the version you want to play on
+- Scroll down and click on **Additional Files**
+- Scroll down again and download the **Server Files**
+- Go to your **Download** Folder and extract the **Server-Files.zip** to a folder.
 
 !!! Warning "If you've a 3rd party Anti-Virus installed, exclude the folder the files will be extracted too, as files may get remove or corrupted after extracting."
 
@@ -23,15 +26,20 @@ This guide will explain how to setup an AllTheMods server locally, or with a ser
 
 ### Java
 
-If you have multiple [Java](../java.md) versions installed, the default `java -version` will be used, which may not be the correct version based on the **Minecraft** version. There's 3 solutions,
+If you have multiple [Java](../java.md) versions installed, the default `java -version` will be used, which may not be the correct version based on the **Minecraft** version. There are 3 solutions
 
-- Edit the server script, changing `java` to correct java binary path.
-    - Ex: `"C:\Program Files\Java\jre-17\bin\java.exe" @user_jvm_args.txt ...`
-- Remove old / add the correct **java/bin** path to **System Environment Variables** > Path
-- **Linux**, you can re-configure [Java](../java.md) using `sudo update-alternatives --config java`
-- Uninstall all [Java](../java.md) versions except the one being used.
+- Edit the `startserver` file and change `java` to the desired install-location  
+    - Ex: `C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe`
+    ![](../img/setJava.png)
+- Look for **System Environmental Variable** in your Windows Search bar
+    - Under the Tab **Advanced**, click on **Environmental Variables**
+    - Under **System Variables**, choose **new**
+    - Name it as specified at the top in the **startserver** file (Ex: **ATM10_Java**)
+    - Set **Value** as the install-location of the desired Java version
+- On **Linux**, you can re-configure [Java](../java.md) using `sudo update-alternatives --config java`
+- Simply uninstall all [Java](../java.md) versions except the one being used.
 
-!!! Note "If you've installed [Java](../java.md), you may need to restart OS."
+!!! Note "If you've just installed [Java](../java.md), you may need to restart your OS."
 
 --- 
 
@@ -46,9 +54,11 @@ If you have multiple [Java](../java.md) versions installed, the default `java -v
     - **Windows**: Execute `startserver.bat`
     - **Linux**: Execute `./startserver.sh`
 
-After running, you're required to accept [Minecraft Eula](https://www.minecraft.net/en-us/eula) in the `eula.txt` file.
+After running `serverstart.bat` once, you're required to accept the [Minecraft Eula](https://www.minecraft.net/en-us/eula) in the `eula.txt` file by setting `eula=true` 
 
 Make any changes necessary to `server.properties`, `configs`, and or `world/serverconfigs`, and run `startserver.bat/sh` again to start the server. 
+
+Once it says **Dedicated server took xx seconds to load** you're good to go and can join the server
 
 ???+ Warning
     Many guides tell you to edit `server-ip` or `server-port`. In most cases you **DO NOT** need to edit these, especially `server-ip`. This can prevent your server from starting.
