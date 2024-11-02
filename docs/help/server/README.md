@@ -31,7 +31,7 @@ If you have **multiple** [Java](../java.md) versions installed, the default `jav
 If you only have **one** [Java](../java.md) version installed, you do not have to specify a **Java Path** or **System Environmental Variable**, but specifying the path anyway will ensure you won't break anything if you ever decide to install another version of java
 
 1. Simply uninstall all [Java](../java.md) versions except the one being used.
-2. Edit the `startserver` file and change `java` to the desired install-location  
+2. Edit the `startserver` file and change `java` to the desired install-location
     - Ex: `C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe`
     ![](../img/setJava.png)
 3. Look for **System Environmental Variable** in your Windows Search bar
@@ -44,7 +44,7 @@ If you only have **one** [Java](../java.md) version installed, you do not have t
 
 !!! Note "If you've just installed [Java](../java.md), you may need to restart your OS."
 
---- 
+---
 
 ### Local Installation
 
@@ -53,15 +53,15 @@ If you only have **one** [Java](../java.md) version installed, you do not have t
 - **Linux**: Ensure server folder has read/write permission, and script has execute permission,
     - To avoid any _read/write_ permission errors, install server under `/home/<user>/` folder.
     - Run once: `sudo chmod +x startserver.sh`.
-- Starting Server: 
+- Starting Server:
     - **Windows**: Execute `startserver.bat`
     - **Linux**: Execute `./startserver.sh`
 
 The first time you tun `startserver` it will generate a bunch of files. **Do not end the installer during this**. If you do so, you might have to start over
 
-After running `serverstart` once, you're required to accept the [Minecraft Eula](https://www.minecraft.net/en-us/eula) in the `eula.txt` file that was automatically generated, by setting `eula=true` 
+After running `serverstart` once, you're required to accept the [Minecraft Eula](https://www.minecraft.net/en-us/eula) in the `eula.txt` file that was automatically generated, by setting `eula=true`
 
-Make any changes necessary to `server.properties`, `configs`, and or `world/serverconfigs`, and run `startserver.bat/sh` again to start the server. 
+Make any changes necessary to `server.properties`, `configs`, and or `world/serverconfigs`, and run `startserver.bat/sh` again to start the server.
 
 Once it says **Dedicated server took xx seconds to load** you're good to go and can join the server
 
@@ -81,7 +81,7 @@ Once it says **Dedicated server took xx seconds to load** you're good to go and 
         ```
 
 ??? Note "How to add Arguments?"
-    To add [Arguments](../java/#java-arguments) set them within the `usr_jvm_args.txt` file. Older versions of **Forge** will require adding arguments in the script file, if that file doesn't exist.
+    To add [Arguments](../java.md/#java-arguments) set them within the `usr_jvm_args.txt` file. Older versions of **Forge** will require adding arguments in the script file, if that file doesn't exist.
 
 ??? Note "How to add Ram?"
     Edit the `-Xms` (Startup Ram) and `-Xmx` (Maximum Ram) within the `usr_jvm_args.txt` file
@@ -102,7 +102,7 @@ Most server host has a one-click server installer you can use, otherwise
 - Upload extracted **Server-Files** to host, via **FTP** or **STFP**.
     - To connect to **FTP**/**SFTP**, you could use a client like [FileZilla](https://filezilla-project.org/).
     - If there's no **FTP**/**SFTP**, you may be able to upload the **Server-Files** zip, and extract on server host via their online **File Manager**.
- 
+
 
 ---
 
@@ -113,7 +113,7 @@ If server host requires a `.jar` file, later **Forge** versions cannot be ran di
 - Download [ServerStarter](https://github.com/BloodyMods/ServerStarter/releases) jar, then upload to main server folder. Use this as the custom jar.
 	- Use [neoforged/ServerStarterJar](https://github.com/neoforged/ServerStarterJar) for NeoForge and Forge 1.17 and earlier.
 - Download pack **Server-Files** from **CurseForge**, extract, and upload **ALL** to main server folder.
-- Create a file named `server-setup-config.yaml`, and copy / paste the config example below. 
+- Create a file named `server-setup-config.yaml`, and copy / paste the config example below.
 
 Modifiy config for pack if necessary, specifically the `mcVersion` and `loaderVersion`, and place config in server root then start server as normal.
 
@@ -162,7 +162,7 @@ Modifiy config for pack if necessary, specifically the `mcVersion` and `loaderVe
 
 ## Updating
 
-Updating ATM servers is pretty simple. There's 3 ways you can accomplish this. 
+Updating ATM servers is pretty simple. There's 3 ways you can accomplish this.
 
 !!! Danger "**BACKUP** world before proceeding."
 
