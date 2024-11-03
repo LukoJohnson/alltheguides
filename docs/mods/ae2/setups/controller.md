@@ -7,114 +7,183 @@ authors:
 
 # Sath's ME Core
 
-This will be a Step-by-Step of the Controller I use in my builds, giving you a grand total of **16,384 Channels** over **16 Dense Cables** with **32 P2P Tunnels each**
+This will be a Step-by-Step of the Controller I use in my builds, giving you a grand total of **21,504 Channels** over **21 Dense Cables** with **32 P2P Tunnels each**
 
 ---
 
 ## Requirements
 
 ???+ list "Items required"
-    - [ ] 208x ME Controller
-    - [ ] 512x P2P Tunnel
-    - [ ] 32x Wireless Connectors
-    - [ ] a lot of ME Cables
+    - [ ] 228x ME Controller
+    - [ ] 672x P2P Tunnel
+    - [ ] 46x Wireless Connectors
+    - [ ] 380x ME Smart Cable
+    - [ ] 30x ME Dense Smart Cable
     - [ ] Color Applicator (recommended)
     - [ ] Personal Shrinking Device (recommended)
 
+I highly recommend viewing the images in **Gallery Mode** to better see what changed between each step. Click on the first image and use the **Arrows** at the **Edge** of the screen
+
 ## Base
 
-For the Base, you'll need approximately **13x13x13** Blocks of Space.
+You need around at least a **13x13** area to build this controller
 
-![](img/controller/controllerBase.png)
+![](img/controller/base0.png)
 
-Go up **3 Blocks** and build the following structure
+Start with a smaller subnet controller
 
-![](img/controller/controller1.png)
+!!! info "This can theoretically be placed anywhere, you don't have to build it underneath the main core"
 
-Then extended it upwards, connecting the smaller cubes like this
+![](img/controller/base1.png)
 
-![](img/controller/controller2.png)
+Make it **3x3x3**
 
-Build it up all the way
+![](img/controller/base2.png)
 
-![](img/controller/controller3.png)
+Go up at least **3 Block** and build this structure
 
-Then add the same connections on top
+![](img/controller/base3.png)
 
-![](img/controller/controller4.png)
+Then build each of the corners as another, smaller **3x3x3** controller
 
-And now mirror the entire thing
+![](img/controller/base4.png)
 
-![](img/controller/controller5.png)
+In a **+** Shape build out a Controllers to connect the neighbouring corners
 
-## P2P Tunnels
+![](img/controller/base5.png)
 
-For starting the P2P Tunnel placement, pick a side and copy this
+Repeat this for all 4 corners
+
+![](img/controller/base6.png)
+
+Then on top of each of the corners go up in a **+** again
+
+![](img/controller/base7.png)
+
+And now mirror the entire structure on top
+
+![](img/controller/base8.png)
+
+## P2P
+
+!!! warning "Always make sure to color all cables and especially the wireless connectors to prevent anything from connecting"
+    ![](img/controller/connector.png)
+
+!!! danger "Are your cables/P2P Tunnels complaining about missing channels? This happens while they are unpowered, you can ignore this until the last step"
+    ![](img/controller/missing-channels.png)
+
+Choose a side of the controller and build the following pattern with **P2P Tunnels**
+
+![](img/controller/p2p0.png)
+
+Then add **Smart Cables** in these places
 
 ![](img/controller/p2p1.png)
 
-Then add cables in any color
+And **Dense Cables** here
 
 ![](img/controller/p2p2.png)
 
-!!! danger "If the cable are unpowered they will say you don't have enough channels. Ignore this until the very last step!"
-
-Then add Dense Cables and a **Wireless Connector**
+Add a **Wireless Connector** here and then build this pattern of **P2P Tunnels**
 
 ![](img/controller/p2p3.png)
 
-!!! warning "Make sure to **color** the **Wireless Connector** in the same color as the cables using the **Color Applicator** (it won't update if it's unpowered, but you can see the color with Jade)"
-
-Then build this around
+**Smart Cables** again
 
 ![](img/controller/p2p4.png)
 
-For the next side, you need to rotate the middle contracture by 90 degrees
+And **Dense Cables** and the **Wireless Connector**
 
 ![](img/controller/p2p5.png)
 
-And now just add the same thing on top as before
+For the next side, you have to rotate the initial pattern 90 degrees
 
 ![](img/controller/p2p6.png)
 
-Repeat this for all 6 sides
+Then the same cables as before
 
 ![](img/controller/p2p7.png)
 
-## Inner P2P
+Then the wireless connector
 
-For the four Connectors on the **inside** of the controller, it's easiest if you're **tiny**. Use the **Personal Shrinking Device** for that and then build the following inside **1 Corner**
+![](img/controller/p2p8.png)
 
-![](img/controller/corner1.png)
+And now just the outer pattern again
 
-!!! info "The structure is cut open here to make it easier to view."
+![](img/controller/p2p9.png)
 
-Add cables like this
+Repeat this for every side of the controller
 
-![](img/controller/corner2.png)
+![](img/controller/p2p10.png)
 
-And finally the **Wireless Connector**
+## Edges
 
-![](img/controller/corner3.png)
+The edges are a tiny bit more complicated, so I've cut out one to better show you what you have to do
 
-Repeat this in the **diagonally opposite corners**. In the end, it should look like this
+![](img/controller/edge0.png)
 
-![](img/controller/done.png)
+Add **4 P2P Tunnels** on every side
 
-## Wireless Connectors
+![](img/controller/edge1.png)
 
-Once you're done with all that, you can build the following structure and mirror it in each corner. I'm using **Creative Energy Cells** here, but you can use anything to power the **Wireless Connectors**
+Put a **Wireless Connector** in the middle
 
-![](img/controller/connectors1.png)
+![](img/controller/edge2.png)
 
-Finally, link the **Wireless Connectors** and add a **Subnet Controllers**
+And fully surround it with P2P Tunnels
 
-![](img/controller/connectors2.png)
+![](img/controller/edge3.png)
 
-## Using the Controller
+This is what it now looks like. We're looking at this from the middle of the controller
 
-To actually get **Channels** from the controller, you can pull a **Dense Cable** from the small controllers at the bottom.
-Then pull of a **small Cable** from that and add a **P2P Tunnel**. 
-Connect it to one from that line as the dense Cable originates and you're done
+![](img/controller/edge4.png)
+
+This is the pattern you should build in the top corners
+
+![](img/controller/edge5.png)
+
+And this in the lower corners
+
+![](img/controller/edge6.png)
+
+## Inside
+
+The inside is fairly straight forward
+
+![](img/controller/inside0.png)
+
+Build a **+** Pattern again
+
+![](img/controller/inside1.png)
+
+An **H** Pattern in the middle
+
+![](img/controller/inside2.png)
+
+And another **+** Pattern
+
+![](img/controller/inside3.png)
+
+## Subnet Controller
+
+To now make use of all those channels you use the subnet controller underneath
+
+![](img/controller/subnet0.png)
+
+Slap all those wireless connector on there and connect them to all the ones from the main controller.
+It doesn't matter how you place them, as long as none of the ones next to each other have the same color
+
+![](img/controller/subnet1.png)
+
+## Power
+
+To power everything, you have to supply power to the **Subnet Controller**.
+Afterwards just remove a **1** of the **P2P Tunnels** and replace it with a **Quartz Fiber** to power the main core
+
+![](img/controller/power.png)
+
+In the end it looks something like this. You can pull up to **21 Dense Cables** from the Subnet Controller now
+
+![](img/controller/finish.png)
 
 > Applied Energistics 2 | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2)
