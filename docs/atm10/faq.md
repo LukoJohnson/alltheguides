@@ -11,6 +11,11 @@ authors:
 ---
 
 ???+ Abstract "Gameplay FAQs"
+	??? Question "There's a ghost/easter egg that appears every few minutes!"
+		The ghost is from Corail Tombstone, you can disable by doing `/tbgui` locate the ghost toggle under effect. This toggle will only show if your GUI scale is set to 4.
+
+		If you want to prevent the ghost/easter eggs and all other Corail holiday events **permanently**, you can download [BadCorailNoHolidays](https://legacy.curseforge.com/minecraft/mc-mods/badcorailnoholidays), if you want keep some events enabled, it does have a config at `atmInstall/configs/badcorailnoholidays-common.toml`.
+
 	??? Question "How do I change `/home`, `/tpa` etc cooldown?"
 		To change the behavior of `/home` or to re-enable `/back` and `/rtp`, edit `saves/worldName/serverconfig/ftb-essentials.snbt`. **The world/server has to be stopped for the changes to take effect.**
 		
