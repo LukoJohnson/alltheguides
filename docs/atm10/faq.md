@@ -35,7 +35,7 @@ authors:
 
 	??? Question "What are the recommended Java arguments for this pack?"
 		- **Client arguments**: send `?args21` in the **#bot-spam** channel in our [Discord](https://discord.com/invite/allthemods).
-		- **Server arguments**: send `?svargs` in the **#bot=spam** channel in our [Discord](https://discord.com/invite/allthemods).
+		- **Server arguments**: send `?svargs` in the **#bot-spam** channel in our [Discord](https://discord.com/invite/allthemods).
 
 	??? Question "Why does my game crash while launching?"
 		Lack of RAM most likely. Send `?allocate` in the **#bot-spam** channel in our [Discord](https://discord.com/invite/allthemods) to learn how to allocate more RAM. If that's not the problem, head to **#atm10-techsupport** and send `?logs` to see how to upload your crash/latest log.
