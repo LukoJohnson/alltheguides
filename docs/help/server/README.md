@@ -81,7 +81,7 @@ Once it says **Dedicated server took xx seconds to load** you're good to go and 
         ```
 
 ??? Note "How to add Arguments?"
-    To add [Arguments](../java.md#java-arguments) set them within the `usr_jvm_args.txt` file. Older versions of **Forge** will require adding arguments in the script file, if that file doesn't exist.
+    To add [Arguments](../java.md/#java-arguments) set them within the `usr_jvm_args.txt` file. Older versions of **Forge** will require adding arguments in the script file, if that file doesn't exist.
 
 ??? Note "How to add Ram?"
     Edit the `-Xms` (Startup Ram) and `-Xmx` (Maximum Ram) within the `usr_jvm_args.txt` file
