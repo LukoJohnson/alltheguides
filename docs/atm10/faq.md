@@ -11,11 +11,19 @@ authors:
 ---
 
 ???+ Abstract "Gameplay FAQs"
+	??? Question "There's a ghost/easter egg that appears every few minutes!"
+		The ghost is from Corail Tombstone, you can disable by doing `/tbgui` locate the ghost toggle under effect. This toggle will only show if your GUI scale is set to 4.
+
+		If you want to prevent the ghost/easter eggs and all other Corail holiday events **permanently**, you can download [BadCorailNoHolidays](https://legacy.curseforge.com/minecraft/mc-mods/badcorailnoholidays), if you want keep some events enabled, it does have a config at `atmInstall/configs/badcorailnoholidays-common.toml`.
+
 	??? Question "How do I change `/home`, `/tpa` etc cooldown?"
 		To change the behavior of `/home` or to re-enable `/back` and `/rtp`, edit `saves/worldName/serverconfig/ftb-essentials.snbt`. **The world/server has to be stopped for the changes to take effect.**
 		
 	??? Question "I can't complete '`questName`' even though I fufilled the requirements?"
-		You can enable edit quests in the bottom right of the quest screen (you need OP for this) and then r-click the broken quest and `Complete Instantly` it OR click the quest then r-click the reward and `Reset Progress` if you still want the rewards.
+		It is the Advancement Optimizer and FTB Quest Optimizer mods causing issues.
+		To get around it you can hold the item in your main hand and press `F` to swap it ~5 times
+
+		If that doesn't work, you can enable edit quests in the bottom right of the quest screen (you need OP for this) and then r-click the broken quest and `Complete Instantly` it OR click the quest then r-click the reward and `Reset Progress` if you still want the rewards.
 
 	??? Question "How do I increase claimed/force loaded chunks?"
 		- Add claimed chunks: `/ftbchunks admin extra_claim_chunks <player> <set/add> <amount>`
