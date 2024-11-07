@@ -64,7 +64,6 @@ description: Current Team Members!
 - `KJM`
 - `KyBeeS`
 - `Maddy`
-- `Nyxane`
 - `Phantom`
 - `screret`
 - `Seg`
